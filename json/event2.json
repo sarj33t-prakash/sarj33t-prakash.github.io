@@ -506,6 +506,26 @@
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
+                                                "data": "date",
+                                                "size": 50.0,
+                                                "color": "8CB909"
+                                            }
+                                        },
+                                        {
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "time",
+                                                "size": 30.0,
+                                                "color": "808080"
+                                            }
+                                        },
+                                        {
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
                                                 "data": "star",
                                                 "size": 50.0,
                                                 "color": "8CB909"
@@ -516,25 +536,8 @@
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
-                                                "data": "star",
-                                                "color": "8CB909"
-                                            }
-                                        },
-                                        {
-                                           "type": "Padding",
-                                            "padding": "4,4,4,4",
-                                            "child": {
-                                                "type": "Icon",
-                                                "data": "star",
-                                                "color": "8CB909"
-                                            }
-                                        },
-                                        {
-                                           "type": "Padding",
-                                            "padding": "4,4,4,4",
-                                            "child": {
-                                                "type": "Icon",
-                                                "data": "star",
+                                                "data": "category",
+                                                "size": 30.0,
                                                 "color": "808080"
                                             }
                                         },
