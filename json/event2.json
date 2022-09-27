@@ -499,7 +499,7 @@
                                     "height": 8.0
                                 },
                                 {
-                                    "type": "Row",
+                                    "type": "Column",
                                     "children": [
                                         {
                                            "type": "Padding",
