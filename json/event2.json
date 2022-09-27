@@ -380,6 +380,10 @@
                 }
             },
             {
+                "type": "SizedBox",
+                "height": 16.0
+            },
+            {
                 "type": "Padding",
                 "padding": "8,8,8,8",
                 "child": {
