@@ -502,29 +502,49 @@
                                     "type": "Row",
                                     "children": [
                                         {
-                                            "type": "Icon",
-                                            "data": "star",
-                                            "color": "8CB909"
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "star",
+                                                "color": "8CB909"
+                                            }
                                         },
                                         {
-                                            "type": "Icon",
-                                            "data": "star",
-                                            "color": "8CB909"
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "star",
+                                                "color": "8CB909"
+                                            }
                                         },
                                         {
-                                            "type": "Icon",
-                                            "data": "star",
-                                            "color": "8CB909"
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "star",
+                                                "color": "8CB909"
+                                            }
                                         },
                                         {
-                                            "type": "Icon",
-                                            "data": "star",
-                                            "color": "808080"
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "star",
+                                                "color": "808080"
+                                            }
                                         },
                                         {
-                                            "type": "Icon",
-                                            "data": "star",
-                                            "color": "808080"
+                                           "type": "Padding",
+                                            "padding": "4,4,4,4",
+                                            "child": {
+                                                "type": "Icon",
+                                                "data": "star",
+                                                "color": "808080"
+                                            }
                                         }
                                     ]
                                 }
