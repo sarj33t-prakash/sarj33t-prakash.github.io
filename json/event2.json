@@ -380,10 +380,6 @@
                 }
             },
             {
-                "type": "SizedBox",
-                "height": 16.0
-            },
-            {
                 "type": "Padding",
                 "padding": "8,8,8,8",
                 "child": {
@@ -439,6 +435,90 @@
                                         "color": "9E9E9E",
                                         "fontStyle": "italic"
                                     }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "type": "Padding",
+                "padding": "8,8,8,8",
+                "child": {
+                    "type": "Material",
+                    "elevation": 4.0,
+                    "shape": {
+                        "side": {
+                            "color": "#808080"
+                        },
+                        "borderRadius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                    },
+                    "child": {
+                        "type": "Padding",
+                        "padding": "12,12,12,12",
+                        "child": {
+                            "type": "Column",
+                            "mainAxisSize": "min",
+                            "children": [
+                                {
+                                    "type": "Row",
+                                    "mainAxisAlignment": "start",
+                                    "children": [
+                                        {
+                                            "type": "Padding",
+                                            "padding": "8,0,0,0",
+                                            "child": {
+                                                "type": "Text",
+                                                "data": "Feedback",
+                                                "style": {
+                                                    "fontSize": 18.0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "SizedBox",
+                                    "height": 8.0
+                                },
+                                {
+                                    "type": "Divider",
+                                    "height": 1.0,
+                                    "color": "BDBDBD"
+                                },
+                                {
+                                    "type": "SizedBox",
+                                    "height": 8.0
+                                },
+                                {
+                                    "type": "Row",
+                                    "children": [
+                                        {
+                                            "type": "Icon",
+                                            "data": "star",
+                                            "color": "8CB909"
+                                        },
+                                        {
+                                            "type": "Icon",
+                                            "data": "star",
+                                            "color": "8CB909"
+                                        },
+                                        {
+                                            "type": "Icon",
+                                            "data": "star",
+                                            "color": "8CB909"
+                                        },
+                                        {
+                                            "type": "Icon",
+                                            "data": "star",
+                                            "color": "808080"
+                                        },
+                                        {
+                                            "type": "Icon",
+                                            "data": "star",
+                                            "color": "808080"
+                                        }
+                                    ]
                                 }
                             ]
                         }
