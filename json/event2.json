@@ -499,7 +499,7 @@
                                     "height": 8.0
                                 },
                                 {
-                                    "type": "Column",
+                                    "type": "Row",
                                     "children": [
                                         {
                                            "type": "Padding",
@@ -507,6 +507,7 @@
                                             "child": {
                                                 "type": "Icon",
                                                 "data": "star",
+                                                "size": 50.0,
                                                 "color": "8CB909"
                                             }
                                         },
