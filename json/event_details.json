@@ -557,6 +557,16 @@
                         }
                     }
                 }
+            },
+            {
+                "type": "SizedBox",
+                "height": 16.0
+            },
+            {
+                "type": "CupertinoSwitch",
+                "data": true,
+                "activeColor": "F3F3F4",
+                "click_event": "event_switch_btn"
             }
         ]
     }
