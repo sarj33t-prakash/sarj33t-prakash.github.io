@@ -14,7 +14,7 @@
                         "side": {
                             "color": "#808080"
                         },
-                        "borderRadius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
                     },
                     "child": {
                         "type": "Padding",
@@ -72,7 +72,7 @@
                                                                 "padding": "4,4,4,4",
                                                                 "decoration": {
                                                                     "color": "FFF44336",
-                                                                    "borderRadius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
                                                                 },
                                                                 "child": {
                                                                     "type": "Icon",
@@ -136,7 +136,7 @@
                                                                 "padding": "4,4,4,4",
                                                                 "decoration": {
                                                                     "color": "8CB909",
-                                                                    "borderRadius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
                                                                 },
                                                                 "child": {
                                                                     "type": "Icon",
@@ -201,7 +201,7 @@
                                                                 "padding": "4,4,4,4",
                                                                 "decoration": {
                                                                     "color": "086DF8",
-                                                                    "borderRadius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
                                                                 },
                                                                 "child": {
                                                                     "type": "Icon",
@@ -240,7 +240,7 @@
                                                                     "type": "Container",
                                                                     "padding": "6,3,6,3",
                                                                     "decoration": {
-                                                                        "borderRadius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                        "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
                                                                         "color": "D32F2F"
                                                                     },
                                                                     "child": {
@@ -258,7 +258,7 @@
                                                                     "type": "Container",
                                                                     "padding": "6,3,6,3",
                                                                     "decoration": {
-                                                                        "borderRadius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                        "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
                                                                         "color": "D32F2F"
                                                                     },
                                                                     "child": {
@@ -276,7 +276,7 @@
                                                                     "type": "Container",
                                                                     "padding": "6,3,6,3",
                                                                     "decoration": {
-                                                                        "borderRadius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                        "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
                                                                         "color": "D32F2F"
                                                                     },
                                                                     "child": {
@@ -294,7 +294,7 @@
                                                                     "type": "Container",
                                                                     "padding": "6,3,6,3",
                                                                     "decoration": {
-                                                                        "borderRadius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                        "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
                                                                         "color": "D32F2F"
                                                                     },
                                                                     "child": {
@@ -312,7 +312,7 @@
                                                                     "type": "Container",
                                                                     "padding": "6,3,6,3",
                                                                     "decoration": {
-                                                                        "borderRadius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                        "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
                                                                         "color": "D32F2F"
                                                                     },
                                                                     "child": {
@@ -353,7 +353,7 @@
                         "side": {
                             "color": "#808080"
                         },
-                        "borderRadius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
                     },
                     "child": {
                         "type": "Padding",
@@ -393,7 +393,7 @@
                         "side": {
                             "color": "#808080"
                         },
-                        "borderRadius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
                     },
                     "child": {
                         "type": "Padding",
@@ -459,7 +459,7 @@
                         "side": {
                             "color": "#808080"
                         },
-                        "borderRadius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
                     },
                     "child": {
                         "type": "Padding",
@@ -502,7 +502,7 @@
                                     "type": "Row",
                                     "children": [
                                         {
-                                           "type": "Padding",
+                                            "type": "Padding",
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
@@ -512,7 +512,7 @@
                                             }
                                         },
                                         {
-                                           "type": "Padding",
+                                            "type": "Padding",
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
@@ -522,7 +522,7 @@
                                             }
                                         },
                                         {
-                                           "type": "Padding",
+                                            "type": "Padding",
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
@@ -532,7 +532,7 @@
                                             }
                                         },
                                         {
-                                           "type": "Padding",
+                                            "type": "Padding",
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
@@ -542,7 +542,7 @@
                                             }
                                         },
                                         {
-                                           "type": "Padding",
+                                            "type": "Padding",
                                             "padding": "4,4,4,4",
                                             "child": {
                                                 "type": "Icon",
@@ -561,12 +561,6 @@
             {
                 "type": "SizedBox",
                 "height": 16.0
-            },
-            {
-                "type": "CupertinoSwitch",
-                "data": true,
-                "activeColor": "F3F3F4",
-                "click_event": "event_switch_btn"
             }
         ]
     }
