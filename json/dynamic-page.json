@@ -1,5 +1,29 @@
 {
     "type": "Scaffold",
+    "appbar": {
+        "title": "Home Screen",
+        "leading": {
+            "type": "Icon",
+            "data": "back",
+            "size": 18.0,
+            "color": "FFFFFFFF"
+        },
+        "actions": [
+            {
+                "type": "Text",
+                "data": "Action 1"
+            },
+            {
+                "type": "Text",
+                "data": "Action 2"
+            },
+            {
+                "type": "Text",
+                "data": "Action 3"
+            }
+        ],
+        "backgroundColor": "FFFFFFFF"
+    },
     "body": {
         "type": "SingleChildScrollView",
         "child": {
