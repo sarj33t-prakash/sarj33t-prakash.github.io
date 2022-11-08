@@ -1,0 +1,594 @@
+{
+    "type": "Scaffold",
+    "body": {
+        "type": "SingleChildScrollView",
+        "child": {
+            "type": "Column",
+            "mainAxisSize": "max",
+            "children": [
+                {
+                    "type": "Padding",
+                    "padding": "8,8,8,8",
+                    "child": {
+                        "type": "Material",
+                        "elevation": 4.0,
+                        "shape": {
+                            "side": {
+                                "color": "#808080"
+                            },
+                            "radius": "15.0:15.0, 15.0:15.0, 15.0:15.0, 15.0:15.0"
+                        },
+                        "child": {
+                            "type": "Padding",
+                            "padding": "12,12,12,12",
+                            "child": {
+                                "type": "Column",
+                                "mainAxisSize": "min",
+                                "children": [
+                                    {
+                                        "type": "Row",
+                                        "mainAxisAlignment": "start",
+                                        "children": [
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,0,0,0",
+                                                "child": {
+                                                    "type": "Text",
+                                                    "data": "Event Date Time",
+                                                    "style": {
+                                                        "fontSize": 18.0
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Divider",
+                                        "height": 1.0,
+                                        "color": "BDBDBD"
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Column",
+                                        "mainAxisSize": "min",
+                                        "children": [
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,8,8,8",
+                                                "child": {
+                                                    "type": "Row",
+                                                    "crossAxisAlignment": "start",
+                                                    "children": [
+                                                        {
+                                                            "type": "Row",
+                                                            "children": [
+                                                                {
+                                                                    "type": "Container",
+                                                                    "padding": "4,4,4,4",
+                                                                    "decoration": {
+                                                                        "color": "FFF44336",
+                                                                        "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    },
+                                                                    "child": {
+                                                                        "type": "Icon",
+                                                                        "data": "date",
+                                                                        "size": 18.0,
+                                                                        "color": "FFFFFFFF"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "SizedBox",
+                                                                    "width": 8.0
+                                                                },
+                                                                {
+                                                                    "type": "Text",
+                                                                    "data": "Date",
+                                                                    "style": {
+                                                                        "maxLines": 2,
+                                                                        "color": "FF9E9E9E"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "SizedBox",
+                                                            "width": 60.0
+                                                        },
+                                                        {
+                                                            "type": "Expanded",
+                                                            "child": {
+                                                                "type": "Row",
+                                                                "mainAxisAlignment": "start",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "Expanded",
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "22-10-2021",
+                                                                            "style": {
+                                                                                "color": "#808080"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,8,8,8",
+                                                "child": {
+                                                    "type": "Row",
+                                                    "crossAxisAlignment": "start",
+                                                    "children": [
+                                                        {
+                                                            "type": "Row",
+                                                            "children": [
+                                                                {
+                                                                    "type": "Container",
+                                                                    "padding": "4,4,4,4",
+                                                                    "decoration": {
+                                                                        "color": "8CB909",
+                                                                        "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    },
+                                                                    "child": {
+                                                                        "type": "Icon",
+                                                                        "data": "time",
+                                                                        "size": 18.0,
+                                                                        "color": "FFFFFFFF"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "SizedBox",
+                                                                    "width": 8.0
+                                                                },
+                                                                {
+                                                                    "type": "Text",
+                                                                    "data": "Time",
+                                                                    "style": {
+                                                                        "maxLines": 2,
+                                                                        "color": "FF9E9E9E"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "SizedBox",
+                                                            "width": 60.0
+                                                        },
+                                                        {
+                                                            "type": "Expanded",
+                                                            "child": {
+                                                                "type": "Row",
+                                                                "mainAxisAlignment": "start",
+                                                                "crossAxisAlignment": "center",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "Expanded",
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "11:00 AM",
+                                                                            "style": {
+                                                                                "color": "#808080"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,8,8,8",
+                                                "child": {
+                                                    "type": "Row",
+                                                    "crossAxisAlignment": "start",
+                                                    "children": [
+                                                        {
+                                                            "type": "Row",
+                                                            "children": [
+                                                                {
+                                                                    "type": "Container",
+                                                                    "padding": "4,4,4,4",
+                                                                    "decoration": {
+                                                                        "color": "086DF8",
+                                                                        "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                                    },
+                                                                    "child": {
+                                                                        "type": "Icon",
+                                                                        "data": "category",
+                                                                        "size": 18.0,
+                                                                        "color": "FFFFFFFF"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "SizedBox",
+                                                                    "width": 8.0
+                                                                },
+                                                                {
+                                                                    "type": "Text",
+                                                                    "data": "Categories",
+                                                                    "style": {
+                                                                        "maxLines": 2,
+                                                                        "color": "FF9E9E9E"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "SizedBox",
+                                                            "width": 20.0
+                                                        },
+                                                        {
+                                                            "type": "Expanded",
+                                                            "child": {
+                                                                "type": "Wrap",
+                                                                "direction": "horizontal",
+                                                                "spacing": 8.0,
+                                                                "runSpacing": 6.0,
+                                                                "children": [
+                                                                    {
+                                                                        "type": "Container",
+                                                                        "padding": "6,3,6,3",
+                                                                        "decoration": {
+                                                                            "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                            "color": "D32F2F"
+                                                                        },
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "Android",
+                                                                            "style": {
+                                                                                "fontSize": 10.0,
+                                                                                "letterSpacing": 0.5,
+                                                                                "fontWeight": "normal",
+                                                                                "color": "FFFFFFFF"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Container",
+                                                                        "padding": "6,3,6,3",
+                                                                        "decoration": {
+                                                                            "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                            "color": "D32F2F"
+                                                                        },
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "Flutter",
+                                                                            "style": {
+                                                                                "fontSize": 10.0,
+                                                                                "letterSpacing": 0.5,
+                                                                                "fontWeight": "normal",
+                                                                                "color": "FFFFFFFF"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Container",
+                                                                        "padding": "6,3,6,3",
+                                                                        "decoration": {
+                                                                            "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                            "color": "D32F2F"
+                                                                        },
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "Java",
+                                                                            "style": {
+                                                                                "fontSize": 10.0,
+                                                                                "letterSpacing": 0.5,
+                                                                                "fontWeight": "normal",
+                                                                                "color": "FFFFFFFF"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Container",
+                                                                        "padding": "6,3,6,3",
+                                                                        "decoration": {
+                                                                            "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                            "color": "D32F2F"
+                                                                        },
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "Python Learning",
+                                                                            "style": {
+                                                                                "fontSize": 10.0,
+                                                                                "letterSpacing": 0.5,
+                                                                                "fontWeight": "normal",
+                                                                                "color": "FFFFFFFF"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Container",
+                                                                        "padding": "6,3,6,3",
+                                                                        "decoration": {
+                                                                            "radius": "12.0:12.0, 12.0:12.0, 12.0:12.0, 12.0:12.0",
+                                                                            "color": "D32F2F"
+                                                                        },
+                                                                        "child": {
+                                                                            "type": "Text",
+                                                                            "data": "Scrum Meeting",
+                                                                            "style": {
+                                                                                "fontSize": 10.0,
+                                                                                "letterSpacing": 0.5,
+                                                                                "fontWeight": "normal",
+                                                                                "color": "FFFFFFFF"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "SizedBox",
+                    "height": 16.0
+                },
+                {
+                    "type": "Padding",
+                    "padding": "8,8,8,8",
+                    "child": {
+                        "type": "Material",
+                        "elevation": 4.0,
+                        "shape": {
+                            "side": {
+                                "color": "#808080"
+                            },
+                            "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        },
+                        "child": {
+                            "type": "Padding",
+                            "padding": "12,12,12,12",
+                            "child": {
+                                "type": "Column",
+                                "children": [
+                                    {
+                                        "type": "Icon",
+                                        "data": "bell_on",
+                                        "size": 48.0,
+                                        "color": "260E50"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "data": "Set Reminder",
+                                        "style": {
+                                            "color": "FF9E9E9E"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "SizedBox",
+                    "height": 16.0
+                },
+                {
+                    "type": "Padding",
+                    "padding": "8,8,8,8",
+                    "child": {
+                        "type": "Material",
+                        "elevation": 4.0,
+                        "shape": {
+                            "side": {
+                                "color": "#808080"
+                            },
+                            "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        },
+                        "child": {
+                            "type": "Padding",
+                            "padding": "12,12,12,12",
+                            "child": {
+                                "type": "Column",
+                                "mainAxisSize": "min",
+                                "children": [
+                                    {
+                                        "type": "Row",
+                                        "mainAxisAlignment": "start",
+                                        "children": [
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,0,0,0",
+                                                "child": {
+                                                    "type": "Text",
+                                                    "data": "Event Description",
+                                                    "style": {
+                                                        "fontSize": 18.0
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Divider",
+                                        "height": 1.0,
+                                        "color": "BDBDBD"
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "data": "Die Simpsons (Originaltitel: The Simpsons) ist eine von Matt Groening geschaffene, vielfach ausgezeichnete US-amerikanische Zeichentrickserie des Senders Fox, die seit 1989 produziert wird. Sie ist die am längsten laufende US-Zeichentrick- und Primetimeserie. Bisher entstanden in 34 Staffeln 730 Episoden, am 27. Juli 2007 erschien außerdem der Kinofilm Die Simpsons – Der Film.",
+                                        "style": {
+                                            "color": "9E9E9E",
+                                            "fontStyle": "italic"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "SizedBox",
+                    "height": 16.0
+                },
+                {
+                    "type": "Padding",
+                    "padding": "8,8,8,8",
+                    "child": {
+                        "type": "Material",
+                        "elevation": 4.0,
+                        "shape": {
+                            "side": {
+                                "color": "#808080"
+                            },
+                            "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                        },
+                        "child": {
+                            "type": "Padding",
+                            "padding": "12,12,12,12",
+                            "child": {
+                                "type": "Column",
+                                "mainAxisSize": "min",
+                                "children": [
+                                    {
+                                        "type": "Row",
+                                        "mainAxisAlignment": "start",
+                                        "children": [
+                                            {
+                                                "type": "Padding",
+                                                "padding": "8,0,0,0",
+                                                "child": {
+                                                    "type": "Text",
+                                                    "data": "Feedback",
+                                                    "style": {
+                                                        "fontSize": 18.0
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Divider",
+                                        "height": 1.0,
+                                        "color": "BDBDBD"
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 8.0
+                                    },
+                                    {
+                                        "type": "Row",
+                                        "children": [
+                                            {
+                                                "type": "Padding",
+                                                "padding": "4,4,4,4",
+                                                "child": {
+                                                    "type": "Icon",
+                                                    "data": "star",
+                                                    "size": 26.0,
+                                                    "color": "8CB909"
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "4,4,4,4",
+                                                "child": {
+                                                    "type": "Icon",
+                                                    "data": "star",
+                                                    "size": 26.0,
+                                                    "color": "808080"
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "4,4,4,4",
+                                                "child": {
+                                                    "type": "Icon",
+                                                    "data": "star",
+                                                    "size": 26.0,
+                                                    "color": "8CB909"
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "4,4,4,4",
+                                                "child": {
+                                                    "type": "Icon",
+                                                    "data": "star",
+                                                    "size": 26.0,
+                                                    "color": "808080"
+                                                }
+                                            },
+                                            {
+                                                "type": "Padding",
+                                                "padding": "4,4,4,4",
+                                                "child": {
+                                                    "type": "Icon",
+                                                    "data": "star",
+                                                    "size": 26.0,
+                                                    "color": "808080"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "SizedBox",
+                    "height": 16.0
+                }
+            ]
+        }
+    },
+    "bottomNavBar": {
+        "items": [
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "date",
+                    "size": 18.0,
+                    "color": "FFFFFFFF"
+                },
+                "label": "Date",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "time",
+                    "size": 18.0,
+                    "color": "FFFFFFFF"
+                },
+                "label": "Time",
+                "backgroundColor": "FFFFFFFF"
+            }
+        ]
+    }
+}
