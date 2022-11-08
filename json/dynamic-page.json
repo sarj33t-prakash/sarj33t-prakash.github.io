@@ -1,7 +1,10 @@
 {
     "type": "Scaffold",
     "appbar": {
-        "title": "Home Screen",
+        "title": {
+                "type": "Text",
+                "data": "Home Screen"
+            },
         "leading": {
             "type": "Icon",
             "data": "back",
