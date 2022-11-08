@@ -3,7 +3,7 @@
     "appbar": {
         "title": {
                 "type": "Text",
-                "data": "Home Screen"
+                "data": "Dashboard"
             },
         "leading": {
             "type": "Icon",
@@ -604,6 +604,16 @@
                     "color": "FFFFFFFF"
                 },
                 "label": "Date",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "time",
+                    "size": 18.0,
+                    "color": "FFFFFFFF"
+                },
+                "label": "Time",
                 "backgroundColor": "FFFFFFFF"
             },
             {
