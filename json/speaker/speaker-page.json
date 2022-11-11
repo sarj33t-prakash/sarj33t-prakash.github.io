@@ -1,0 +1,12 @@
+{
+                "type": "Center",
+                "child": {
+                    "type": "Text",
+                    "data": "Speakers Screen",
+                    "style": {
+                        "fontSize": 24.0,
+                        "fontWeight": "bold",
+                        "color": "000000"
+                    }
+                }
+            }
