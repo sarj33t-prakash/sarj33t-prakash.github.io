@@ -1,0 +1,11 @@
+{
+                "type": "Center",
+                "child": {
+                    "type": "Text",
+                    "data": "Home Screen",
+                    "style": {
+                        "fontSize": 24.0,
+                        "fontWeight": "bold"
+                    }
+                }
+            }
