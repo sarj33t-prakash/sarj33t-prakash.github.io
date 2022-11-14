@@ -24,10 +24,6 @@
             {
                 "type": "api_widget",
                 "url_path": "json/speaker/speaker-page.json"
-            },
-            {
-                "type": "api_widget",
-                "url_path": "json/download/download-page.json"
             }
         ]
     },
@@ -60,16 +56,8 @@
                 },
                 "label": "Speakers",
                 "backgroundColor": "FFFFFFFF"
-            },
-            {
-                "icon": {
-                    "type": "Icon",
-                    "data": "download",
-                    "size": 24.0
-                },
-                "label": "Downloads",
-                "backgroundColor": "FFFFFFFF"
             }
+            
         ]
     }
 }
