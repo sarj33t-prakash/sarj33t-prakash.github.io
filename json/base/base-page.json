@@ -24,6 +24,15 @@
             {
                 "type": "api_widget",
                 "url_path": "json/speaker/speaker-page.json"
+            },
+            
+            {
+                "type": "api_widget",
+                "url_path": "json/flight/flight-page.json"
+            },
+            {
+                "type": "api_widget",
+                "url_path": "json/download/download-page.json"
             }
         ]
     },
@@ -55,6 +64,24 @@
                     "size": 24.0
                 },
                 "label": "Speakers",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "flight",
+                    "size": 24.0
+                },
+                "label": "Flight",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "download",
+                    "size": 24.0
+                },
+                "label": "Downloads",
                 "backgroundColor": "FFFFFFFF"
             }
             
