@@ -23,10 +23,6 @@
             },
             {
                 "type": "api_widget",
-                "url_path": "json/flight/flight-page.json"
-            },
-            {
-                "type": "api_widget",
                 "url_path": "json/speaker/speaker-page.json"
             },
             {
@@ -55,15 +51,7 @@
                 "label": "Home",
                 "backgroundColor": "FFFFFFFF"
             },
-            {
-                "icon": {
-                    "type": "Icon",
-                    "data": "flight",
-                    "size": 24.0
-                },
-                "label": "Flight",
-                "backgroundColor": "FFFFFFFF"
-            },
+            
             {
                 "icon": {
                     "type": "Icon",
