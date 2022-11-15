@@ -57,21 +57,22 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "flight",
-                    "size": 24.0
-                },
-                "label": "Flight",
-                "backgroundColor": "FFFFFFFF"
-            },
-            {
-                "icon": {
-                    "type": "Icon",
                     "data": "person",
                     "size": 24.0
                 },
                 "label": "Speakers",
                 "backgroundColor": "FFFFFFFF"
             },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "flight",
+                    "size": 24.0
+                },
+                "label": "Flight",
+                "backgroundColor": "FFFFFFFF"
+            },
+            
             {
                 "icon": {
                     "type": "Icon",
