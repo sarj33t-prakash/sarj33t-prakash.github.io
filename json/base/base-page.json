@@ -14,10 +14,9 @@
         "actions": [],
         "backgroundColor": "FFFFFFFF"
     },
-   
     "body": {
         "nav_pages": [
-        {
+            {
                 "type": "FutureBuilder",
                 "url_path": "json/home/home-page.json"
             },
@@ -25,7 +24,6 @@
                 "type": "FutureBuilder",
                 "url_path": "json/speaker/speaker-page.json"
             },
-            
             {
                 "type": "FutureBuilder",
                 "url_path": "json/flight/flight-page.json"
@@ -33,7 +31,56 @@
             {
                 "type": "FutureBuilder",
                 "url_path": "json/download/download-page.json"
-            }]   
-        
+            }
+        ]
+    },
+    "bottomNavBar": {
+        "showUnselectedLabels": false,
+        "showSelectedLabels": true,
+        "type": "fixed",
+        "selectedLabelStyle": {
+            "fontWeight": "bold"
+        },
+        "unselectedItemColor": "#FAF9F6",
+        "selectedItemColor": "#FFFFFF",
+        "backgroundColor": "#F43E20",
+        "items": [
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "home",
+                    "size": 24.0
+                },
+                "label": "Home",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "flight",
+                    "size": 24.0
+                },
+                "label": "Flight",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "person",
+                    "size": 24.0
+                },
+                "label": "Speakers",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "download",
+                    "size": 24.0
+                },
+                "label": "Downloads",
+                "backgroundColor": "FFFFFFFF"
+            }
+        ]
     }
 }
