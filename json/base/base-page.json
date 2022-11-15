@@ -15,7 +15,7 @@
         "backgroundColor": "FFFFFFFF"
     },
     "body": {
-           "type": "api_widget",
+           "type": "FutureBuilder",
                 "url_path": "json/download/download-page.json"
     }
 }
