@@ -1,13 +1,7 @@
 {
     "type": "CustomScrollView",
     "children": [
-        {
-            "type": "SliverAppBar",
-            "flexibleSpace": {
-                "type": "Text",
-                "data": "Speaker"
-            }
-        },
+       
         {
             "type": "SliverGrid",
             "delegate": {
