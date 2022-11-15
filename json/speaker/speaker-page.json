@@ -1,12 +1,65 @@
 {
-                "type": "Center",
-                "child": {
-                    "type": "Text",
-                    "data": "Speakers Screen",
-                    "style": {
-                        "fontSize": 24.0,
-                        "fontWeight": "bold",
-                        "color": "000000"
+    "type": "Padding",
+    "padding": "8,8,8,8",
+    "child": {
+        "type": "Container",
+        "decoration": {
+            "color": "FFFF9800",
+            "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+        },
+        "child": {
+            "type": "Column",
+            "mainAxisAlignment": "start",
+            "crossAxisAlignment": "center",
+            "children": [
+                {
+                    "type": "ClipRRect",
+                    "radius": "5.0:5.0, 5.0:5.0, 0.0:0.0, 0.0:0.0",
+                    "child": {
+                        "type": "AspectRatio",
+                        "aspectRatio": 1.0,
+                        "child": {
+                            "type": "ImageNetwork",
+                            "src": "https://reqres.in/img/faces/6-image.jpg",
+                            "fit": "fill"
+                        }
+                    }
+                },
+                {
+                    "type": "Expanded",
+                    "child": {
+                        "type": "Column",
+                        "mainAxisAlignment": "center",
+                        "children": [
+                            {
+                                "type": "Padding",
+                                "padding": "0,0,0,0",
+                                "child": {
+                                    "type": "Text",
+                                    "data": "Name",
+                                    "style": {
+                                        "fontSize": 18.0,
+                                        "color": "FFFFFF",
+                                        "fontWeight": "bold"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Padding",
+                                "padding": "0,0,0,0",
+                                "child": {
+                                    "type": "Text",
+                                    "data": "Domain",
+                                    "style": {
+                                        "fontSize": 16.0,
+                                        "color": "FFFFFF"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 }
-            }
+            ]
+        }
+    }
+}
