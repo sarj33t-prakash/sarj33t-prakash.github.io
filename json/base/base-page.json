@@ -38,6 +38,7 @@
         "showUnselectedLabels": false,
         "showSelectedLabels": true,
         "type": "fixed",
+        "index": 2,
         "selectedLabelStyle": {
             "fontWeight": "bold"
         },
