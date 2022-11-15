@@ -14,8 +14,26 @@
         "actions": [],
         "backgroundColor": "FFFFFFFF"
     },
+   
     "body": {
-           "type": "FutureBuilder",
+        "nav_pages": [
+        {
+                "type": "FutureBuilder",
+                "url_path": "json/home/home-page.json"
+            },
+            {
+                "type": "FutureBuilder",
+                "url_path": "json/speaker/speaker-page.json"
+            },
+            
+            {
+                "type": "FutureBuilder",
+                "url_path": "json/flight/flight-page.json"
+            },
+            {
+                "type": "FutureBuilder",
                 "url_path": "json/download/download-page.json"
+            }]   
+        
     }
 }
