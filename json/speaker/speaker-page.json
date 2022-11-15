@@ -71,10 +71,10 @@
             },
             "gridDelegate": {
                     "type": "fixedCount",
-                    "crossAxisCount": 2,
+                    "crossAxisCount": 4,
                         "childAspectRatio": 0.76
             },
-            "childCount": 4
+            "childCount": 20
         }
     ]
 }
