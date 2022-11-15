@@ -137,6 +137,17 @@
                         {
                             "type": "SizedBox",
                             "height": 8.0
+                        },
+                        {
+                            "type": "Text",
+                            "data": "View Boarding Pass",
+                            "style": {
+                                "color": "0000FF"
+                            }
+                        },
+                        {
+                            "type": "SizedBox",
+                            "height": 8.0
                         }
                     ]
                 }
@@ -278,6 +289,17 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "type": "SizedBox",
+                            "height": 8.0
+                        },
+                        {
+                            "type": "Text",
+                            "data": "View Boarding Pass",
+                            "style": {
+                                "color": "0000FF"
+                            }
                         },
                         {
                             "type": "SizedBox",
