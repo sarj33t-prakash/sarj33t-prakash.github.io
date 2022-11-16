@@ -405,7 +405,7 @@
     "itemChild": {
         "type": "Card",
         "elevation": 5.0,
-        "color": "#BBC4C2",
+        "color": "#000080",
         "surfaceTintColor": "#FFFFFF",
         "shape": {
             "side": {
@@ -428,14 +428,16 @@
                                 "type": "Text",
                                 "data": "",
                                 "style": {
-                                    "fontSize": 18.0
+                                    "fontSize": 18.0,
+                                    "color": "#FFFFFF"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "",
                                 "style": {
-                                    "fontSize": 18.0
+                                    "fontSize": 18.0,
+                                    "color": "#FFFFFF"
                                 }
                             }
                         ]
