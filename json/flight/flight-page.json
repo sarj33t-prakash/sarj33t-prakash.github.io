@@ -1,6 +1,6 @@
 {
     "type": "ListView.builder",
-    "count": 10000,
+    "count": 7,
     "itemExtent": 1.0,
    "dataSource": {
         "data": [
