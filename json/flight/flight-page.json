@@ -405,6 +405,7 @@
     "itemChild": {
         "type": "Card",
         "elevation": 5.0,
+        "color": "#BBC4C2",
         "surfaceTintColor": "#FFFFFF",
         "shape": {
             "side": {
