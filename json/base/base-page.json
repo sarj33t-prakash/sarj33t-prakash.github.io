@@ -18,15 +18,16 @@
         "nav_pages": [
             {
                 "type": "FutureBuilder",
-                "url_path": "json/home/home-page.json"
+                "widget_url_path": "json/home/home-page.json"
             },
             {
                 "type": "FutureBuilder",
-                "url_path": "json/speaker/speaker-page.json"
+                "widget_url_path": "json/speaker/speaker-page.json"
             },
             {
                 "type": "FutureBuilder",
-                "url_path": "json/flight/flight-page.json"
+                "widget_url_path": "json/flight/flight-page.json",
+                "data_source_url": "json/data/flight-data.json"
             }
         ]
     },
