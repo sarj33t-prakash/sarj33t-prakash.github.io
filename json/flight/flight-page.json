@@ -1,10 +1,89 @@
 {
     "type": "ListView.builder",
-    "count": 5,
+    "count": 25,
     "itemExtent": 1.0,
    "dataSource": {
         "data": [
             {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
+            },
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
+            },
+             {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
+            },
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
+            },
+             {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
+            },
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
+            }, {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
+            },
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
+            },
+             {
                 "label_1": "12th Sat, Nov 2022",
                 "value_1": "PRNO0124578 "
             },
