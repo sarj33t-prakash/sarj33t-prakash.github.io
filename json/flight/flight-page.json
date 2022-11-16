@@ -1,317 +1,70 @@
 {
-    "type": "Column",
-    "children": [
-        {
-            "type": "Card",
-            "elevation": 5.0,
-            "surfaceTintColor": "#FFFFFF",
-            "shape": {
-                "side": {
-                    "color": "#FFFFFF"
-                },
-                "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+    "type": "ListView.builder",
+    "count": 5,
+    "itemExtent": 1.0,
+    "dataSource": {
+        "data": [
+            {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
             },
-            "child": {
-                "type": "Padding",
-                "padding": "12,12,12,12",
-                "child": {
-                    "type": "Column",
-                    "mainAxisSize": "min",
-                    "children": [
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "12th Sat, Nov 2022",
-                                    "style": {
-                                        "fontSize": 18.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "PRNO0124578",
-                                    "style": {
-                                        "fontSize": 18.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "FROM",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "TO",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "MUNICH",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "PARIS",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "Germany",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "France",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "Departure 1:00",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "Arrival 05:30",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "end",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "View Boarding Pass",
-                                    "style": {
-                                        "color": "0000FF"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
             }
-        },
-        {
-            "type": "SizedBox",
-            "height": 16.0
-        },
-        {
-            "type": "Card",
-            "elevation": 5.0,
-            "surfaceTintColor": "#FFFFFF",
-            "shape": {
-                "side": {
-                    "color": "#FFFFFF"
-                },
-                "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+        ]
+    },
+    "itemChild": {
+        "type": "Card",
+        "elevation": 5.0,
+        "surfaceTintColor": "#FFFFFF",
+        "shape": {
+            "side": {
+                "color": "#FFFFFF"
             },
+            "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+        },
+        "child": {
+            "type": "Padding",
+            "padding": "12,12,12,12",
             "child": {
-                "type": "Padding",
-                "padding": "12,12,12,12",
-                "child": {
-                    "type": "Column",
-                    "mainAxisSize": "min",
-                    "children": [
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "14th Mon, Nov 2022",
-                                    "style": {
-                                        "fontSize": 18.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "PRNOXZRTUYY",
-                                    "style": {
-                                        "fontSize": 18.0
-                                    }
+                "type": "Column",
+                "mainAxisSize": "min",
+                "children": [
+                    {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "data": "12th Sat, Nov 2022",
+                                "style": {
+                                    "fontSize": 18.0
                                 }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "FROM",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "TO",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
+                            },
+                            {
+                                "type": "Text",
+                                "data": "PRNO0124578",
+                                "style": {
+                                    "fontSize": 18.0
                                 }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "MUNICH",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "PARIS",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "Germany",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "France",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "spaceBetween",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "Departure 1:00",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                },
-                                {
-                                    "type": "Text",
-                                    "data": "Arrival 05:30",
-                                    "style": {
-                                        "fontSize": 14.0
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "SizedBox",
-                            "height": 8.0
-                        },
-                        {
-                            "type": "Row",
-                            "mainAxisAlignment": "end",
-                            "children": [
-                                {
-                                    "type": "Text",
-                                    "data": "View Boarding Pass",
-                                    "style": {
-                                        "color": "0000FF"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
+                            }
+                        ]
+                    }
+                ]
             }
         }
-    ]
+    }
 }
