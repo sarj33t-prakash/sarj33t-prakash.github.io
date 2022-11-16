@@ -2,13 +2,28 @@
     "type": "ListView.builder",
     "count": 5,
     "itemExtent": 1.0,
-    "dataSource": {
+   "dataSource": {
         "data": [
-            "12th Sat, Nov 2022",
-            "PRNO0124578",
-            "FROM",
-            "TO",
-            "Germany"
+            {
+                "label_1": "12th Sat, Nov 2022",
+                "value_1": "PRNO0124578 "
+            },
+            {
+                "label_2": "FROM",
+                "value_2": "TO"
+            },
+            {
+                "label_3": "MUNICH",
+                "value_3": "PARIS"
+            },
+            {
+                "label_4": "Germany",
+                "value_4": "France"
+            },
+            {
+                "label_5": "Departure 1:00",
+                "value_5": "Arrival 05:30"
+            }
         ]
     },
     "itemChild": {
