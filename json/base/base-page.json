@@ -22,7 +22,8 @@
             },
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/speaker/speaker-page.json"
+                "widget_url_path": "json/speaker/speaker-page.json",
+                "data_source_url": "json/data/speaker-data.json"
             },
             {
                 "type": "FutureBuilder",
