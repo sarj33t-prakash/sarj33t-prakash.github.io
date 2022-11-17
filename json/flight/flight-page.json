@@ -1,6 +1,6 @@
 {
     "type": "ListView.builder",
-    "count": 7,
+    "count": 5,
     "itemExtent": 1.0,
     "dataSource": {
         "data": [
@@ -12,6 +12,7 @@
     },
     "itemChild": {
         "type": "Card",
+        "repeat": 5,
         "elevation": 5.0,
         "color": "#000080",
         "surfaceTintColor": "#FFFFFF",
