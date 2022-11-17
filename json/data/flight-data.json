@@ -1,24 +1,12 @@
 {
     "data": [
         {
-            "label": "12th Sat, Nov 2022",
-            "value": "PRNO0124578"
+            "id": "id-v1@1",
+            "value": "17th Nov, 2022"
         },
         {
-            "label": "FROM",
-            "value": "TO"
-        },
-        {
-            "label": "MUNICH",
-            "value": "PARIS"
-        },
-        {
-            "label": "Germany",
-            "value": "Italy"
-        },
-        {
-            "label": "Departure 05:10 PM",
-            "value": "Arrival 08:30 AM"
+            "id": "id-v1@2",
+            "value": "PRN02240015"
         }
     ]
 }
