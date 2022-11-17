@@ -2,11 +2,11 @@
     "type": "ListView.builder",
     "count": 7,
     "itemExtent": 1.0,
-   "dataSource": {
+    "dataSource": {
         "data": [
             {
-            "label": "12th Sat, Nov 2022",
-             "value": "PRNO0124578"
+                "label": "12th Sat, Nov 2022",
+                "value": "PRNO0124578"
             }
         ]
     },
@@ -25,58 +25,30 @@
             "type": "Padding",
             "padding": "12,12,12,12",
             "child": {
-                "type": "Column",
-                "mainAxisSize": "min",
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
                 "children": [
                     {
-                        "type": "Row",
-                        "mainAxisAlignment": "spaceBetween",
-                        "children": [
-                            {
-                                "type": "Text",
-                                "element_id": "id-v1@2",
-                                "data": "",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "color": "#FFFFFF"
-                                }
-                            },
-                            {
-                                "type": "Text",
-                                "element_id": "id-v1@1",
-                                "data": "",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "color": "#FFFFFF"
-                                }
-                            }
-                            
-                        ]
+                        "type": "Text",
+                        "element_id": "id-v1@2",
+                        "data": "",
+                        "style": {
+                            "fontSize": 18.0,
+                            "color": "#FFFFFF"
+                        }
                     },
                     {
-                        "type": "Row",
-                        "mainAxisAlignment": "spaceBetween",
-                        "children": [
-                            {
-                                "type": "Text",
-                                "element_id": "id-v1@4",
-                                "data": "",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "color": "#FFFFFF"
-                                }
-                            },
-                            {
-                                "type": "Text",
-                                "element_id": "id-v1@3",
-                                "data": "",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "color": "#FFFFFF"
-                                }
-                            }
-                            
-                        ]
+                        "type": "Text",
+                        "element_id": "id-v1@1",
+                        "data": "",
+                        "style": {
+                            "fontSize": 18.0,
+                            "color": "#FFFFFF"
+                        }
+                    },
+                    {
+                        "type": "Divider",
+                        "color": "#000080"
                     }
                 ]
             }
