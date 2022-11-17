@@ -34,6 +34,7 @@
                         "children": [
                             {
                                 "type": "Text",
+                                "element_id": "id-v1@2",
                                 "data": "",
                                 "style": {
                                     "fontSize": 18.0,
@@ -42,6 +43,7 @@
                             },
                             {
                                 "type": "Text",
+                                "element_id": "id-v1@1",
                                 "data": "",
                                 "style": {
                                     "fontSize": 18.0,
