@@ -50,6 +50,32 @@
                                     "color": "#FFFFFF"
                                 }
                             }
+                            
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "element_id": "id-v1@4",
+                                "data": "",
+                                "style": {
+                                    "fontSize": 18.0,
+                                    "color": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "type": "Text",
+                                "element_id": "id-v1@3",
+                                "data": "",
+                                "style": {
+                                    "fontSize": 18.0,
+                                    "color": "#FFFFFF"
+                                }
+                            }
+                            
                         ]
                     }
                 ]
