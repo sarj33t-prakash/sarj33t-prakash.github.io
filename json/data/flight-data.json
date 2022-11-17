@@ -7,6 +7,14 @@
         {
             "id": "id-v1@2",
             "value": "PRN02240015"
+        },
+        {
+            "id": "id-v1@3",
+            "value": "FROM"
+        },
+        {
+            "id": "id-v1@4",
+            "value": "TO"
         }
     ]
 }
