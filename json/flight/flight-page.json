@@ -1,15 +1,7 @@
 {
     "type": "ListView.builder",
-    "count": 5,
+    "count": 1,
     "itemExtent": 1.0,
-    "dataSource": {
-        "data": [
-            {
-                "label": "12th Sat, Nov 2022",
-                "value": "PRNO0124578"
-            }
-        ]
-    },
     "itemChild": {
         "type": "Card",
         "repeat": 5,
@@ -23,36 +15,129 @@
             "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
         },
         "child": {
-            "type": "Padding",
-            "padding": "12,12,12,12",
-            "child": {
-                "type": "Row",
-                "mainAxisAlignment": "spaceBetween",
-                "children": [
-                    {
-                        "type": "Text",
-                        "element_id": "id-v1@2",
-                        "data": "",
-                        "style": {
-                            "fontSize": 18.0,
-                            "color": "#FFFFFF"
+            "type": "Column",
+            "children": [
+                {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@2",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@1",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
                         }
-                    },
-                    {
-                        "type": "Text",
-                        "element_id": "id-v1@1",
-                        "data": "",
-                        "style": {
-                            "fontSize": 18.0,
-                            "color": "#FFFFFF"
+                    ]
+                },
+                {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@3",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@4",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
                         }
-                    },
-                    {
-                        "type": "Divider",
-                        "color": "#000080"
-                    }
-                ]
-            }
+                    ]
+                },
+                {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@5",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@6",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@7",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@8",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@9",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "element_id": "id-v1@10",
+                            "data": "",
+                            "style": {
+                                "fontSize": 18.0,
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
