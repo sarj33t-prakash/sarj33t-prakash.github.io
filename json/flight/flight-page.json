@@ -3,11 +3,18 @@
     "itemExtent": 1.0,
     "databinding": "namerecords",
     "itemChild": {
-        "type": "Text",
-        "data": "",
-        "style": {
-            "fontSize": 18.0,
-            "color": "#FFFFFF"
+        "type": "ListTile",
+        "title": {
+            "type": "Text",
+            "style": {
+                "fontSize": 22.0
+            }
+        },
+        "subTitle": {
+            "type": "Text",
+            "style": {
+                "fontSize": 20.0
+            }
         }
     }
 }
