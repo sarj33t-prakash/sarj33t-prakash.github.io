@@ -1,7 +1,7 @@
 {
     "type": "ListView.builder",
     "itemExtent": 1.0,
-    "databinding": "namerecords",
+    "dataBinding": "namerecords",
     "itemChild": {
         "type": "ListTile",
         "title": {
