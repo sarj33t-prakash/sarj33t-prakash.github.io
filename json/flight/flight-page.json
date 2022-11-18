@@ -15,7 +15,7 @@
             "type": "Text",
             "data": "{{job}}",
             "style": {
-                "fontSize": 20.0
+                "fontSize": 16.0
             }
         }
     }
