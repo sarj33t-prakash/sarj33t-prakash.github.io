@@ -2,11 +2,13 @@
     "namerecords": [
         {
             "name": "Sarj",
-            "job": "Programmer"
+            "job": "Programmer",
+            "level": "Level 2"
         },
         {
             "name": "Rahul",
-            "job": "App Tester"
+            "job": "App Tester",
+            "level": "Level 1"
         }
     ]
 }
