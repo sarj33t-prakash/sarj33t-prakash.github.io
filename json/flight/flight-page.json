@@ -17,6 +17,13 @@
             "style": {
                 "fontSize": 16.0
             }
+        },
+        "trailing": {
+            "type": "Text",
+            "data": "{{level}}",
+            "style": {
+                "fontSize": 16.0
+            }
         }
     }
 }
