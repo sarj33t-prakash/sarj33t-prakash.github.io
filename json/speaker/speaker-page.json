@@ -42,7 +42,7 @@
                                             "padding": "0,0,0,0",
                                             "child": {
                                                 "type": "Text",
-                                                "data": "Name",
+                                               
                                                 "style": {
                                                     "fontSize": 18.0,
                                                     "color": "FFFFFF",
@@ -55,7 +55,7 @@
                                             "padding": "0,0,0,0",
                                             "child": {
                                                 "type": "Text",
-                                                "data": "Domain",
+                                               
                                                 "style": {
                                                     "fontSize": 16.0,
                                                     "color": "FFFFFF"
