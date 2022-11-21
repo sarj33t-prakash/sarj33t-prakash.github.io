@@ -2,6 +2,22 @@
     "type": "ListView.builder",
     "itemExtent": 1.0,
     "dataBinding": "flightrecords",
+    "no_data_widget": {
+        "type": "Padding",
+        "padding": "12,12,12,12",
+        "child": {
+            "type": "Center",
+            "child": {
+                "type": "Text",
+                "data": "No Data Found!",
+                "style": {
+                    "fontSize": 18.0,
+                    "fontWeight": "bold",
+                    "color": "#FF0000"
+                }
+            }
+        }
+    },
     "itemChild": {
         "type": "Card",
         "elevation": 5.0,
