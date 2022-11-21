@@ -25,6 +25,19 @@
             "departure": "",
             "arrival": "Arrival 16:25",
             "passboard": "View Boarding Pass"
+        },
+        {
+            "date": "Wed, 23 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "MUMBAI",
+            "tocity": "NEWYORK",
+            "fromcountry": "India",
+            "tocountry": "United States",
+            "departure": "Departure 12:15",
+            "arrival": "Arrival 00:25",
+            "passboard": "View Boarding Pass"
         }
     ]
 }
