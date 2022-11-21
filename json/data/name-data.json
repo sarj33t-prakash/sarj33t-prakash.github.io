@@ -1,14 +1,30 @@
 {
-    "namerecords": [
+    "flightrecords": [
         {
-            "name": "Sarj",
-            "job": "Programmer",
-            "level": "Level 2"
+            "date": "Mon, 21 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "MUNICH",
+            "tocity": "PARIS",
+            "fromcountry": "Germany",
+            "tocountry": "France",
+            "departure": "Departure 15:35",
+            "arrival": "Arrival 17:25",
+            "passboard": "View Boarding Pass"
         },
         {
-            "name": "Rahul",
-            "job": "App Tester",
-            "level": "Level 1"
+            "date": "Fri, 25 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "PARIS",
+            "tocity": "MUNICH",
+            "fromcountry": "France",
+            "tocountry": "Germany",
+            "departure": "",
+            "arrival": "Arrival 16:25",
+            "passboard": "View Boarding Pass"
         }
     ]
 }
