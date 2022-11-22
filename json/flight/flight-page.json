@@ -3,27 +3,15 @@
     "itemExtent": 1.0,
     "dataBinding": "namerecords",
     "itemChild": {
-        "type": "ListTile",
-        "title": {
-            "type": "Text",
-            "data": "{{name}}",
-            "style": {
-                "fontSize": 22.0
+        "type": "Row",
+        "children": [
+            {
+                "type": "Text",
+                "data": "{{name}}",
+                "style": {
+                    "fontSize": 22.0
+                }
             }
-        },
-        "subTitle": {
-            "type": "Text",
-            "data": "{{job}}",
-            "style": {
-                "fontSize": 16.0
-            }
-        },
-        "trailing": {
-            "type": "Text",
-            "data": "{{level}}",
-            "style": {
-                "fontSize": 16.0
-            }
-        }
+        ]
     }
 }
