@@ -3,15 +3,10 @@
     "itemExtent": 1.0,
     "dataBinding": "namerecords",
     "itemChild": {
-        "type": "Row",
-        "children": [
-            {
-                "type": "Text",
-                "data": "{{name}}",
-                "style": {
-                    "fontSize": 22.0
-                }
-            }
-        ]
+        "type": "Text",
+        "data": "{{name}}",
+        "style": {
+            "fontSize": 22.0
+        }
     }
 }
