@@ -1,44 +1,43 @@
 {
-    "data": [
+    "flightrecords": [
         {
-            "id": "id-v1@2",
-            "value": "17th Nov, 2022"
+            "date": "Mon, 21 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "MUNICH",
+            "tocity": "PARIS",
+            "fromcountry": "Germany",
+            "tocountry": "France",
+            "departure": "Departure 15:35",
+            "arrival": "Arrival 17:25",
+            "passboard": "View Boarding Pass"
         },
         {
-            "id": "id-v1@1",
-            "value": "PRN02240015"
+            "date": "Fri, 25 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "PARIS",
+            "tocity": "MUNICH",
+            "fromcountry": "France",
+            "tocountry": "Germany",
+            "departure": "",
+            "arrival": "Arrival 16:25",
+            "passboard": "View Boarding Pass"
         },
         {
-            "id": "id-v1@4",
-            "value": "FROM"
-        },
-        {
-            "id": "id-v1@3",
-            "value": "TO"
-        },
-        {
-            "id": "id-v1@5",
-            "value": "MUNICH"
-        },
-        {
-            "id": "id-v1@6",
-            "value": "PARIS"
-        },
-        {
-            "id": "id-v1@7",
-            "value": "Germany"
-        },
-        {
-            "id": "id-v1@8",
-            "value": "France"
-        },
-        {
-            "id": "id-v1@9",
-            "value": "Departure 10:00 AM"
-        },
-        {
-            "id": "id-v1@10",
-            "value": "Arrival 05:00 PM"
+            "date": "Wed, 23 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "MUMBAI",
+            "tocity": "NEWYORK",
+            "fromcountry": "India",
+            "tocountry": "United States",
+            "departure": "Departure 12:15",
+            "arrival": "Arrival 00:25",
+            "passboard": "View Boarding Pass"
         }
     ]
 }
