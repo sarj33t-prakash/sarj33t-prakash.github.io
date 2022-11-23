@@ -21,7 +21,7 @@
     "separator": {
         "type": "Container",
         "decoration": {
-            "color": "#808080"
+            "color": "#C0C0C0"
         },
         "height": 20.0
     },
