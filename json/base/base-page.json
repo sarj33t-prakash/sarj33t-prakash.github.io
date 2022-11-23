@@ -75,6 +75,15 @@
                 },
                 "label": "Flight",
                 "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "hotel",
+                    "size": 24.0
+                },
+                "label": "Hotel",
+                "backgroundColor": "FFFFFFFF"
             }
         ]
     }
