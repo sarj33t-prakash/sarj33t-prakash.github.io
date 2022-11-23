@@ -38,6 +38,32 @@
             "departure": "Departure 12:15",
             "arrival": "Arrival 00:25",
             "passboard": "View Boarding Pass"
+        },
+        {
+            "date": "Sat, 26 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "Baroda",
+            "tocity": "Yishun",
+            "fromcountry": "India",
+            "tocountry": "Singapore",
+            "departure": "Departure 09:00",
+            "arrival": "Arrival 12:30",
+            "passboard": "View Boarding Pass"
+        },
+        {
+            "date": "Wed, 30 Nov., 2022",
+            "pnr": "TDS902Y",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "Mumbai",
+            "tocity": "Ahmedabad",
+            "fromcountry": "India",
+            "tocountry": "India",
+            "departure": "Departure 10:00",
+            "arrival": "Arrival 01:30",
+            "passboard": "View Boarding Pass"
         }
     ]
 }
