@@ -32,8 +32,8 @@
             },
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/download/download-page.json",
-                "data_source_url": "json/data/download-data.json"
+                "widget_url_path": "json/hotel/hotel-page.json",
+                "data_source_url": "json/data/hotel-data.json"
             }
         ]
     },
