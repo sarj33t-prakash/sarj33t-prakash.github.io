@@ -18,6 +18,13 @@
             }
         }
     },
+    "separator": {
+        "type": "Container",
+        "decoration": {
+            "color": "FFFF9800"
+        },
+        "height": 20.0
+    },
     "itemChild": {
         "type": "Card",
         "elevation": 5.0,
@@ -167,13 +174,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "type": "Container",
-                        "decoration": {
-                            "color": "FFFF9800"
-                        },
-                        "height": 20.0
                     }
                 ]
             }
