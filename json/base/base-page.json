@@ -29,6 +29,11 @@
                 "type": "FutureBuilder",
                 "widget_url_path": "json/flight/flight-page.json",
                 "data_source_url": "json/data/flight-data.json"
+            },
+            {
+                "type": "FutureBuilder",
+                "widget_url_path": "json/download/download-page.json",
+                "data_source_url": "json/data/download-data.json"
             }
         ]
     },
@@ -36,7 +41,7 @@
         "showUnselectedLabels": false,
         "showSelectedLabels": true,
         "type": "fixed",
-        "index": 2,
+        "index": 0,
         "selectedLabelStyle": {
             "fontWeight": "bold"
         },
