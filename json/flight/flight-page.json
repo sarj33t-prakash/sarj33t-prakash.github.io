@@ -170,7 +170,9 @@
                     },
                     {
                         "type": "Container",
-                        "color": "#808080"
+                        "decoration": {
+                            "color": "FFFF9800"
+                        },
                         "height": 20.0
                     }
                 ]
