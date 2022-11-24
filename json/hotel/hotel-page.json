@@ -23,7 +23,7 @@
         "decoration": {
             "color": "#E8EAF0"
         },
-        "height": 4.0
+        "height": 16.0
     },
     "itemChild": {
         "type": "Card",
