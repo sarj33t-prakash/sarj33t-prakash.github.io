@@ -48,218 +48,226 @@
                         "crossAxisAlignment": "start",
                         "children": [
                             {
-                                "type": "Column",
-                                "crossAxisAlignment": "start",
-                                "mainAxisAlignment": "start",
-                                "children": [
-                                    {
-                                        "type": "Row",
-                                        "mainAxisAlignment": "start",
-                                        "children": [
-                                            {
-                                                "type": "Text",
-                                                "data": "{{hotelname}}",
-                                                "style": {
-                                                    "fontSize": 20.0,
-                                                    "fontWeight": "bold"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 10.0
-                                    },
-                                    {
-                                        "type": "Row",
-                                        "mainAxisAlignment": "start",
-                                        "children": [
-                                            {
-                                                "type": "Text",
-                                                "data": "{{hotellocation}}"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 10.0
-                                    },
-                                    {
-                                        "type": "Row",
-                                        "mainAxisAlignment": "start",
-                                        "children": [
-                                            {
-                                                "type": "Text",
-                                                "data": "{{date}}"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 10.0
-                                    },
-                                    {
-                                        "type": "Row",
-                                        "mainAxisAlignment": "start",
-                                        "children": [
-                                            {
-                                                "type": "Container",
-                                                "padding": "5,5,5,5",
-                                                "decoration": {
-                                                    "color": "#E8EAF0",
-                                                    "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
-                                                },
-                                                "child": {
-                                                    "type": "Text",
-                                                    "data": "{{rating}}"
-                                                }
-                                            },
-                                            {
-                                                "type": "SizedBox",
-                                                "height": 8.0
-                                            },
-                                            {
-                                                "type": "Row",
-                                                "children": [
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "star",
-                                                        "color": "000000",
-                                                        "size": 18.0
-                                                    },
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "star",
-                                                        "color": "000000",
-                                                        "size": 18.0
-                                                    },
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "star",
-                                                        "color": "000000",
-                                                        "size": 18.0
-                                                    },
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "star",
-                                                        "color": "000000",
-                                                        "size": 18.0
-                                                    },
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "star",
-                                                        "color": "000000",
-                                                        "size": 18.0
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "Column",
-                                "crossAxisAlignment": "end",
-                                "children": [
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 110.0,
-                                        "width": 110.0,
-                                        "child": {
-                                            "type": "ClipRRect",
-                                            "child": {
-                                                "type": "Image",
-                                                "fit": "fill"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 12.0
-                                    },
-                                    {
-                                        "type": "Row",
-                                        "mainAxisAlignment": "end",
-                                        "children": [
-                                            {
-                                                "type": "Container",
-                                                "height": 8.0,
-                                                "width": 8.0,
-                                                "margin": "4,2,2,4",
-                                                "decoration": {
-                                                    "color": "#FF9800",
-                                                    "radius": "100:100, 100:100, 100:100, 100:100"
-                                                }
-                                            },
-                                            {
-                                                "type": "Container",
-                                                "height": 8.0,
-                                                "width": 8.0,
-                                                "margin": "4,2,2,4",
-                                                "decoration": {
-                                                    "color": "#FF9800",
-                                                    "radius": "100:100, 100:100, 100:100, 100:100"
-                                                }
-                                            },
-                                            {
-                                                "type": "Container",
-                                                "height": 8.0,
-                                                "width": 8.0,
-                                                "margin": "4,2,2,4",
-                                                "decoration": {
-                                                    "color": "#FF9800",
-                                                    "radius": "100:100, 100:100, 100:100, 100:100"
-                                                }
-                                            },
-                                            {
-                                                "type": "Container",
-                                                "height": 8.0,
-                                                "width": 8.0,
-                                                "margin": "4,2,2,4",
-                                                "decoration": {
-                                                    "color": "#000000",
-                                                    "radius": "100:100, 100:100, 100:100, 100:100"
-                                                }
-                                            },
-                                            {
-                                                "type": "Container",
-                                                "height": 8.0,
-                                                "width": 8.0,
-                                                "margin": "4,2,2,4",
-                                                "decoration": {
-                                                    "color": "#000000",
-                                                    "radius": "100:100, 100:100, 100:100, 100:100"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "SizedBox",
-                                        "height": 12.0
-                                    },
-                                    {
-                                        "type": "Container",
-                                        "padding": "8,8,8,8",
-                                        "child": {
+                                "type": "Expanded",
+                                "flex": 2,
+                                "child": {
+                                    "type": "Column",
+                                    "crossAxisAlignment": "start",
+                                    "mainAxisAlignment": "start",
+                                    "children": [
+                                        {
                                             "type": "Row",
+                                            "mainAxisAlignment": "start",
                                             "children": [
                                                 {
                                                     "type": "Text",
-                                                    "data": "{{details}}"
+                                                    "data": "{{hotelname}}",
+                                                    "style": {
+                                                        "fontSize": 20.0,
+                                                        "fontWeight": "bold"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 10.0
+                                        },
+                                        {
+                                            "type": "Row",
+                                            "mainAxisAlignment": "start",
+                                            "children": [
+                                                {
+                                                    "type": "Text",
+                                                    "data": "{{hotellocation}}"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 10.0
+                                        },
+                                        {
+                                            "type": "Row",
+                                            "mainAxisAlignment": "start",
+                                            "children": [
+                                                {
+                                                    "type": "Text",
+                                                    "data": "{{date}}"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 10.0
+                                        },
+                                        {
+                                            "type": "Row",
+                                            "mainAxisAlignment": "start",
+                                            "children": [
+                                                {
+                                                    "type": "Container",
+                                                    "padding": "5,5,5,5",
+                                                    "decoration": {
+                                                        "color": "#E8EAF0",
+                                                        "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
+                                                    },
+                                                    "child": {
+                                                        "type": "Text",
+                                                        "data": "{{rating}}"
+                                                    }
                                                 },
                                                 {
                                                     "type": "SizedBox",
-                                                    "width": 4.0
+                                                    "height": 8.0
                                                 },
                                                 {
-                                                    "type": "Icon",
-                                                    "data": "arrow_forward_ios",
-                                                    "size": 16.0
+                                                    "type": "Row",
+                                                    "children": [
+                                                        {
+                                                            "type": "Icon",
+                                                            "data": "star",
+                                                            "color": "000000",
+                                                            "size": 18.0
+                                                        },
+                                                        {
+                                                            "type": "Icon",
+                                                            "data": "star",
+                                                            "color": "000000",
+                                                            "size": 18.0
+                                                        },
+                                                        {
+                                                            "type": "Icon",
+                                                            "data": "star",
+                                                            "color": "000000",
+                                                            "size": 18.0
+                                                        },
+                                                        {
+                                                            "type": "Icon",
+                                                            "data": "star",
+                                                            "color": "000000",
+                                                            "size": 18.0
+                                                        },
+                                                        {
+                                                            "type": "Icon",
+                                                            "data": "star",
+                                                            "color": "000000",
+                                                            "size": 18.0
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }
-                                    }
-                                ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Expanded",
+                                "flex": 1,
+                                "child": {
+                                    "type": "Column",
+                                    "crossAxisAlignment": "end",
+                                    "children": [
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 110.0,
+                                            "width": 110.0,
+                                            "child": {
+                                                "type": "ClipRRect",
+                                                "child": {
+                                                    "type": "Image",
+                                                    "fit": "fill"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 12.0
+                                        },
+                                        {
+                                            "type": "Row",
+                                            "mainAxisAlignment": "end",
+                                            "children": [
+                                                {
+                                                    "type": "Container",
+                                                    "height": 8.0,
+                                                    "width": 8.0,
+                                                    "margin": "4,2,2,4",
+                                                    "decoration": {
+                                                        "color": "#FF9800",
+                                                        "radius": "100:100, 100:100, 100:100, 100:100"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "Container",
+                                                    "height": 8.0,
+                                                    "width": 8.0,
+                                                    "margin": "4,2,2,4",
+                                                    "decoration": {
+                                                        "color": "#FF9800",
+                                                        "radius": "100:100, 100:100, 100:100, 100:100"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "Container",
+                                                    "height": 8.0,
+                                                    "width": 8.0,
+                                                    "margin": "4,2,2,4",
+                                                    "decoration": {
+                                                        "color": "#FF9800",
+                                                        "radius": "100:100, 100:100, 100:100, 100:100"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "Container",
+                                                    "height": 8.0,
+                                                    "width": 8.0,
+                                                    "margin": "4,2,2,4",
+                                                    "decoration": {
+                                                        "color": "#000000",
+                                                        "radius": "100:100, 100:100, 100:100, 100:100"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "Container",
+                                                    "height": 8.0,
+                                                    "width": 8.0,
+                                                    "margin": "4,2,2,4",
+                                                    "decoration": {
+                                                        "color": "#000000",
+                                                        "radius": "100:100, 100:100, 100:100, 100:100"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "SizedBox",
+                                            "height": 12.0
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "padding": "8,8,8,8",
+                                            "child": {
+                                                "type": "Row",
+                                                "children": [
+                                                    {
+                                                        "type": "Text",
+                                                        "data": "{{details}}"
+                                                    },
+                                                    {
+                                                        "type": "SizedBox",
+                                                        "width": 4.0
+                                                    },
+                                                    {
+                                                        "type": "Icon",
+                                                        "data": "arrow_forward_ios",
+                                                        "size": 16.0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
