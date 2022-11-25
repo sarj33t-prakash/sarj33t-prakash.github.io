@@ -269,7 +269,7 @@
                                                         "height": 50.0,
                                                         "decoration": {
                                                             "border": {
-                                                                "color": "#FF33AA",
+                                                                "color": "#000000",
                                                                 "width": 1.0
                                                             }
                                                         },
@@ -284,7 +284,7 @@
                                                                         "data": "{{details}}",
                                                                         "style": {
                                                                             "fontSize": 14.0,
-                                                                            "color": "#4CAF50"
+                                                                            "color": "#000000"
                                                                         }
                                                                     },
                                                                     {
