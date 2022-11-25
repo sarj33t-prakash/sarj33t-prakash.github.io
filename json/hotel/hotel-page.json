@@ -271,7 +271,7 @@
                                                         "data": "{{details}}",
                                                         "style": {
                                                             "fontSize": 14.0,
-                                                            "color": "000000"
+                                                            "color": "#4CAF50"
                                                         }
                                                     },
                                                     {
