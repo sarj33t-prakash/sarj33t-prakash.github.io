@@ -266,7 +266,7 @@
                                                     "child": {
                                                         "type": "Container",
                                                         "padding": "8,8,8,8",
-                                                        "height": 50.0,
+                                                        "height": 40.0,
                                                         "decoration": {
                                                             "border": {
                                                                 "color": "#000000",
