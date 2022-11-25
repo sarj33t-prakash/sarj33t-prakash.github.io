@@ -287,10 +287,7 @@
                                                                             "color": "#000000"
                                                                         }
                                                                     },
-                                                                    {
-                                                                        "type": "SizedBox",
-                                                                        "width": 4.0
-                                                                    },
+                                                                    
                                                                     {
                                                                         "type": "Icon",
                                                                         "data": "arrow_forward",
