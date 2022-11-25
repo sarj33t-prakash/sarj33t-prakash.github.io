@@ -60,11 +60,14 @@
                                             "mainAxisAlignment": "start",
                                             "children": [
                                                 {
-                                                    "type": "Text",
-                                                    "data": "{{hotelname}}",
-                                                    "style": {
-                                                        "fontSize": 20.0,
-                                                        "fontWeight": "bold"
+                                                    "type": "Expanded",
+                                                    "child": {
+                                                        "type": "Text",
+                                                        "data": "{{hotelname}}",
+                                                        "style": {
+                                                            "fontSize": 20.0,
+                                                            "fontWeight": "bold"
+                                                        }
                                                     }
                                                 }
                                             ]
@@ -78,8 +81,11 @@
                                             "mainAxisAlignment": "start",
                                             "children": [
                                                 {
-                                                    "type": "Text",
-                                                    "data": "{{hotellocation}}"
+                                                    "type": "Expanded",
+                                                    "child": {
+                                                        "type": "Text",
+                                                        "data": "{{hotellocation}}"
+                                                    }
                                                 }
                                             ]
                                         },
