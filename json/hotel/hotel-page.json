@@ -291,7 +291,8 @@
                                                                     {
                                                                         "type": "Icon",
                                                                         "data": "arrow_forward",
-                                                                        "size": 16.0
+                                                                        "size": 16.0,
+                                                                        "color": "#000000"
                                                                     }
                                                                 ]
                                                             }
