@@ -261,6 +261,7 @@
                                         {
                                             "type": "Container",
                                             "padding": "8,8,8,8",
+                                            "height": 16.0,
                                             "child": {
                                                 "type": "Row",
                                                 "children": [
