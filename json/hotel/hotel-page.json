@@ -87,7 +87,6 @@
                                                         "data": "{{hotellocation}}",
                                                         "style": {
                                                             "fontSize": 14.0
-                                                            
                                                         }
                                                     }
                                                 }
@@ -105,9 +104,8 @@
                                                     "type": "Text",
                                                     "data": "{{date}}",
                                                     "style": {
-                                                            "fontSize": 14.0
-                                                            
-                                                        }
+                                                        "fontSize": 14.0
+                                                    }
                                                 }
                                             ]
                                         },
@@ -259,32 +257,51 @@
                                             "height": 12.0
                                         },
                                         {
-                                            "type": "Container",
-                                            "padding": "8,8,8,8",
-                                            "height": 16.0,
-                                            "width": 80.0,
-                                            "child": {
-                                                "type": "Row",
-                                                "children": [
-                                                    {
-                                                        "type": "Text",
-                                                        "data": "{{details}}",
-                                                        "style": {
-                                                            "fontSize": 14.0,
-                                                            "color": "#4CAF50"
+                                            "type": "Row",
+                                            "mainAxisAlignment": "end",
+                                            "children": [
+                                                {
+                                                    "type": "Expanded",
+                                                    "flex": 1,
+                                                    "child": {
+                                                        "type": "Container",
+                                                        "padding": "8,8,8,8",
+                                                        "height": 50.0,
+                                                        "decoration": {
+                                                            "border": {
+                                                                "color": "#FF33AA",
+                                                                "width": 1.0
+                                                            }
+                                                        },
+                                                        "child": {
+                                                            "type": "Center",
+                                                            "child": {
+                                                                "type": "Row",
+                                                                "mainAxisAlignment": "center",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "Text",
+                                                                        "data": "{{details}}",
+                                                                        "style": {
+                                                                            "fontSize": 14.0,
+                                                                            "color": "#4CAF50"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "SizedBox",
+                                                                        "width": 4.0
+                                                                    },
+                                                                    {
+                                                                        "type": "Icon",
+                                                                        "data": "arrow_forward",
+                                                                        "size": 16.0
+                                                                    }
+                                                                ]
+                                                            }
                                                         }
-                                                    },
-                                                    {
-                                                        "type": "SizedBox",
-                                                        "width": 4.0
-                                                    },
-                                                    {
-                                                        "type": "Icon",
-                                                        "data": "arrow_forward",
-                                                        "size": 16.0
                                                     }
-                                                ]
-                                            }
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
