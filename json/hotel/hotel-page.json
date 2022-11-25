@@ -65,7 +65,7 @@
                                                         "type": "Text",
                                                         "data": "{{hotelname}}",
                                                         "style": {
-                                                            "fontSize": 20.0,
+                                                            "fontSize": 18.0,
                                                             "fontWeight": "bold"
                                                         }
                                                     }
@@ -84,7 +84,11 @@
                                                     "type": "Expanded",
                                                     "child": {
                                                         "type": "Text",
-                                                        "data": "{{hotellocation}}"
+                                                        "data": "{{hotellocation}}",
+                                                        "style": {
+                                                            "fontSize": 14.0
+                                                            
+                                                        }
                                                     }
                                                 }
                                             ]
@@ -99,7 +103,11 @@
                                             "children": [
                                                 {
                                                     "type": "Text",
-                                                    "data": "{{date}}"
+                                                    "data": "{{date}}",
+                                                    "style": {
+                                                            "fontSize": 14.0
+                                                            
+                                                        }
                                                 }
                                             ]
                                         },
@@ -134,31 +142,31 @@
                                                             "type": "Icon",
                                                             "data": "star",
                                                             "color": "000000",
-                                                            "size": 18.0
+                                                            "size": 14.0
                                                         },
                                                         {
                                                             "type": "Icon",
                                                             "data": "star",
                                                             "color": "000000",
-                                                            "size": 18.0
+                                                            "size": 14.0
                                                         },
                                                         {
                                                             "type": "Icon",
                                                             "data": "star",
                                                             "color": "000000",
-                                                            "size": 18.0
+                                                            "size": 14.0
                                                         },
                                                         {
                                                             "type": "Icon",
                                                             "data": "star",
                                                             "color": "000000",
-                                                            "size": 18.0
+                                                            "size": 14.0
                                                         },
                                                         {
                                                             "type": "Icon",
                                                             "data": "star",
                                                             "color": "000000",
-                                                            "size": 18.0
+                                                            "size": 14.0
                                                         }
                                                     ]
                                                 }
