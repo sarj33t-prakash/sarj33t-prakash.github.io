@@ -266,7 +266,11 @@
                                                 "children": [
                                                     {
                                                         "type": "Text",
-                                                        "data": "{{details}}"
+                                                        "data": "{{details}}",
+                                                        "style": {
+                                                            "fontSize": 14.0,
+                                                            "color": "000000"
+                                                        }
                                                     },
                                                     {
                                                         "type": "SizedBox",
