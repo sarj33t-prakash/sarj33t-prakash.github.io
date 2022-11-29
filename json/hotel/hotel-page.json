@@ -186,11 +186,16 @@
                                             "height": 110.0,
                                             "width": 110.0,
                                             "child": {
-                                                "type": "ClipRRect",
-                                                "child": {
-                                                    "type": "Image",
-                                                    "fit": "fill"
+                                                "type": "ListView.builder",
+                                                "scroll_direction": "horizontal",
+                                                "itemExtent": 1.0,
+                                                "dataBinding": "hotelImagesRecords",
+                                                "itemChild" : {
+                                                    "type": "Card",
+                                                    "elevation": 0.0,
+                                                    "surfaceTintColor": "#0000FF"
                                                 }
+                                                
                                             }
                                         },
                                         {
