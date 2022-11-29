@@ -189,7 +189,6 @@
                                                 "type": "ListView.builder",
                                                 "scroll_direction": "horizontal",
                                                 "itemExtent": 1.0,
-                                                "dataBinding": "hotelImagesRecords",
                                                 "itemChild" : {
                                                     "type": "Card",
                                                     "elevation": 0.0,
