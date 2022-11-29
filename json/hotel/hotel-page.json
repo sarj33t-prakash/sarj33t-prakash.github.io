@@ -1,5 +1,6 @@
 {
     "type": "ListView.builder",
+    "scroll_direction": "vertical",
     "itemExtent": 1.0,
     "dataBinding": "hotelrecords",
     "no_data_widget": {
