@@ -186,13 +186,18 @@
                                             "height": 110.0,
                                             "width": 110.0,
                                             "child": {
-                                                "type": "ListView.builder",
+                                                "type": "PageView.builder",
                                                 "scroll_direction": "horizontal",
                                                 "itemExtent": 1.0,
                                                 "itemChild" : {
                                                     "type": "Card",
-                                                    "elevation": 0.0,
-                                                    "surfaceTintColor": "#0000FF"
+                                                    "elevation": 5.0,
+                                                    "surfaceTintColor": "#0000FF",
+                                                    "child": {
+                                                        "type": "ImageNetwork",
+                                                        "src": "{{imageurl}}",
+                                                        "fit": "fill"
+                                                    }
                                                 }
                                                 
                                             }
