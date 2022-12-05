@@ -46,15 +46,23 @@
                             "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                         },
                         "child": {
-                            "type": "Text",
-                            "data": "{{pnr}}",
-                            "style": {
-                                "fontSize": 18.0
+                            "type": "Expanded",
+                            "child": {
+                                "type": "Text",
+                                "data": "{{pnr}}",
+                                "style": {
+                                    "fontSize": 18.0
+                                }
                             }
                         }
                     }
                 }
             },
+            {
+                "type": "SizedBox",
+                "height": 80.0
+            },
+            
             {
                 "type": "Container",
                 "height": 300.0,
@@ -68,7 +76,7 @@
                         "type": "Padding",
                         "padding": "12,12,12,12",
                         "child": {
-                            "type": "Center",
+                            "type": "Expanded",
                             "child": {
                                 "type": "Text",
                                 "data": "No Data Found!",
@@ -98,11 +106,14 @@
                             "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                         },
                         "child": {
-                            "type": "Text",
-                            "data": "{{hotelname}}",
-                            "style": {
-                                "fontSize": 18.0,
-                                "fontWeight": "bold"
+                            "type": "Expanded",
+                            "child": {
+                                "type": "Text",
+                                "data": "{{hotelname}}",
+                                "style": {
+                                    "fontSize": 18.0,
+                                    "fontWeight": "bold"
+                                }
                             }
                         }
                     }
