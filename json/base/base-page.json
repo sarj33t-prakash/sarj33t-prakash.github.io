@@ -34,6 +34,11 @@
                 "type": "FutureBuilder",
                 "widget_url_path": "json/hotel/hotel-page.json",
                 "data_source_url": "json/data/hotel-data.json"
+            },
+            {
+                "type": "FutureBuilder",
+                "widget_url_path": "json/complexview/complexui.json",
+                "data_source_url": "json/data/complexdata.json"
             }
         ]
     },
@@ -83,6 +88,15 @@
                     "size": 24.0
                 },
                 "label": "Hotel",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "complex",
+                    "size": 24.0
+                },
+                "label": "Complex Page",
                 "backgroundColor": "FFFFFFFF"
             }
         ]
