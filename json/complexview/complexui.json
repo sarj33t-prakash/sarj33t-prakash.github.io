@@ -46,7 +46,7 @@
                             "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                         },
                         "child": {
-                            "type": "Expanded",
+                            "type": "Center",
                             "child": {
                                 "type": "Text",
                                 "data": "{{pnr}}",
@@ -62,7 +62,6 @@
                 "type": "SizedBox",
                 "height": 80.0
             },
-            
             {
                 "type": "Container",
                 "height": 300.0,
@@ -76,8 +75,6 @@
                         "type": "Padding",
                         "padding": "12,12,12,12",
                         "child": {
-                            "type": "Expanded",
-                            "child": {
                                 "type": "Text",
                                 "data": "No Data Found!",
                                 "style": {
@@ -86,7 +83,6 @@
                                     "color": "#FF0000"
                                 }
                             }
-                        }
                     },
                     "separator": {
                         "type": "Container",
@@ -106,7 +102,7 @@
                             "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                         },
                         "child": {
-                            "type": "Expanded",
+                            "type": "Center",
                             "child": {
                                 "type": "Text",
                                 "data": "{{hotelname}}",
