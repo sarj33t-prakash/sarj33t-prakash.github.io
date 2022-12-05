@@ -1,6 +1,6 @@
-
 {
-    "type": "Column",
+    "type": "SingleChildScrollView",
+    "child": "Column",
     "children": [
         {
             "type": "Container",
