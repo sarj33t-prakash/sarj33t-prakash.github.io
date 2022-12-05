@@ -56,16 +56,7 @@
                                         "type": "Row",
                                         "mainAxisAlignment": "spaceBetween",
                                         "children": [
-                                            {
-                                                "type": "Expanded",
-                                                "child": {
-                                                    "type": "Text",
-                                                    "data": "{{date}}",
-                                                    "style": {
-                                                        "fontSize": 18.0
-                                                    }
-                                                }
-                                            },
+                                            
                                             {
                                                 "type": "Expanded",
                                                 "child": {
