@@ -4,7 +4,7 @@
     "children": [
         {
             "type": "Container",
-            "height": 400.0,
+            "height": 300.0,
             "child": {
                 "type": "ListView.builder",
                 "itemExtent": 1.0,
@@ -191,7 +191,7 @@
         },
         {
             "type": "Container",
-            "height": 400.0,
+            "height": 300.0,
             "child": {
                 "type": "ListView.builder",
                 "scroll_direction": "horizontal",
