@@ -1,6 +1,7 @@
 {
     "type": "ListView.builder",
     "itemExtent": 1.0,
+    "scroll_direction": "vertical",
     "dataBinding": "flightrecords",
     "no_data_widget": {
         "type": "Padding",
