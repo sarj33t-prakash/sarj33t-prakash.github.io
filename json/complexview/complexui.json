@@ -114,17 +114,23 @@
                             "type": "Row",
                             "children": [
                                 {
-                                    "type": "Text",
-                                    "data": "{{hotelname}}",
-                                    "style": {
-                                        "fontSize": 18.0
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{hotelname}}",
+                                        "style": {
+                                            "fontSize": 18.0
+                                        }
                                     }
                                 },
                                 {
-                                    "type": "Text",
-                                    "data": "{{hotellocation}}",
-                                    "style": {
-                                        "fontSize": 18.0
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{hotellocation}}",
+                                        "style": {
+                                            "fontSize": 18.0
+                                        }
                                     }
                                 }
                             ]
