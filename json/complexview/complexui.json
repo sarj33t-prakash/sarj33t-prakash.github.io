@@ -36,25 +36,30 @@
                         "height": 16.0
                     },
                     "itemChild": {
-                        "type": "Card",
-                        "elevation": 5.0,
-                        "surfaceTintColor": "#FFFFFF",
-                        "shape": {
-                            "side": {
-                                "color": "#FFFFFF"
-                            },
-                            "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
-                        },
-                        "child": {
-                            "type": "Center",
-                            "child": {
-                                "type": "Text",
-                                "data": "{{pnr}}",
-                                "style": {
-                                    "fontSize": 18.0
+                        "type": "Row",
+                        "children": [
+                            {
+                                "type": "Card",
+                                "elevation": 5.0,
+                                "surfaceTintColor": "#FFFFFF",
+                                "shape": {
+                                    "side": {
+                                        "color": "#FFFFFF"
+                                    },
+                                    "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+                                },
+                                "child": {
+                                    "type": "Center",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{pnr}}",
+                                        "style": {
+                                            "fontSize": 18.0
+                                        }
+                                    }
                                 }
                             }
-                        }
+                        ]
                     }
                 }
             },
@@ -75,14 +80,14 @@
                         "type": "Padding",
                         "padding": "12,12,12,12",
                         "child": {
-                                "type": "Text",
-                                "data": "No Data Found!",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "fontWeight": "bold",
-                                    "color": "#FF0000"
-                                }
+                            "type": "Text",
+                            "data": "No Data Found!",
+                            "style": {
+                                "fontSize": 18.0,
+                                "fontWeight": "bold",
+                                "color": "#FF0000"
                             }
+                        }
                     },
                     "separator": {
                         "type": "Container",
@@ -92,26 +97,31 @@
                         "height": 16.0
                     },
                     "itemChild": {
-                        "type": "Card",
-                        "elevation": 0.0,
-                        "surfaceTintColor": "#FFFFFF",
-                        "shape": {
-                            "side": {
-                                "color": "#FFFFFF"
-                            },
-                            "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
-                        },
-                        "child": {
-                            "type": "Center",
-                            "child": {
-                                "type": "Text",
-                                "data": "{{hotelname}}",
-                                "style": {
-                                    "fontSize": 18.0,
-                                    "fontWeight": "bold"
+                        "type": "Row",
+                        "children": [
+                            {
+                                "type": "Card",
+                                "elevation": 0.0,
+                                "surfaceTintColor": "#FFFFFF",
+                                "shape": {
+                                    "side": {
+                                        "color": "#FFFFFF"
+                                    },
+                                    "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+                                },
+                                "child": {
+                                    "type": "Center",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{hotelname}}",
+                                        "style": {
+                                            "fontSize": 18.0,
+                                            "fontWeight": "bold"
+                                        }
+                                    }
                                 }
                             }
-                        }
+                        ]
                     }
                 }
             }
