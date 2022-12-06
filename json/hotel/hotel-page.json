@@ -176,7 +176,7 @@
                             },
                             {
                                 "type": "Expanded",
-                                "flex": 1,
+                                "flex": 2,
                                 "child": {
                                     "type": "Column",
                                     "crossAxisAlignment": "end",
