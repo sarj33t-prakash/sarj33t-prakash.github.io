@@ -21,6 +21,7 @@
     },
     "separator": {
         "type": "Container",
+        
         "decoration": {
             "color": "#E8EAF0"
         },
@@ -176,7 +177,7 @@
                             },
                             {
                                 "type": "Expanded",
-                                "flex": 1,
+                                "flex": 2,
                                 "child": {
                                     "type": "Column",
                                     "crossAxisAlignment": "end",
