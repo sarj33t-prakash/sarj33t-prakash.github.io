@@ -276,6 +276,7 @@
                                                     "flex": 1,
                                                     "child": {
                                                         "type": "Container",
+                                                        "width": 180.0,
                                                         "padding": "8,8,8,8",
                                                         "height": 40.0,
                                                         "decoration": {
