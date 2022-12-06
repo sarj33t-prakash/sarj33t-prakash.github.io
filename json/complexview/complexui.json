@@ -5,6 +5,7 @@
         "children": [
             {
                 "type": "Container",
+                "padding": "8,8,8,8",
                 "height": 300.0,
                 "child": {
                     "type": "ListView.builder",
@@ -73,6 +74,7 @@
             },
             {
                 "type": "Container",
+                "padding": "8,8,8,8",
                 "height": 300.0,
                 "child": {
                     "type": "ListView.builder",
