@@ -6,7 +6,6 @@
             {
                 "type": "Container",
                 "height": 300.0,
-                "width": 400.0,
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
@@ -75,7 +74,7 @@
             {
                 "type": "Container",
                 "height": 300.0,
-                "width": 400.0,
+                
                 "child": {
                     "type": "ListView.builder",
                     "scroll_direction": "horizontal",
