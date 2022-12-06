@@ -74,7 +74,6 @@
             {
                 "type": "Container",
                 "height": 300.0,
-                
                 "child": {
                     "type": "ListView.builder",
                     "scroll_direction": "horizontal",
@@ -115,23 +114,17 @@
                             "mainAxisAlignment": "spaceBetween",
                             "children": [
                                 {
-                                    "type": "Expanded",
-                                    "child": {
-                                        "type": "Text",
-                                        "data": "{{hotelname}}",
-                                        "style": {
-                                            "fontSize": 18.0
-                                        }
+                                    "type": "Text",
+                                    "data": "{{hotelname}}",
+                                    "style": {
+                                        "fontSize": 18.0
                                     }
                                 },
                                 {
-                                    "type": "Expanded",
-                                    "child": {
-                                        "type": "Text",
-                                        "data": "{{hotellocation}}",
-                                        "style": {
-                                            "fontSize": 18.0
-                                        }
+                                    "type": "Text",
+                                    "data": "{{hotellocation}}",
+                                    "style": {
+                                        "fontSize": 18.0
                                     }
                                 }
                             ]
