@@ -47,6 +47,7 @@
                         },
                         "child": {
                             "type": "Row",
+                            "mainAxisAlignment": "spaceBetween",
                             "children": [
                                 {
                                     "type": "Text",
@@ -112,6 +113,7 @@
                         },
                         "child": {
                             "type": "Row",
+                            "mainAxisAlignment": "spaceBetween",
                             "children": [
                                 {
                                     "type": "Expanded",
