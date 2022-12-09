@@ -6,6 +6,9 @@
             {
                 "type": "Container",
                 "padding": "8,8,8,8",
+                "decoration": {
+                    "color": "#FF69B4"
+                },
                 "height": 300.0,
                 "child": {
                     "type": "ListView.builder",
@@ -83,6 +86,9 @@
             {
                 "type": "Container",
                 "padding": "8,8,8,8",
+                "decoration": {
+                    "color": "#F0F8FF"
+                },
                 "height": 300.0,
                 "child": {
                     "type": "ListView.builder",
@@ -157,6 +163,9 @@
             {
                 "type": "Container",
                 "height": 400.0,
+                "decoration": {
+                    "color": "#FF7F50"
+                },
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
