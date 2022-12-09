@@ -147,7 +147,7 @@
                 "height": 30.0
             },
             {
-                "type": "SizedBox",
+                "type": "Container",
                 "height": 400.0,
                 "child": {
                     "type": "ListView.builder",
