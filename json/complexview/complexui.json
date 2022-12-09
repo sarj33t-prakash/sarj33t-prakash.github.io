@@ -74,7 +74,7 @@
             },
             {
                 "type": "SizedBox",
-                "height": 80.0
+                "height": 30.0
             },
             {
                 "type": "Container",
@@ -144,7 +144,7 @@
             },
             {
                 "type": "SizedBox",
-                "height": 80.0
+                "height": 30.0
             },
             {
                 "type": "Expanded",
