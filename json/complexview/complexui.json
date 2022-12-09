@@ -64,14 +64,14 @@
                                                 "type": "Text",
                                                 "data": "{{pnr}}",
                                                 "style": {
-                                                    "fontSize": 18.0
+                                                    "fontSize": 16.0
                                                 }
                                             },
                                             {
                                                 "type": "Text",
                                                 "data": "{{date}}",
                                                 "style": {
-                                                    "fontSize": 16.0
+                                                    "fontSize": 14.0
                                                 }
                                             }
                                         ]
@@ -135,24 +135,28 @@
                                 "type": "Padding",
                                 "padding": "12,12,12,12",
                                 "child": {
-                                    "type": "Row",
-                                    "mainAxisAlignment": "spaceBetween",
+                                    
+                                    "type": "Center",
+                                    "child": {
+                                        "type": "Column",
+                                    "mainAxisAlignment": "center",
                                     "children": [
                                         {
                                             "type": "Text",
                                             "data": "{{hotelname}}",
                                             "style": {
-                                                "fontSize": 18.0
+                                                "fontSize": 16.0
                                             }
                                         },
                                         {
                                             "type": "Text",
                                             "data": "{{hotellocation}}",
                                             "style": {
-                                                "fontSize": 18.0
+                                                "fontSize": 14.0
                                             }
                                         }
                                     ]
+                                    }
                                 }
                             }
                         }
