@@ -148,6 +148,7 @@
             },
             {
                 "type": "SizedBox",
+                "height": 400.0,
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
