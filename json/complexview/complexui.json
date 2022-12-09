@@ -182,10 +182,14 @@
                                 "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                             },
                             "child": {
-                                "type": "Text",
-                                "data": "{{username}}",
-                                "style": {
-                                    "fontSize": 18.0
+                                "type": "ListTile",
+                                "title": {
+                                    "type": "Text",
+                                        "data": "{{username}}"
+                                },
+                                "subTitle": {
+                                    "type": "Text",
+                                        "data": "{{email}}"
                                 }
                             }
                         }
