@@ -185,11 +185,27 @@
                                 "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
                             },
                             "child": {
-                                "type": "Text",
-                                "data": "{{username}}",
-                                "style": {
-                                    "fontSize": 18.0
-                                }
+                                "type": "Column",
+                                "children": [
+                                    {
+                                        "type": "Text",
+                                        "data": "{{username}}",
+                                        "style": {
+                                            "fontSize": 18.0
+                                        }
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 16.0
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "data": "{{email}}",
+                                        "style": {
+                                            "fontSize": 18.0
+                                        }
+                                    }
+                                ]
                             }
                         }
                     }
