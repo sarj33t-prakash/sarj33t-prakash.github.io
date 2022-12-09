@@ -147,8 +147,8 @@
                 "height": 80.0
             },
             {
-                "type": "Container",
-                "height": 500.0,
+                "type": "Expanded",
+                "flex": 1,
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
