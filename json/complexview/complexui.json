@@ -173,6 +173,7 @@
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
+                    "scrollable": false,
                     "shrinkWrap": true,
                     "scroll_direction": "vertical",
                     "dataBinding": "userrecords",
