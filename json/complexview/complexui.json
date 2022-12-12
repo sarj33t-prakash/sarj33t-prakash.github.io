@@ -168,11 +168,8 @@
                 "height": 30.0
             },
             {
-                "type": "Container",
-                "height": 400.0,
-                "decoration": {
-                    "color": "#FF7F50"
-                },
+                "type": "Expanded",
+                "flex": 0,
                 "child": {
                     "type": "ListView.builder",
                     "itemExtent": 1.0,
