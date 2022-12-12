@@ -2,7 +2,7 @@
                 "type": "Center",
                 "child": {
                     "type": "Text",
-                    "data": "Home Page",
+                    "data": "Home Page Contents Here",
                     "style": {
                         "fontSize": 24.0,
                         "fontWeight": "bold"
