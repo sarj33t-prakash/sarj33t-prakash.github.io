@@ -1,54 +1,54 @@
 {
-    "data": [
+    "speakerrecords": [
         {
             "name": "Lucia",
             "domain": "google.nl",
-            "pic": "https://reqres.in/img/faces/2-image.jpg"
+            "photo": "https://reqres.in/img/faces/2-image.jpg"
         },
         {
             "name": "Rockey",
             "domain": "mapy.cz",
-            "pic": "https://reqres.in/img/faces/4-image.jpg"
+            "photo": "https://reqres.in/img/faces/4-image.jpg"
         },
         {
             "name": "Barry",
             "domain": "loc.gov",
-            "pic": "https://reqres.in/img/faces/2-image.jpg"
+            "photo": "https://reqres.in/img/faces/2-image.jpg"
         },
         {
             "name": "Barth",
             "domain": "themeforest.net",
-            "pic": "https://reqres.in/img/faces/1-image.jpg"
+            "photo": "https://reqres.in/img/faces/1-image.jpg"
         },
         {
             "name": "Nikoletta",
             "domain": "devhub.com",
-            "pic": "https://reqres.in/img/faces/6-image.jpg"
+            "photo": "https://reqres.in/img/faces/6-image.jpg"
         },
         {
             "name": "Simone",
             "domain": "shutterfly.com",
-            "pic": "https://reqres.in/img/faces/4-image.jpg"
+            "photo": "https://reqres.in/img/faces/4-image.jpg"
         },
         {
             "name": "Astrid",
             "domain": "psu.edu",
-            "pic": "https://reqres.in/img/faces/1-image.jpg"
+            "photo": "https://reqres.in/img/faces/1-image.jpg"
         },
         {
             "name": "Lia",
             "domain": "dailymotion.com",
-            "pic": "https://reqres.in/img/faces/2-image.jpg"
+            "photo": "https://reqres.in/img/faces/2-image.jpg"
         },
         {
             "name": "Tansy",
             "domain": "disqus.com",
-            "pic": "https://reqres.in/img/faces/3-image.jpg"
+            "photo": "https://reqres.in/img/faces/3-image.jpg"
         },
         {
             "name": "Gunter",
             "domain": "sogou.com",
-            "pic": "https://reqres.in/img/faces/5-image.jpg"
+            "photo": "https://reqres.in/img/faces/5-image.jpg"
         }
     ]
 }
