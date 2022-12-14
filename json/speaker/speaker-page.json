@@ -1,7 +1,6 @@
 {
     "type": "CustomScrollView",
     "children": [
-       
         {
             "type": "SliverGrid",
             "delegate": {
@@ -26,7 +25,7 @@
                                     "aspectRatio": 1.0,
                                     "child": {
                                         "type": "ImageNetwork",
-                                        "src": "https://reqres.in/img/faces/3-image.jpg",
+                                        "src": "{{photo}}",
                                         "fit": "fill"
                                     }
                                 }
@@ -42,7 +41,7 @@
                                             "padding": "0,0,0,0",
                                             "child": {
                                                 "type": "Text",
-                                               
+                                                "data": "{{name}}",
                                                 "style": {
                                                     "fontSize": 18.0,
                                                     "color": "FFFFFF",
@@ -55,7 +54,7 @@
                                             "padding": "0,0,0,0",
                                             "child": {
                                                 "type": "Text",
-                                               
+                                                "data": "{{domain}}",
                                                 "style": {
                                                     "fontSize": 16.0,
                                                     "color": "FFFFFF"
@@ -70,11 +69,10 @@
                 }
             },
             "gridDelegate": {
-                    "type": "fixedCount",
-                    "crossAxisCount": 2,
-                        "childAspectRatio": 0.76
-            },
-            "childCount": 10
+                "type": "fixedCount",
+                "crossAxisCount": 2,
+                "childAspectRatio": 0.76
+            }
         }
     ]
 }
