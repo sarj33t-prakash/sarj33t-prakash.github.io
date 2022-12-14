@@ -1,5 +1,6 @@
 {
     "type": "CustomScrollView",
+    "dataBinding": "speakerrecords",
     "children": [
         {
             "type": "SliverGrid",
