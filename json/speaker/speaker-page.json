@@ -25,7 +25,7 @@
                                     "aspectRatio": 1.0,
                                     "child": {
                                         "type": "ImageNetwork",
-                                        
+                                        "src": "{{photo}}",
                                         "fit": "fill"
                                     }
                                 }
