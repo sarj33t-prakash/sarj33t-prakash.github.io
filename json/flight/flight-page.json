@@ -175,6 +175,23 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "type": "SizedBox",
+                        "height": 8.0
+                    },
+                    {
+                        "type": "Row",
+                        "mainAxisAlignment": "end",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "data": "{{idcard}}",
+                                "style": {
+                                    "color": "0000FF"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
