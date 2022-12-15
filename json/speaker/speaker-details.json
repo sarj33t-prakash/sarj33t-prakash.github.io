@@ -1,0 +1,31 @@
+{
+    "type": "Scaffold",
+    "appbar": {
+        "title": {
+            "type": "Text",
+            "data": "Home"
+        },
+        "leading": {
+            "type": "Icon",
+            "data": "menu",
+            "size": 24.0,
+            "color": "#000000"
+        },
+        "actions": [],
+        "backgroundColor": "FFFFFF"
+    },
+    "body": {
+        "type": "Column",
+        "mainAxisAlignment": "center",
+        "children": [
+                {
+                    "type": "Text",
+                    "data": "{{name}}",
+                    "style": {
+                       "fontSize": 22.0,
+                       "color": "#FFDDEE"
+                    }
+                }
+        ]
+    }
+}
