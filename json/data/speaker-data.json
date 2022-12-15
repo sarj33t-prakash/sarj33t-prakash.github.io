@@ -1,6 +1,11 @@
 {
     "speakerrecords": [
         {
+            "name": "Haylel Mans",
+            "domain": "kykoi.com",
+            "photo": "https://i.pravatar.cc/300?img=11"
+        },
+        {
             "name": "Lucia",
             "domain": "google.nl",
             "photo": "https://i.pravatar.cc/300?img=1"
