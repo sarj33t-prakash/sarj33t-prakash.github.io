@@ -1,9 +1,9 @@
 {
     "type": "CustomScrollView",
-    "dataBinding": "speakerrecords",
     "children": [
         {
             "type": "SliverGrid",
+            "dataBinding": "speakerrecords",
             "delegate": {
                 "type": "Padding",
                 "padding": "8,8,8,8",
