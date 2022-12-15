@@ -3,52 +3,52 @@
         {
             "name": "Lucia",
             "domain": "google.nl",
-            "photo": "https://i.pravatar.cc/300"
+            "photo": "https://i.pravatar.cc/300?img=1"
         },
         {
             "name": "Rockey",
             "domain": "mapy.cz",
-            "photo": "https://i.pravatar.cc/300"
+            "photo": "https://i.pravatar.cc/300?img=2"
         },
         {
             "name": "Barry",
             "domain": "loc.gov",
-            "photo": "https://i.pravatar.cc/300"
+            "photo": "https://i.pravatar.cc/300?img=3"
         },
         {
             "name": "Barth",
             "domain": "themeforest.net",
-            "photo": "https://i.pravatar.cc/300"
+            "photo": "https://i.pravatar.cc/300?img=4"
         },
         {
             "name": "Nikoletta",
             "domain": "devhub.com",
-            "photo": "https://reqres.in/img/faces/6-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=5"
         },
         {
             "name": "Simone",
             "domain": "shutterfly.com",
-            "photo": "https://reqres.in/img/faces/4-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=6"
         },
         {
             "name": "Astrid",
             "domain": "psu.edu",
-            "photo": "https://reqres.in/img/faces/1-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=7"
         },
         {
             "name": "Lia",
             "domain": "dailymotion.com",
-            "photo": "https://reqres.in/img/faces/2-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=8"
         },
         {
             "name": "Tansy",
             "domain": "disqus.com",
-            "photo": "https://reqres.in/img/faces/3-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=9"
         },
         {
             "name": "Gunter",
             "domain": "sogou.com",
-            "photo": "https://reqres.in/img/faces/5-image.jpg"
+            "photo": "https://i.pravatar.cc/300?img=10"
         }
     ]
 }
