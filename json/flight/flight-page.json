@@ -51,14 +51,16 @@
                                 "type": "Text",
                                 "data": "{{date}}",
                                 "style": {
-                                    "fontSize": 18.0
+                                    "fontSize": 18.0,
+                                    "color": "#0E0E0E"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "{{pnr}}",
                                 "style": {
-                                    "fontSize": 18.0
+                                    "fontSize": 18.0,
+                                    "color": "#0E0E0E"
                                 }
                             }
                         ]
@@ -75,14 +77,16 @@
                                 "type": "Text",
                                 "data": "{{from}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "{{to}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             }
                         ]
@@ -99,14 +103,16 @@
                                 "type": "Text",
                                 "data": "{{fromcity}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "{{tocity}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             }
                         ]
@@ -123,14 +129,16 @@
                                 "type": "Text",
                                 "data": "{{fromcountry}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "{{tocountry}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             }
                         ]
@@ -147,14 +155,16 @@
                                 "type": "Text",
                                 "data": "{{departure}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             },
                             {
                                 "type": "Text",
                                 "data": "{{arrival}}",
                                 "style": {
-                                    "fontSize": 14.0
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
                                 }
                             }
                         ]
