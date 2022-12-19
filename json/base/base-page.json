@@ -39,6 +39,9 @@
                 "type": "FutureBuilder",
                 "widget_url_path": "json/complexview/complexui.json",
                 "data_source_url": "json/data/complexdata.json"
+            },
+            {
+                
             }
         ]
     },
@@ -97,6 +100,15 @@
                     "size": 24.0
                 },
                 "label": "Complex Page",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "menu",
+                    "size": 24.0
+                },
+                "label": "Menu",
                 "backgroundColor": "FFFFFFFF"
             }
         ]
