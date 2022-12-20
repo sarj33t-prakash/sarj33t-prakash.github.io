@@ -121,6 +121,7 @@
                                                 {
                                                     "type": "Container",
                                                     "padding": "5,5,5,5",
+                                                    "width": 140.0,
                                                     "decoration": {
                                                         "color": "#E8EAF0",
                                                         "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
