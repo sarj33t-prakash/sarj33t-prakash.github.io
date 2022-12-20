@@ -184,8 +184,8 @@
                                     "children": [
                                         {
                                             "type": "SizedBox",
-                                            "height": 110.0,
-                                            "width": 110.0,
+                                            "height": 140.0,
+                                            "width": 140.0,
                                             "child": {
                                                 "type": "PageView.builder",
                                                 "scroll_direction": "horizontal",
