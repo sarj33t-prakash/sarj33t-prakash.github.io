@@ -1,1 +1,30 @@
-{}
+{
+    "flightrecords": [
+        {
+            "date": "2023-11-15 01:15:57",
+            "pnr": "PNR84SYS",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "Vadodara",
+            "tocity": "New York",
+            "fromcountry": "Mexico",
+            "tocountry": "Mexico",
+            "departure": "Departure 06:30",
+            "arrival": "Arrival 01:30",
+            "passboard": "View Boarding Pass"
+        },
+        {
+            "date": "2023-12-29 01:21:26",
+            "pnr": "PNR54SYL",
+            "from": "FROM",
+            "to": "TO",
+            "fromcity": "Merut",
+            "tocity": "Mumbai",
+            "fromcountry": "Mexico",
+            "tocountry": "Canada",
+            "departure": "",
+            "arrival": "",
+            "passboard": "View Boarding Pass"
+        }
+    ]
+}
