@@ -11,7 +11,16 @@
             "size": 24.0,
             "color": "000000"
         },
-        "actions": [],
+        "actions": [
+            {
+                "type": "Padding",
+                "padding": "0,0,16,0",
+                "child": {
+                    "type": "CircleAvatar",
+                    "backgroundImageSrc": "https://reqres.in/img/faces/12-image.jpg"
+                }
+            }
+        ],
         "backgroundColor": "FFFFFFFF"
     },
     "body": {
@@ -40,9 +49,7 @@
                 "widget_url_path": "json/complexview/complexui.json",
                 "data_source_url": "json/data/complexdata.json"
             },
-            {
-                
-            }
+            {}
         ]
     },
     "bottomNavBar": {
