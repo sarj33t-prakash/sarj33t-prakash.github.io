@@ -3,7 +3,7 @@
     "children": [
         {
             "type": "SliverGrid",
-            "dataBinding": "speakerrecords",
+            "dataBinding": "data",
             "delegate": {
                 "type": "Padding",
                 "padding": "8,8,8,8",
