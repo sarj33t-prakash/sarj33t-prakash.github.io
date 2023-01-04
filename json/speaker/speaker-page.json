@@ -26,7 +26,7 @@
                                     "aspectRatio": 1.0,
                                     "child": {
                                         "type": "ImageNetwork",
-                                        "src": "{{photo}}",
+                                        "src": "{{url}}",
                                         "fit": "fill"
                                     }
                                 }
@@ -55,7 +55,7 @@
                                             "padding": "0,0,0,0",
                                             "child": {
                                                 "type": "Text",
-                                                "data": "{{domain}}",
+                                                "data": "{{company}}",
                                                 "style": {
                                                     "fontSize": 16.0,
                                                     "color": "FFFFFF"
