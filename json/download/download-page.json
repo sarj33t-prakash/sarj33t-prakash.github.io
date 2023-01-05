@@ -47,14 +47,12 @@
                                 },
                                 {
                                     "type": "ClipRRect",
-                                    "borderRadius": {},
                                     "child": {
                                         "type": "AspectRatio",
                                         "aspectRatio": 1.6,
                                         "child": {
                                             "type": "ImageNetwork",
-                                            "src": "{{image}}",
-                                            "fit": "fill"
+                                            "src": "{{image}}"
                                         }
                                     }
                                 },
