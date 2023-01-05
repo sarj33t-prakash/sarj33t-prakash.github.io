@@ -78,7 +78,7 @@
                                         },
                                         {
                                             "type": "IconButton",
-                                            "icon": "upload",
+                                            "icon": "downloads",
                                             "size": 26.0,
                                             "color": "#F43E20"
                                         }
