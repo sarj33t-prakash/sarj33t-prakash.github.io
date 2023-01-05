@@ -33,12 +33,10 @@
                                         },
                                         {
                                             "type": "IconButton",
-                                            "icon": {
-                                                "type": "Icon",
-                                                "data": "share",
-                                                "size": 26.0,
+                                            "icon": "share",
+                                            "size": 26.0,
                                                 "color": "#F43E20"
-                                            }
+                                            
                                         }
                                     ]
                                 },
