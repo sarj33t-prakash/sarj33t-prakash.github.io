@@ -47,6 +47,7 @@
                                 },
                                 {
                                     "type": "ClipRRect",
+                                    "radius": "5.0:5.0, 5.0:5.0, 0.0:0.0, 0.0:0.0",
                                     "child": {
                                         "type": "AspectRatio",
                                         "aspectRatio": 1.6,
