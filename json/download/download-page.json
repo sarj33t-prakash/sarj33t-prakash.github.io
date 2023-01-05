@@ -58,25 +58,6 @@
                                 {
                                     "type": "SizedBox",
                                     "height": 16.0
-                                },
-                                {
-                                    "type": "Row",
-                                    "mainAxisAlignment": "spaceBetween",
-                                    "children": [
-                                        {
-                                            "type": "Expanded",
-                                            "child": {
-                                                "type": "Text",
-                                                "data": "{{details}}",
-                                                "maxLines": 5,
-                                                "style": {
-                                                    "color": "#FF6161",
-                                                    "fontWeight": "normal",
-                                                    "fontSize": 12.0
-                                                }
-                                            }
-                                        }
-                                    ]
                                 }
                             ]
                         }
