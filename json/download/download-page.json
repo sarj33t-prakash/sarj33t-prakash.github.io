@@ -3,6 +3,22 @@
     "scroll_direction": "vertical",
     "itemExtent": 1.0,
     "dataBinding": "data",
+    "no_data_widget": {
+        "type": "Padding",
+        "padding": "12,12,12,12",
+        "child": {
+            "type": "Center",
+            "child": {
+                "type": "Text",
+                "data": "No Data Found!",
+                "style": {
+                    "fontSize": 18.0,
+                    "fontWeight": "bold",
+                    "color": "#FF0000"
+                }
+            }
+        }
+    },
     "itemChild": {
         "type": "Column",
         "children": [
