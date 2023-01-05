@@ -52,7 +52,7 @@
                                         "type": "AspectRatio",
                                         "aspectRatio": 1.6,
                                         "child": {
-                                            "type": "NetworkImage",
+                                            "type": "ImageNetwork",
                                             "src": "{{image}}",
                                             "fit": "fill"
                                         }
