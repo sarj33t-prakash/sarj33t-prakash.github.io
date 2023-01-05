@@ -8,7 +8,6 @@
                 "margin": "12,12,12,12",
                 "child": {
                     "type": "Material",
-                    "borderRadius": "",
                     "color": "#FFEEEE",
                     "elevation": 1.0,
                     "child": {
@@ -35,8 +34,7 @@
                                             "type": "IconButton",
                                             "icon": "share",
                                             "size": 26.0,
-                                                "color": "#F43E20"
-                                            
+                                            "color": "#F43E20"
                                         }
                                     ]
                                 },
@@ -82,8 +80,7 @@
                                             "type": "IconButton",
                                             "icon": "upload",
                                             "size": 26.0,
-                                                "color": "#F43E20"
-                                            
+                                            "color": "#F43E20"
                                         }
                                     ]
                                 }
