@@ -34,7 +34,7 @@
         "nav_pages": [
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/home/home-page.json",
+                "widget_url_path": "json/event_details.json",
                 "is_nova": false
             },
             {
@@ -73,10 +73,10 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "home",
+                    "data": "downloads",
                     "size": 24.0
                 },
-                "label": "Home",
+                "label": "Downloads",
                 "backgroundColor": "FFFFFFFF"
             },
             {
