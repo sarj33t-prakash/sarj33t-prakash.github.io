@@ -35,7 +35,8 @@
             {
                 "type": "FutureBuilder",
                 "widget_url_path": "json/download/download-page.json",
-                "is_nova": false
+                "data_source_url": "api/downloads",
+                "is_nova": true
             },
             {
                 "type": "FutureBuilder",
