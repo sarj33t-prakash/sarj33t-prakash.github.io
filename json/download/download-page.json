@@ -32,7 +32,7 @@
                                         },
                                         {
                                             "type": "IconButton",
-                                            "icon": "share",
+                                            "icon": "downloads",
                                             "size": 26.0,
                                             "color": "#F43E20"
                                         }
@@ -44,7 +44,7 @@
                                 },
                                 {
                                     "type": "ClipRRect",
-                                    "borderRadius": {},
+                                    
                                     "child": {
                                         "type": "AspectRatio",
                                         "aspectRatio": 1.6,
