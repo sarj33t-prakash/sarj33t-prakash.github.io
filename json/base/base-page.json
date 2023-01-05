@@ -34,7 +34,7 @@
         "nav_pages": [
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/event_details.json",
+                "widget_url_path": "json/download/download-page.json",
                 "is_nova": false
             },
             {
