@@ -82,12 +82,10 @@
                                         },
                                         {
                                             "type": "IconButton",
-                                            "icon": {
-                                                "type": "Icon",
-                                                "data": "upload",
-                                                "size": 26.0,
+                                            "icon": "upload",
+                                            "size": 26.0,
                                                 "color": "#F43E20"
-                                            }
+                                            
                                         }
                                     ]
                                 }
