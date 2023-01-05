@@ -4,8 +4,8 @@
         "type": "Column",
         "children": [
             {
-                "type": "Container",
-                "margin": "12,12,12,12",
+                "type": "Padding",
+                "padding": "12,12,12,12",
                 "child": {
                     "type": "Material",
                     "color": "#FFEEEE",
