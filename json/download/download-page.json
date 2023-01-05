@@ -32,7 +32,7 @@
                                         },
                                         {
                                             "type": "IconButton",
-                                            "icon": "downloads",
+                                            "icon": "share",
                                             "size": 26.0,
                                             "color": "#F43E20"
                                         }
@@ -44,7 +44,7 @@
                                 },
                                 {
                                     "type": "ClipRRect",
-                                    
+                                    "borderRadius": {},
                                     "child": {
                                         "type": "AspectRatio",
                                         "aspectRatio": 1.6,
@@ -58,6 +58,31 @@
                                 {
                                     "type": "SizedBox",
                                     "height": 16.0
+                                },
+                                {
+                                    "type": "Row",
+                                    "mainAxisAlignment": "spaceBetween",
+                                    "children": [
+                                        {
+                                            "type": "Expanded",
+                                            "child": {
+                                                "type": "Text",
+                                                "data": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                                                "style": {
+                                                    "color": "#FFEEEE",
+                                                    "fontWeight": "normal",
+                                                    "fontSize": 12.0
+                                                },
+                                                "maxLines": 5
+                                            }
+                                        },
+                                        {
+                                            "type": "IconButton",
+                                            "icon": "share",
+                                            "size": 26.0,
+                                            "color": "#F43E20"
+                                        }
+                                    ]
                                 }
                             ]
                         }
