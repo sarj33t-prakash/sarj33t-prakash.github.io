@@ -1,12 +1,101 @@
 {
-                "type": "Center",
+    "type": "SingleChildScrollView",
+    "child": {
+        "type": "Column",
+        "children": [
+            {
+                "type": "Container",
+                "margin": "12,12,12,12",
                 "child": {
-                    "type": "Text",
-                  
-                    "style": {
-                        "fontSize": 24.0,
-                        "fontWeight": "bold",
-                        "color": "000000"
+                    "type": "Material",
+                    "borderRadius": "",
+                    "color": "#FFEEEE",
+                    "elevation": 1.0,
+                    "child": {
+                        "type": "Padding",
+                        "padding": "12,12,12,12",
+                        "child": {
+                            "type": "Column",
+                            "children": [
+                                {
+                                    "type": "Row",
+                                    "mainAxisAlignment": "spaceBetween",
+                                    "crossAxisAlignment": "center",
+                                    "children": [
+                                        {
+                                            "type": "Text",
+                                            "data": "{{eventname}}",
+                                            "style": {
+                                                "color": "#FFEEEE",
+                                                "fontWeight": "bold",
+                                                "fontSize": 18.0
+                                            }
+                                        },
+                                        {
+                                            "type": "IconButton",
+                                            "icon": {
+                                                "type": "Icon",
+                                                "data": "share",
+                                                "size": 26.0,
+                                                "color": "#F43E20"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "SizedBox",
+                                    "height": 12.0
+                                },
+                                {
+                                    "type": "ClipRRect",
+                                    "borderRadius": {},
+                                    "child": {
+                                        "type": "AspectRatio",
+                                        "aspectRatio": 1.6,
+                                        "child": {
+                                            "type": "NetworkImage",
+                                            "src": "{{image}}",
+                                            "fit": "fill"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "SizedBox",
+                                    "height": 16.0
+                                },
+                                {
+                                    "type": "Row",
+                                    "mainAxisAlignment": "spaceBetween",
+                                    "children": [
+                                        {
+                                            "type": "Expanded",
+                                            "child": {
+                                                "type": "Text",
+                                                "data": "{{details}}",
+                                                "maxLines": 5,
+                                                "style": {
+                                                    "color": "#FF6161",
+                                                    "fontWeight": "normal",
+                                                    "fontSize": 12.0
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "IconButton",
+                                            "icon": {
+                                                "type": "Icon",
+                                                "data": "upload",
+                                                "size": 26.0,
+                                                "color": "#F43E20"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 }
             }
+        ]
+    }
+}
