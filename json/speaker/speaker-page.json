@@ -46,7 +46,7 @@
                                         "data": "{{name}}",
                                         "style": {
                                             "fontSize": 16.0,
-                                            "color": "FFFFFF",
+                                            "color": "#000000",
                                             "fontWeight": "bold"
                                         }
                                     }
@@ -59,7 +59,7 @@
                                         "data": "{{company}}",
                                         "style": {
                                             "fontSize": 14.0,
-                                            "color": "FFFFFF"
+                                            "color": "#000000"
                                         }
                                     }
                                 }
