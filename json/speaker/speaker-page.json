@@ -7,7 +7,7 @@
         "child": {
             "type": "Container",
             "decoration": {
-                "color": "#FFEEEE",
+                "color": "#F8F8F8",
                 "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
             },
             "child": {
