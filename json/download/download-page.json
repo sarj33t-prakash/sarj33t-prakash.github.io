@@ -30,11 +30,11 @@
                     "color": "#FFEEEE",
                     "shape": {
                         "side": {
-                    "width": 0.5,
-                    "color": "#808080"
-                },
+                            "width": 0.5,
+                            "color": "#808080"
+                        },
                         "radius": "4.0:4.0, 4.0:4.0, 4.0:4.0, 4.0:4.0"
-                    }
+                    },
                     "elevation": 1.0,
                     "child": {
                         "type": "Padding",
