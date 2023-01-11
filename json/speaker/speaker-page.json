@@ -8,7 +8,11 @@
             "type": "Container",
             "decoration": {
                 "color": "#F8F8F8",
-                "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0",
+                "border": {
+                    "width": 0.75,
+                    "color": "#000000"
+                }
             },
             "child": {
                 "type": "Column",
