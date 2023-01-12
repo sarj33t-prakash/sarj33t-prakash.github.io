@@ -48,6 +48,9 @@
                                     "crossAxisAlignment": "center",
                                     "children": [
                                         {
+                                            "type": "Expanded"
+                                            "child": {
+                                           
                                             "type": "Text",
                                             "data": "{{description}}",
                                             "style": {
@@ -55,6 +58,8 @@
                                                 "fontWeight": "bold",
                                                 "fontSize": 18.0
                                             }
+                                            }
+                                           
                                         },
                                         {
                                             "type": "IconButton",
