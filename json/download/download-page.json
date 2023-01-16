@@ -56,7 +56,8 @@
                                                     "color": "#000000",
                                                     "fontWeight": "bold",
                                                     "fontSize": 18.0
-                                                }
+                                                },
+                                                "maxLines": 2
                                             }
                                         },
                                         {
