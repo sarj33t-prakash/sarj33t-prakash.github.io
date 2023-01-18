@@ -48,12 +48,16 @@
                         "mainAxisAlignment": "center",
                         "children": [
                             {
+                                "type": "Expanded",
+                                "child": {
                                 "type": "Text",
+                                "maxLines": 2,
                                 "data": "{{title}}",
                                 "style": {
                                     "fontSize": 18.0,
                                     "color": "#0E0E0E"
                                 }
+                            }
                             }
                         ]
                     },
