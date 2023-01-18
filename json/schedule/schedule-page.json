@@ -1,1 +1,86 @@
-{}
+{
+    "type": "ListView.builder",
+    "itemExtent": 1.0,
+    "scroll_direction": "vertical",
+    "dataBinding": "data",
+    "no_data_widget": {
+        "type": "Padding",
+        "padding": "12,12,12,12",
+        "child": {
+            "type": "Center",
+            "child": {
+                "type": "Text",
+                "data": "No Data Found!",
+                "style": {
+                    "fontSize": 18.0,
+                    "fontWeight": "bold",
+                    "color": "#FF0000"
+                }
+            }
+        }
+    },
+    "separator": {
+        "type": "Container",
+        "decoration": {
+            "color": "#E8EAF0"
+        },
+        "height": 16.0
+    },
+    "itemChild": {
+        "type": "Card",
+        "elevation": 5.0,
+        "surfaceTintColor": "#FFFFFF",
+        "shape": {
+            "side": {
+                "color": "#FFFFFF"
+            },
+            "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+        },
+        "child": {
+            "type": "Padding",
+            "padding": "12,12,12,12",
+            "child": {
+                "type": "Column",
+                "mainAxisSize": "min",
+                "children": [
+                    {
+                        "type": "Row",
+                        "mainAxisAlignment": "center",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "data": "{{title}}",
+                                "style": {
+                                    "fontSize": 18.0,
+                                    "color": "#0E0E0E"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "SizedBox",
+                        "height": 8.0
+                    },
+                    {
+                        "type": "Row",
+                        "mainAxisAlignment": "center",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "data": "{{description}}",
+                                "style": {
+                                    "fontSize": 14.0,
+                                    "color": "#33394D"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "SizedBox",
+                        "height": 8.0
+                    }
+                ]
+            }
+        }
+    }
+}
