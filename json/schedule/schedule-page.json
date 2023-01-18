@@ -68,6 +68,7 @@
                             {
                                 "type": "Text",
                                 "data": "{{description}}",
+                                "maxLines": 3,
                                 "style": {
                                     "fontSize": 14.0,
                                     "color": "#33394D"
