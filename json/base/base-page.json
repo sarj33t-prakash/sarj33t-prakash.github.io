@@ -74,7 +74,7 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "downloads",
+                    "data": "download",
                     "size": 24.0
                 },
                 "label": "Downloads",
