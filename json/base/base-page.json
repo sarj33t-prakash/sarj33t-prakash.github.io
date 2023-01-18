@@ -92,10 +92,10 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "flight",
+                    "data": "schedule",
                     "size": 24.0
                 },
-                "label": "Flight",
+                "label": "Schedules",
                 "backgroundColor": "FFFFFFFF"
             },
             {
