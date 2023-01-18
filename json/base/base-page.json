@@ -47,7 +47,7 @@
             {
                 "type": "FutureBuilder",
                 "widget_url_path": "json/schedule/schedule-page.json",
-                "data_source_url": "json/data/flight-data.json",
+                "data_source_url": "api/schedules",
                 "is_nova": true
             },
             {
