@@ -50,12 +50,6 @@
                 "data_source_url": "api/schedules",
                 "is_nova": true
             },
-            {
-                "type": "FutureBuilder",
-                "widget_url_path": "json/hotel/hotel-page.json",
-                "data_source_url": "json/data/hotel-data.json",
-                "is_nova": false
-            },
             {}
         ]
     },
@@ -96,15 +90,6 @@
                     "size": 24.0
                 },
                 "label": "Schedules",
-                "backgroundColor": "FFFFFFFF"
-            },
-            {
-                "icon": {
-                    "type": "Icon",
-                    "data": "hotel",
-                    "size": 24.0
-                },
-                "label": "Hotel",
                 "backgroundColor": "FFFFFFFF"
             },
             
