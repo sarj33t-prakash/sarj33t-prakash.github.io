@@ -95,7 +95,7 @@
                                 "type": "Expanded",
                                 "child": {
                                     "type": "Text",
-                                    "data": "{{from}}",
+                                    "data": "{{start_at}}",
                                     "maxLines": 3,
                                     "style": {
                                         "fontSize": 14.0,
@@ -117,7 +117,7 @@
                                 "type": "Expanded",
                                 "child": {
                                     "type": "Text",
-                                    "data": "{{to}}",
+                                    "data": "{{end_at}}",
                                     "maxLines": 3,
                                     "style": {
                                         "fontSize": 14.0,
