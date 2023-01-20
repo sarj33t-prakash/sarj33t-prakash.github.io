@@ -27,107 +27,111 @@
         "height": 16.0
     },
     "itemChild": {
-        "type": "Card",
-        "elevation": 5.0,
-        "surfaceTintColor": "#FFFFFF",
-        "shape": {
-            "side": {
-                "color": "#FFFFFF"
-            },
-            "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
-        },
+        "type": "Padding",
+        "padding": "8,8,8,8",
         "child": {
-            "type": "Padding",
-            "padding": "12,12,12,12",
+            "type": "Card",
+            "elevation": 5.0,
+            "surfaceTintColor": "#FFFFFF",
+            "shape": {
+                "side": {
+                    "color": "#FFFFFF"
+                },
+                "radius": "0.0:0.0, 0.0:0.0, 0.0:0.0, 0.0:0.0"
+            },
             "child": {
-                "type": "Column",
-                "mainAxisSize": "min",
-                "children": [
-                    {
-                        "type": "Row",
-                        "mainAxisAlignment": "center",
-                        "children": [
-                            {
-                                "type": "Expanded",
-                                "child": {
-                                    "type": "Text",
-                                    "maxLines": 2,
-                                    "data": "{{title}}",
-                                    "style": {
-                                        "fontSize": 18.0,
-                                        "color": "#0E0E0E"
+                "type": "Padding",
+                "padding": "12,12,12,12",
+                "child": {
+                    "type": "Column",
+                    "mainAxisSize": "min",
+                    "children": [
+                        {
+                            "type": "Row",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                                {
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "maxLines": 2,
+                                        "data": "{{title}}",
+                                        "style": {
+                                            "fontSize": 18.0,
+                                            "color": "#0E0E0E"
+                                        }
                                     }
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "type": "SizedBox",
-                        "height": 8.0
-                    },
-                    {
-                        "type": "Row",
-                        "mainAxisAlignment": "center",
-                        "children": [
-                            {
-                                "type": "Expanded",
-                                "child": {
-                                    "type": "Text",
-                                    "data": "{{description}}",
-                                    "maxLines": 3,
-                                    "style": {
-                                        "fontSize": 14.0,
-                                        "color": "#33394D"
+                            ]
+                        },
+                        {
+                            "type": "SizedBox",
+                            "height": 8.0
+                        },
+                        {
+                            "type": "Row",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                                {
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{description}}",
+                                        "maxLines": 3,
+                                        "style": {
+                                            "fontSize": 14.0,
+                                            "color": "#33394D"
+                                        }
                                     }
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "type": "SizedBox",
-                        "height": 8.0
-                    },
-                    {
-                        "type": "Row",
-                        "mainAxisAlignment": "start",
-                        "children": [
-                            {
-                                "type": "Expanded",
-                                "child": {
-                                    "type": "Text",
-                                    "data": "{{start_at}}",
-                                    "maxLines": 3,
-                                    "style": {
-                                        "fontSize": 14.0,
-                                        "color": "#33394D"
+                            ]
+                        },
+                        {
+                            "type": "SizedBox",
+                            "height": 8.0
+                        },
+                        {
+                            "type": "Row",
+                            "mainAxisAlignment": "start",
+                            "children": [
+                                {
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{start_at}}",
+                                        "maxLines": 3,
+                                        "style": {
+                                            "fontSize": 14.0,
+                                            "color": "#33394D"
+                                        }
                                     }
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "type": "SizedBox",
-                        "height": 8.0
-                    },
-                    {
-                        "type": "Row",
-                        "mainAxisAlignment": "start",
-                        "children": [
-                            {
-                                "type": "Expanded",
-                                "child": {
-                                    "type": "Text",
-                                    "data": "{{end_at}}",
-                                    "maxLines": 3,
-                                    "style": {
-                                        "fontSize": 14.0,
-                                        "color": "#33394D"
+                            ]
+                        },
+                        {
+                            "type": "SizedBox",
+                            "height": 8.0
+                        },
+                        {
+                            "type": "Row",
+                            "mainAxisAlignment": "start",
+                            "children": [
+                                {
+                                    "type": "Expanded",
+                                    "child": {
+                                        "type": "Text",
+                                        "data": "{{end_at}}",
+                                        "maxLines": 3,
+                                        "style": {
+                                            "fontSize": 14.0,
+                                            "color": "#33394D"
+                                        }
                                     }
                                 }
-                            }
-                        ]
-                    }
-                ]
+                            ]
+                        }
+                    ]
+                }
             }
         }
     }
