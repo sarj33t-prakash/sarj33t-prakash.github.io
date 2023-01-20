@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .custom-nav {
+    font-size: small;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-nav ul.dropdown-menu {
+    font-size: small;
+}
+
+.custom-divider {
+    height: 5px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.main-banner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.feature-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.feature-holder h3 {
+    font-size: 1.2em;
+}
+
+.feature-holder p {
+    font-size: 14px;
+}
+
+section.features {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+section.online-courses,
+.classroom-training,
+.reviews-slider,
+.page-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.online-courses-text-widget,
+.classroom-courses-text-widget,
+.review-text-widget {
+    text-align: center;
+}
+
+.online-courses-text-widget h2,
+.classroom-courses-text-widget h2,
+.review-text-widget h2 {
+    font-size: 1.3em;
+}
+
+.online-courses-text-widget p,
+.classroom-courses-text-widget p,
+.review-text-widget p {
+    font-size: 14px;
+}
+
+.card.online-course-card,
+.review-text-widget {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.online-course-card .card-title {
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+.online-course-card .card-text {
+    font-size: 14px;
+}
+
+.classroom-training,
+.page-content {
+    background-color: whitesmoke;
+}
+
+.reviews-slider {
+    background-color: #ececec;
+}
+
+.sign-up-form-sidebar .card-title {
+    font-size: 1.2em;
+}
+
+.sign-up-form-sidebar .card-text {
+    font-size: 14px;
+}
+
+.course-list-item {
+    color: black;
+    font-size: small;
+    padding-top: 20px;
+}
+
+#review-slider-content li .card {
+    text-align: center;
+}
+
+#review-slider-content li .card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+#review-slider-content li .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#review-slider-content li .card .star {
+    color: orange;
+    font-size: 14px;
+}
+
+#review-slider-content li .card .card-text {
+    font-size: 14px;
+}
+
+footer.main-footer {
+    background-color: #292929;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+aside.footer-widget {
+    margin-bottom: 25px;
+}
+
+aside.footer-widget h5 {
+    font-size: 16px;
+}
+
+aside.footer-widget ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #adadad;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+address p {
+    font-size: 14px;
+}
+
+section.copy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+section.copy p {
+    margin: 0px;
+}
+
+.google-map{
+    padding-top: 60px;
+}
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('#review-slider-content').lightSlider({
+                auto: true,
+                loop: true,
+                responsive: [{
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 1,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <title>About Page</title>
+</head>
+
+<body>    
+
+    <!-- Home Banner -->
+    <header class="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="main-banner-content">
+                        <h1>Nesciunt eveniet eligendi</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt eveniet eligendi neque,
+                            laudantium vitae ex officia quis omnis quidem voluptatem distinctio, consectetur nostrum ut
+                            maiores accusamus id debitis nam totam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home Banner -->
+
+    <!-- Page Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            About Title
+                        </div>
+                        <main class="card-body">
+                            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+                            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
+                            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
+                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nemo quia molestiae
+                                voluptatem, obcaecati dolor. Voluptatem, aspernatur tenetur neque fugit quaerat ratione
+                                delectus aut, nostrum distinctio, beatae ipsum accusamus quis!
+                                Reiciendis dolorum eum aperiam quidem quasi architecto repellendus neque unde molestias
+                                modi nam deserunt optio rerum ducimus doloribus, odit vero id sint ut nesciunt
+                                doloremque iste adipisci sit. Labore, a!
+                                Dignissimos, fuga! Facilis cupiditate, consequuntur temporibus aliquid atque sint porro
+                                tempora, eos commodi, in labore error saepe eveniet quasi consectetur quas. Non officia,
+                                doloremque molestiae aliquid distinctio eos incidunt assumenda!
+                                Aspernatur, similique! Earum magnam quae quod, dolor adipisci commodi aliquid voluptates
+                                id accusantium natus! Possimus perferendis eum hic, placeat eveniet sint officiis
+                                ratione? Provident quisquam corporis a, soluta placeat vitae?
+                                Quo quas ipsum provident eveniet id molestias nobis ea, pariatur tempora dicta explicabo
+                                aspernatur? Non blanditiis qui aperiam voluptas? Voluptatum officia quod officiis optio
+                                nisi tenetur temporibus ut repellat quos.
+                            </p>
+                        </main>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- Page Content -->    
+
+
+</body>
+
+</html>
