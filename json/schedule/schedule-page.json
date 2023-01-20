@@ -19,13 +19,6 @@
             }
         }
     },
-    "separator": {
-        "type": "Container",
-        "decoration": {
-            "color": "#FFFFFF"
-        },
-        "height": 16.0
-    },
     "itemChild": {
         "type": "Padding",
         "padding": "8,8,8,8",
