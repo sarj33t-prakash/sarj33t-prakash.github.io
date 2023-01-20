@@ -34,6 +34,12 @@
         "nav_pages": [
             {
                 "type": "FutureBuilder",
+                "widget_url_path": "json/home/home-page.json",
+                "data_source_url": "",
+                "is_nova": false
+            },
+            {
+                "type": "FutureBuilder",
                 "widget_url_path": "json/download/download-page.json",
                 "data_source_url": "api/downloads",
                 "is_nova": true
@@ -65,6 +71,15 @@
         "selectedItemColor": "#FFFFFF",
         "backgroundColor": "#F43E20",
         "items": [
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "home",
+                    "size": 24.0
+                },
+                "label": "Home",
+                "backgroundColor": "FFFFFFFF"
+            },
             {
                 "icon": {
                     "type": "Icon",
