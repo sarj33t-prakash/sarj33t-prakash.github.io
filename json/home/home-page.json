@@ -1,22 +1,4 @@
 {
-    "type": "Center",
-    "child": {
-        "type": "InkWell",
-        "action": {
-            "type": "route",
-            "args": "login_screen"
-        },
-        "child": {
-            "type": "Padding",
-            "padding": "16,16,16,16",
-            "child": {
-                "type": "Text",
-                "data": "Home Page",
-                "style": {
-                    "fontSize": 24.0,
-                    "fontWeight": "bold"
-                }
-            }
-        }
-    }
+    "type": "WebView",
+    "initialUrl": "https://sarj33t-prakash.github.io/json/home/home.html"
 }
