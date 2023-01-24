@@ -6,8 +6,26 @@
             "data": "Home"
         },
         "actions": [
-            
+            {
+                "type": "InkWell",
+                "action": {
+                    "type": "event",
+                    "args": "logout"
+                },
+                "child": {
+                    "type": "Icon",
+                    "data": "logout",
+                    "size": 24.0,
+                    "color": "000000"
+                }
+            }
         ],
+        "leading": {
+            "type": "Icon",
+            "data": "home",
+            "size": 24.0,
+            "color": "000000"
+        },
         "backgroundColor": "#FFFFFF"
     },
     "body": {
@@ -87,7 +105,6 @@
                 "label": "Schedules",
                 "backgroundColor": "FFFFFFFF"
             },
-            
             {
                 "icon": {
                     "type": "Icon",
