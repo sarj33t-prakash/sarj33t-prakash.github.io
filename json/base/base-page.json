@@ -13,10 +13,14 @@
                     "args": "logout"
                 },
                 "child": {
-                    "type": "Icon",
-                    "data": "logout",
-                    "size": 24.0,
-                    "color": "000000"
+                    "type": "Padding",
+                    "padding": "8,0,8,0",
+                    "child": {
+                        "type": "Icon",
+                        "data": "logout",
+                        "size": 24.0,
+                        "color": "000000"
+                    }
                 }
             }
         ],
