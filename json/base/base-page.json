@@ -5,19 +5,6 @@
             "type": "Text",
             "data": "Home"
         },
-        "leading": {
-            "type": "InkWell",
-            "action": {
-                "type": "event",
-                "args": "drawer"
-            },
-            "child": {
-                "type": "Icon",
-                "data": "menu",
-                "size": 24.0,
-                "color": "000000"
-            }
-        },
         "actions": [
             
         ],
