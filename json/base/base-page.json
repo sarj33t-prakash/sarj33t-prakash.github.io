@@ -111,9 +111,16 @@
             },
             {
                 "icon": {
-                    "type": "Icon",
-                    "data": "menu",
-                    "size": 24.0
+                    "type": "InkWell",
+                    "action": {
+                        "type": "event",
+                        "args": "bottomsheet"
+                    },
+                    "child": {
+                        "type": "Icon",
+                        "data": "menu",
+                        "size": 24.0
+                    }
                 },
                 "label": "Menu",
                 "backgroundColor": "FFFFFFFF"
