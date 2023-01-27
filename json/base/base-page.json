@@ -58,7 +58,12 @@
                 "data_source_url": "api/schedules",
                 "is_nova": true
             },
-            {}
+            {
+                "type": "FutureBuilder",
+                "widget_url_path": "json/general-guidelines/covid-guidelines-page.json",
+                "data_source_url": "",
+                "is_nova": false
+            }
         ]
     },
     "bottomNavBar": {
@@ -112,10 +117,10 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "menu",
+                    "data": "coronavirus",
                     "size": 24.0
                 },
-                "label": "Menu",
+                "label": "Covid Guideline",
                 "backgroundColor": "FFFFFFFF"
             }
         ]
