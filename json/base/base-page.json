@@ -63,7 +63,8 @@
                 "widget_url_path": "json/general-guidelines/covid-guidelines-page.json",
                 "data_source_url": "",
                 "is_nova": false
-            }
+            },
+            {}
         ]
     },
     "bottomNavBar": {
@@ -121,6 +122,15 @@
                     "size": 24.0
                 },
                 "label": "Covid-19",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "type": "Icon",
+                    "data": "menu",
+                    "size": 24.0
+                },
+                "label": "Menu",
                 "backgroundColor": "FFFFFFFF"
             }
         ]
