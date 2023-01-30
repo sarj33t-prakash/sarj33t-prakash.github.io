@@ -42,8 +42,8 @@
             },
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/download/download-page.json",
-                "data_source_url": "api/downloads",
+                "widget_url_path": "json/schedule/schedule-page.json",
+                "data_source_url": "api/schedules",
                 "is_nova": true
             },
             {
@@ -54,8 +54,8 @@
             },
             {
                 "type": "FutureBuilder",
-                "widget_url_path": "json/schedule/schedule-page.json",
-                "data_source_url": "api/schedules",
+                "widget_url_path": "json/download/download-page.json",
+                "data_source_url": "api/downloads",
                 "is_nova": true
             },
             {}
@@ -85,10 +85,10 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "download",
+                    "data": "schedule",
                     "size": 24.0
                 },
-                "label": "Downloads",
+                "label": "Schedules",
                 "backgroundColor": "FFFFFFFF"
             },
             {
@@ -103,10 +103,10 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "schedule",
+                    "data": "download",
                     "size": 24.0
                 },
-                "label": "Schedules",
+                "label": "Downloads",
                 "backgroundColor": "FFFFFFFF"
             },
             {
