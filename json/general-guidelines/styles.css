@@ -1,0 +1,88 @@
+/* Global CSS Start Here */
+
+@font-face {
+    font-family: 'Product Sans';
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Product Sans;
+}
+
+/* Global CSS Start Here */
+
+.wrapper {
+    min-width: 360px;
+    width: 100%;
+}
+
+.banner-img {
+    background-image: url("./covid.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #3D0909;
+    min-height: 152px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.15px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    font-size: 16px;
+    color: #33394D;
+    letter-spacing: 0.12px;
+    margin-bottom: 21px;
+}
+
+.guide-line {
+    padding-left: 24px;
+    margin-bottom: 21px;
+}
+
+.guide-line li {
+    color: #33394D;
+    font-size: 12px;
+    letter-spacing: 0.09px;
+    margin-bottom: 9px;
+}
+
+.guide-line li::marker {
+    font-size: 18px;
+    color: rgba(51, 57, 77, 0.64);
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5B7085;
+    letter-spacing: 0.11px;
+    border: 1px solid #5B7085;
+    border-radius: 4px;
+    padding: 12px 76px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon {
+    margin-left: 16px;
+}
