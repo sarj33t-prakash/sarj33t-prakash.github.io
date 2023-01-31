@@ -1,0 +1,165 @@
+/* Global CSS Start Here */
+
+@font-face {
+    font-family: 'Product Sans';
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Product Sans;
+}
+
+.size-16 {
+    height: 16px;
+    width: 16px;
+}
+
+.bg-purple {
+    background-color: #9A66DF;
+}
+
+.bg-blue {
+    background-color: #4672E4;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+/* Global CSS End Here */
+
+.wrapper {
+    /* max-width: 360px; */
+    min-width: 360px;
+    width: 100%;
+}
+
+.banner-img {
+    background-image: url("./banner-img.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 504px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.sub-content {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.11px;
+    color: #33394D;
+    opacity: 0.64;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read-more a {
+    color: #2376D6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.support {
+    background-color: #F7F8FA;
+    padding: 11px 16px;
+    margin-bottom: 20px;
+}
+
+.support-title {
+    font-size: 14px;
+    color: #33394D;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.support-contactdetail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detail {
+    display: flex;
+    column-gap: 16px;
+}
+
+.initial {
+    display: flex;
+    align-items: flex-end;
+    max-height: 24px;
+    max-width: 24px;
+    border-radius: 4px;
+    color: #F7F8FA;
+    padding: 6px 10px 1px 3px;
+}
+
+.support-name {
+    font-size: 14px;
+    color: #0E0E0E;
+    letter-spacing: 0.11px;
+    margin-bottom: 8px;
+}
+
+.contactdetail {
+    font-size: 12px;
+    letter-spacing: 0.09px;
+    color: #0E0E0E;
+    opacity: 0.64;
+}
+
+.reach-out {
+    display: flex;
+    column-gap: 24px;
+}
+
+.reach-out .icon {
+    text-decoration: none;
+    color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10.5px;
+}
+
+.reach-out .label {
+    font-size: 10px;
+    letter-spacing: 0.08px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+    opacity: 0.64;
+}
+
+.badge {
+    font-size: 14px;
+    letter-spacing: 0.11px;
+    color: #33394D;
+    text-transform: uppercase;
+    background-color: #F7F8FA;
+    padding: 3px;
+    border-radius: 4px 0px 4px 4px;
+    display: inline-flex;
+    margin-bottom: 4px;
+}
+
+.badge-deatil {
+    color: #33394D;
+    font-size: 14px;
+}
