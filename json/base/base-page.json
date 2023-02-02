@@ -58,7 +58,13 @@
                 "data_source_url": "api/downloads",
                 "is_nova": true
             },
-            {}
+            {},
+            {
+                "type": "FutureBuilder",
+                "widget_url_path": "json/home/home-page.json",
+                "data_source_url": "",
+                "is_nova": false
+            },
         ]
     },
     "bottomNavBar": {
@@ -103,21 +109,12 @@
             {
                 "icon": {
                     "type": "Icon",
-                    "data": "download",
+                    "data": "dummy",
                     "size": 24.0
                 },
-                "label": "Downloads",
+                "label": "Dummy",
                 "backgroundColor": "FFFFFFFF"
             },
-            {
-                "icon": {
-                    "type": "Icon",
-                    "data": "menu",
-                    "size": 24.0
-                },
-                "label": "Menu",
-                "backgroundColor": "FFFFFFFF"
-            }
         ]
     }
 }
