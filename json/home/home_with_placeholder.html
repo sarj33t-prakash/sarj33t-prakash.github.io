@@ -95,15 +95,14 @@
                   .then(function(result) {
                     // print to the console the data coming
                     // from the Flutter side.
-                    console.log("Hello");
+                   
                     console.log(JSON.stringify(result));
                    
                     var values = JSON.stringify(result);
                     let obj = JSON.parse(values);
                   console.log(obj.name);
-                    document.getElementById("demo").innerHTML = obj.name;
-                    window.flutter_inappwebview
-                      .callHandler('handlerFooWithArgs', 1, true, ['bar', 5], {foo: 'baz'}, result);
+                    document.getElementById("user_name").innerHTML = obj.name;
+               
                 });
             });
         </script>
