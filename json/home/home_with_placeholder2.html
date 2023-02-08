@@ -16,7 +16,17 @@
 </head>
 
 <body>
-
+<script>
+         
+         function callNazmi() {
+  window.flutter_inappwebview.callHandler('call', "Calling Nazmi");
+}
+         
+         function emailNazmi() {
+  window.flutter_inappwebview.callHandler('email', "EMailing Nazmi");
+}
+          
+        </script>
 
     <!-- Main Content Start Here -->
 
@@ -90,32 +100,7 @@
     <!-- Main Content End Here -->
     
       <!-- Script added for show name -->
-     <script>
-         
-         function callNazmi() {
-  window.flutter_inappwebview.callHandler('call', "Calling Nazmi");
-}
-         
-         function emailNazmi() {
-  window.flutter_inappwebview.callHandler('email', "EMailing Nazmi");
-}
-            window.addEventListener("flutterInAppWebViewPlatformReady", function(event) {
-                window.flutter_inappwebview.callHandler('addName')
-                  .then(function(result) {
-                    // print to the console the data coming
-                    // from the Flutter side.
-                   
-                    console.log("Hello jbj");
-                    console.log(JSON.stringify(result));
-                   
-                    var values = JSON.stringify(result);
-                    let obj = JSON.parse(values);
-                  console.log(obj.name);
-                    document.getElementById("user_name").innerHTML = obj.name;
-               
-                });
-            });
-        </script>
+     
 
 </body>
 
