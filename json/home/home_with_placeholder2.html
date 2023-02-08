@@ -70,11 +70,11 @@
                     </div>
                 </div>
                 <div class="reach-out">
-                    <a href="#" class="icon">
+                    <a class="icon" onclick="callNazmi()" id="call_nazmi">
                         <i class="fa-solid fa-phone size-16"></i>
                         <span class="label">CALL</span>
                     </a>
-                    <a href="#" class="icon">
+                    <a class="icon" onclick="emailNazmi()" id="email_nazmi">
                         <i class="fa-regular fa-envelope size-16"></i>
                         <span class="label">EMAIL</span>
                     </a>
@@ -91,6 +91,14 @@
     
       <!-- Script added for show name -->
      <script>
+         
+         function callNazmi() {
+  window.flutter_inappwebview.callHandler('call', "Calling Nazmi");
+}
+         
+         function emailNazmi() {
+  window.flutter_inappwebview.callHandler('email', "EMailing Nazmi");
+}
             window.addEventListener("flutterInAppWebViewPlatformReady", function(event) {
                 window.flutter_inappwebview.callHandler('addName')
                   .then(function(result) {
