@@ -1,1 +1,114 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Marbet</title>
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- Main Content Start Here -->
+
+    <div class="wrapper">
+        <div class="banner-img mb-12"></div>
+        <div class="container">
+            <div class="title mb-14">
+                Herzlich willkommen zur marbet Kick-Off 2023 <div id="user_name"></div>
+            </div>
+            <div class="content mb-12">
+                <div class="sub-content">
+                    Schön, dass du bei der Veranstaltung mit dabei bist. Wir freuen uns dich im schönen Schwäbisch Hall
+                  willkommen zu heißen.
+                </div>
+                
+            </div>
+        </div>
+        <div class="support">
+            <div class="support-title mb-12">SUPPORT</div>
+            <div class="support-contactdetail">
+                <div class="detail">
+                    <div class="initial bg-purple">K.</div>
+                    <div class="support-addressdetail">
+                        <div class="support-name">Corinne Raisig (Orga)</div>
+                        <div class="contactdetail">
+                            <div class="contact-num">+49 174 245 2787</div>
+                            <div class="contact-mail">corinne.raisig@marbet.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reach-out">
+                    <a class="icon">
+                        <i class="fa-solid fa-phone size-16"></i>
+                        <span class="label">CALL</span>
+                    </a>
+                    <a class="icon">
+                        <i class="fa-regular fa-envelope size-16"></i>
+                        <span class="label">EMAIL</span>
+                    </a>
+                </div>
+            </div>
+            <div class="support-contactdetail">
+                <div class="detail">
+                    <div class="initial bg-blue">D.</div>
+                    <div class="support-addressdetail">
+                        <div class="support-name">Nazmi Doganc (App)</div>
+                        <div class="contactdetail">
+                            <div class="contact-num">+49 151 15027164</div>
+                            <div class="contact-mail">nazmi.doganc@marbet.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reach-out">
+                    <a href="#" class="icon">
+                        <i class="fa-solid fa-phone size-16"></i>
+                        <span class="label">CALL</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fa-regular fa-envelope size-16"></i>
+                        <span class="label">EMAIL</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="badge"></div>
+            <div class="badge-deatil mb-12"></div>
+        </div>
+    </div>
+
+    <!-- Main Content End Here -->
+    
+      <!-- Script added for show name -->
+     <script>
+            window.addEventListener("flutterInAppWebViewPlatformReady", function(event) {
+                window.flutter_inappwebview.callHandler('addName')
+                  .then(function(result) {
+                    // print to the console the data coming
+                    // from the Flutter side.
+                   
+                    console.log("Hello jbj");
+                    console.log(JSON.stringify(result));
+                   
+                    var values = JSON.stringify(result);
+                    let obj = JSON.parse(values);
+                  console.log(obj.name);
+                    document.getElementById("user_name").innerHTML = obj.name;
+               
+                });
+            });
+        </script>
+
+</body>
+
+</html>
