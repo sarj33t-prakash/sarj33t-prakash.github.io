@@ -18,12 +18,12 @@
 <body>
 <script>
          
-         function callNazmi() {
-  window.flutter_inappwebview.callHandler('call', "Calling Nazmi");
+         function call(parameter) {
+  window.flutter_inappwebview.callHandler('call', parameter);
 }
          
-         function emailNazmi() {
-  window.flutter_inappwebview.callHandler('email', "EMailing Nazmi");
+         function email(parameter) {
+  window.flutter_inappwebview.callHandler('email', parameter);
 }
           
         </script>
@@ -58,11 +58,11 @@
                     </div>
                 </div>
                 <div class="reach-out">
-                    <a class="icon">
+                    <a class="icon" onclick="call('+49 174 245 2787')" id="call_corinne">
                         <i class="fa-solid fa-phone size-16"></i>
                         <span class="label">CALL</span>
                     </a>
-                    <a class="icon">
+                    <a class="icon" onclick="email('corinne.raisig@marbet.com')" id="email_corinne">
                         <i class="fa-regular fa-envelope size-16"></i>
                         <span class="label">EMAIL</span>
                     </a>
@@ -80,11 +80,11 @@
                     </div>
                 </div>
                 <div class="reach-out">
-                    <a class="icon" onclick="callNazmi()" id="call_nazmi">
+                    <a class="icon" onclick="call('+49 151 15027164')" id="call_nazmi">
                         <i class="fa-solid fa-phone size-16"></i>
                         <span class="label">CALL</span>
                     </a>
-                    <a class="icon" onclick="emailNazmi()" id="email_nazmi">
+                    <a class="icon" onclick="email('nazmi.doganc@marbet.com')" id="email_nazmi">
                         <i class="fa-regular fa-envelope size-16"></i>
                         <span class="label">EMAIL</span>
                     </a>
