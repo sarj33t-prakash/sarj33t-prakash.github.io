@@ -154,8 +154,14 @@
             
                             for(var j=0; j<headers.length; j++){
                                 var header=headers[j];
-                                allRecordsHTML+='<td>'+users[i][header]+'</td>';
+                                if(users[i][header].toString().startsWith("https://")){
+                                    allRecordsHTML+='<td>'+'<img src= ' + users[i][header] + ' height="42" width="42" />';
+                                }else{
+                                    allRecordsHTML+='<td>'+users[i][header];
+                                }
                             }
+                            allRecordsHTML+='</td>';
+                            //allRecordsHTML+='<img src="https://app.3schools.in/logo.png" height="50" width="50" />';
                             allRecordsHTML+='</tr>';
                         }
             
