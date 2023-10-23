@@ -112,14 +112,12 @@
                     .then(function(result) {
                     	console.log(result);
 
-                        var values = JSON.stringify(result);
-                        let obj = values;
-                        for (let i = 0; i < values.length; i++){
+                        for (let i = 0; i < result.length; i++){
                           const div = document.createElement("table");
                           div.className="demoHtml";
-                          div.innerHTML = "Name: " + obj.data[i]["name"] + "<br/>" +
-                                          "Job: " + obj.data[i]["job"] + "<br/>" +
-                                          "Level: " + obj.data[i]["level"] + "<br/><br/>";
+                          div.innerHTML = "Name: " + JSON.parse(result)[i]["name"] + "<br/>" +
+                                          "Job: " + JSON.parse(result)["job"] + "<br/>" +
+                                          "Level: " + JSON.parse(result)["level"] + "<br/><br/>";
                           document.getElementById('demoHtml').appendChild(div);
                         }
 
