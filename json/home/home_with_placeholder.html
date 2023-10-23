@@ -111,14 +111,15 @@
                 window.flutter_inappwebview.callHandler('fetchUsers')
                     .then(function(result) {
                     	console.log(result);
-                        var values = JSON.stringify(result);
-                        let obj = JSON.parse(values);
-                          console.log(obj.data);
-                        
+
+                        for (let i = 0; i < result.length; i++){
                           const div = document.createElement("table");
                           div.className="demoHtml";
-                          div.innerHTML = obj.data;
+                          div.innerHTML = "Name: " + result[i]["name"] + "<br/>" +
+                                          "Job: " + result[i]["job"] + "<br/>" +
+                                          "Level: " + result[i]["level"] + "<br/><br/>";
                           document.getElementById('demoHtml').appendChild(div);
+                        }
 
                     });
             });
