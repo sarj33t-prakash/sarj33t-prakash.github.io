@@ -105,6 +105,11 @@
                     document.getElementById("user_name").innerHTML = obj.name;
                
                 });
+
+                window.flutter_inappwebview.callHandler('addName')
+                    .then(function(result) {
+                    	console.log(result);
+                    });
             });
         </script>
 
