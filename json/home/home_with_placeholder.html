@@ -113,11 +113,12 @@
                     	console.log(result);
 
                         for (let i = 0; i < result.length; i++){
+                          let obj = JSON.parse(result[i]);
                           const div = document.createElement("table");
                           div.className="demoHtml";
-                          div.innerHTML = "Name: "  + "<br/>" +
-                                          "Job: " +  "<br/>" +
-                                          "Level: " +  "<br/><br/>";
+                          div.innerHTML = "Name: "  + obj.name + "<br/>" +
+                                          "Job: " +  obj.name + "<br/>" +
+                                          "Level: " +  obj.name + "<br/><br/>";
                           document.getElementById('demoHtml').appendChild(div);
                         }
 
