@@ -114,7 +114,7 @@
 
                         var values = JSON.stringify(result);
                         let obj = values;
-                        for (let i = 0; i < obj.data.length; i++){
+                        for (let i = 0; i < values.length; i++){
                           const div = document.createElement("table");
                           div.className="demoHtml";
                           div.innerHTML = "Name: " + obj.data[i]["name"] + "<br/>" +
