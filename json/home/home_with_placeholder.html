@@ -120,24 +120,13 @@
                    
                     var values = JSON.stringify(result);
                     let obj = JSON.parse(values);
-                  console.log(obj.name);
+                    console.log(obj.name);
                     document.getElementById("user_name").innerHTML = obj.name;
-               
                 });
 
                 window.flutter_inappwebview.callHandler('fetchUsers')
                     .then(function(users) {
                     	console.log(users);
-
-                        // for (let i = 0; i < result.length; i++){
-                        //   let obj = result[i];
-                        //   const div = document.createElement("table");
-                        //   div.className="demoHtml";
-                        //   div.innerHTML = "Name: "  + obj.name + "<br/>" +
-                        //                   "Job: " +  obj.job + "<br/>" +
-                        //                   "Level: " +  obj.level + "<br/><br/>";
-                        //   document.getElementById('demoHtml').appendChild(div);
-                        // }
 
                         //Get the headers from JSON data
                         var headers = Object.keys(users[0]);
@@ -164,14 +153,12 @@
                                 }
                             }
                             allRecordsHTML+='</td>';
-                            //allRecordsHTML+='<img src="https://app.3schools.in/logo.png" height="50" width="50" />';
                             allRecordsHTML+='</tr>';
                         }
             
                         //Append the table header and all records
                         var table=document.getElementById("display_json_data");
                         table.innerHTML=headerRowHTML + allRecordsHTML;
-
                     });
             });
         </script>
