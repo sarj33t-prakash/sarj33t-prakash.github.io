@@ -1,0 +1,43 @@
+<FML linkable="true">
+    <SCROLLER>
+        <BOX center="true">
+            <BOX height="320" center="true">
+                <COL width="300" halign="center">
+                    <PAD top="20" />
+                    <ROW halign="center">
+                        <BTN type="elevated" onclick="alert('info', 'Information', 'Description');">
+                            <BOX center="true" width="150" height="40">
+                                <TEXT label="alert('info')" size="18" color="{THEME.onprimary}" />
+                            </BOX>
+                        </BTN>
+                    </ROW>
+                    <PAD top="20" />
+                    <ROW halign="center">
+                        <BTN type="elevated" onclick="alert('warning', 'Warning', 'Description');">
+                            <BOX center="true" width="150" height="40">
+                                <TEXT label="alert('warning')" size="18" color="{THEME.onprimary}" />
+                            </BOX>
+                        </BTN>
+                    </ROW>
+                    <PAD top="20" />
+                    <ROW halign="center">
+                        <BTN type="elevated" onclick="alert('error', 'Error', 'Description');">
+                            <BOX center="true" width="150" height="40">
+                                <TEXT label="alert('error')" size="18" color="{THEME.onprimary}" />
+                            </BOX>
+                        </BTN>
+                    </ROW>
+                    <PAD top="20" />
+                    <ROW halign="center">
+                        <BTN type="elevated" onclick="alert('success', 'Success', 'Description');">
+                            <BOX center="true" width="150" height="40">
+                                <TEXT label="alert('success')" size="18" color="{THEME.onprimary}" />
+                            </BOX>
+                        </BTN>
+                    </ROW>
+                </COL>
+            </BOX>
+        </BOX>
+    </SCROLLER>
+
+</FML>
