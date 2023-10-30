@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_11.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/common/string_builder.dart","org-dartlang-sdk:///dart-sdk/lib/_internal/js_runtime/lib/core_patch.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/decode_hint_type.dart"],
+  "names": ["StringBuilder._initBuffer","StringBuilder.[]","StringBuilder.[]=","StringBuilder.replace","StringBuilder.insert","StringBuilder._writeAuto","StringBuilder.delete","StringBuilder.setLength","StringBuilder.write","DecodeHintType._enumToString","charAt","setCharAt","length","writeAll"],
+  "mappings": "A;;;;;;;;;EAMEA,UACMA,aACcA,IAAhBA,aAEJA,C;CAEgBC,MASdA;AARAA,WASOA,EAAOA,GARhBA,C;CAESC,QAUPA,mBARFA,C;GAgBKC,UAAyCA;AAC5CA;AACMA;AACNA,WAA2BA;CAAOA;AAAbA,OAAaA,eAClCA;GACUA;MAAOA,QAAgBA,OAAaA;CAC9CA,OACFA,C;EAcAC,QAAgCA;AAC9BA;AACMA;AACNA,WAA4BA;CAAOA;AAAbA,OAAaA,eACnCA;GACaA;MAAOA,QAAgBA,OAAaA;CACjDA,OACFA,C;GAEAC,IACUA,WACAA;KAYAA,YAEVA,C;EAEAC,QAA2BA;AACzBA;AACMA;AACNA,WAA2BA;CAAOA;AAAbA,OAAaA,kBACxBA;MAAOA,UAAoBA,OAAaA;CAClDA,OACFA,C;GAMAC,kBCwhBkBA,EAAUA;ADvhB1BA,QACgBA;CA2BhBA;AACMA,iBA1BJA,WAEJA,C;EAGKC,UACHA;AACMA,YACRA,C;;CEnFGC,iCAmELA,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "0WAaWUU;WAAAAK;YAIPCmB;wfA8EkBCU;mCAChBCyB;"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_10.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/formats_exception.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/result.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/barcode_format.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/result_metadata_type.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/result_point.dart","../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/zxing_lib-0.6.0/lib/src/checksum_exception.dart"],
+  "names": ["FormatsException","Result","BarcodeFormat._enumToString","Result.text","Result.barcodeFormat","Result.putMetadata","Result.putAllMetadata","Result.toString","ResultMetadataType._enumToString","ResultPoint.x","ResultPoint.y","ResultPoint.==","ResultPoint.hashCode","ResultPoint.toString","ChecksumException._instance","FormatsException._instance",""],
+  "mappings": "A;;8BA4BEA;yBAAoDA,C;;ECEpDC;yBAGqEA,C;;;;;;;;;;;;;;;;CCdlEC,gCAmDLA,C;;;;GD/BaC,IAAQA,aAAKA,C;GAeNC,GAAiBA,aAAOA,C;EAOrCC,gBACHA,GAAoBA,aAApBA,mBACgBA,QAClBA,C;EAEKC,IACHA;kBACMA;AAAJA,eACEA;KAEeA,SAGrBA,C;CAeOC,IACLA,WAAOA,EACTA,C;;CEzEGC,qCAoDLA,C;;GC1CaC,IAAKA,aAAEA,C;GAEPC,IAAKA,aAAEA,C;CAGTC,MAAEA,mBAMXA;AAIcC,qBAPVD,WAAOA,MAAiBA,QAAMA,MAAiBA,EAGnDA;AADEA,QACFA,C;EAGQC,IACNA,qBAAYA,IAAaA,cAC3BA,C;CAGOC,IACLA,UAAUA,gBAAIA,eAChBA,C;;;;;;;eC5B+BC,IAE/BA,eAF+BA,A;eLEDC,IAC1BA,yBAD0BA,A",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "2/CKqB6CgBe;"
+  }
+}

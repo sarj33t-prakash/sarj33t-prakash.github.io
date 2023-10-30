@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "engine": "v2",
+  "file": "main.dart.js_22.part.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../../../AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4/lib/src/mime_type.dart"],
+  "names": ["lookupMimeType","MimeTypeResolver._ext","MimeTypeResolver.lookup","_globalResolver","MimeTypeResolver","","_extensionMap","_magicNumbers"],
+  "mappings": "A;0DAuBIA;GADIA,IACJA,eAAgBA,WAAsCA,C;GA8F1CC,IACEA;AAEPA,cAD4BA,QAAQA,QAE7CA;AADEA,kCACFA,C;;;;;;;;GApDQC,MAUMA,iBACHA;AAGEA;AACTA,WAAoBA,QAGxBA;AADEA,WACFA,C;;;;;gBAhFqBC;OA6CrBA,UAX0CC,SACFA,uBAnCnBD,C",
+  "x_org_dartlang_dart2js": {
+    "minified_names": {
+      "global": "",
+      "instance": ""
+    },
+    "frames": "uiqCAOyCKUAkCGCS,AACFCuB,A;"
+  }
+}
