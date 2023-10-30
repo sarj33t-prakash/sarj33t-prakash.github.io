@@ -4,8 +4,8 @@
         <!-- Settings -->
         <APPLICATION_NAME 		value="SAMPLE APP" />
         <VERSION                value="2.0.1"/>
-        <APP_ICON	 			value="assets/images/fml-logo.png" />
-        <HOME_PAGE       		value="templates/main.xml" />
+        <APP_ICON	 			value="https://sarj33t-prakash.github.io/fml/assets/images/fml-logo.png" />
+        <HOME_PAGE       		value="https://sarj33t-prakash.github.io/fml/templates/main.xml" />
         <LOGIN_PAGE             value=""/>
         <UNAUTHORIZED_PAGE      value=""/>
         <MIRROR_API 	        value="" />
