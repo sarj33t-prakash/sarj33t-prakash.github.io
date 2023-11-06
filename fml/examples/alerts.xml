@@ -35,6 +35,14 @@
                             </BOX>
                         </BTN>
                     </ROW>
+
+                    <ROW halign="center">
+                        <BTN type="elevated" onclick="alert('new button added', 'New Btn', 'Description');">
+                            <BOX center="true" width="150" height="40">
+                                <TEXT label="alert('success')" size="18" color="{THEME.onprimary}" />
+                            </BOX>
+                        </BTN>
+                    </ROW>
                 </COL>
             </BOX>
         </BOX>
