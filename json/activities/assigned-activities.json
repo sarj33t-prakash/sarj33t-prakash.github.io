@@ -1,0 +1,271 @@
+{
+    "status": "success",
+    "data": {
+        "totalRecords": 1,
+        "totalDisplayRecords": 1,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "records": [
+            {
+                "uuid": "425c1265-51aa-11ee-a36c-005056ac5b3b",
+                "participantId": 804971,
+                "salutation": "",
+                "firstName": "Carsten",
+                "lastName": "Sattler",
+                "parentCode": "10108",
+                "activities": [
+                    {
+                        "activityId": 615,
+                        "activityName": "Activty",
+                        "description": "",
+                        "activityStartDateTime": "30.04.2024 00:00",
+                        "activityEndDateTime": "01.05.2024 00:00",
+                        "capacity": 0,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "",
+                        "109": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "110": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": ""
+                        },
+                        "111": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "112": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": "Spouse"
+                        },
+                        "113": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": "Culture"
+                        },
+                        "114": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": "http://google.com"
+                        },
+                        "115": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "booked-hidden"
+                    },
+                    {
+                        "activityId": 622,
+                        "activityName": "Test61",
+                        "description": "",
+                        "activityStartDateTime": "30.04.2024 00:00",
+                        "activityEndDateTime": "01.05.2024 00:00",
+                        "capacity": 850,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "Bookable",
+                        "463": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "464": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": ""
+                        },
+                        "465": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "466": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": "Spouse"
+                        },
+                        "467": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": ""
+                        },
+                        "468": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": ""
+                        },
+                        "469": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "470": {
+                            "globalId": "",
+                            "label": "testing",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "bookable"
+                    },
+                    {
+                        "activityId": 621,
+                        "activityName": "Test62",
+                        "description": "",
+                        "activityStartDateTime": "30.04.2024 00:00",
+                        "activityEndDateTime": "01.05.2024 00:00",
+                        "capacity": 400,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "Bookable",
+                        "455": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "456": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": ""
+                        },
+                        "457": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "458": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": "Spouse"
+                        },
+                        "459": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": ""
+                        },
+                        "460": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": ""
+                        },
+                        "461": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "462": {
+                            "globalId": "",
+                            "label": "testing",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "bookable"
+                    },
+                    {
+                        "activityId": 618,
+                        "activityName": "Test6",
+                        "description": "",
+                        "activityStartDateTime": "30.04.2024 00:00",
+                        "activityEndDateTime": "01.05.2024 00:00",
+                        "capacity": 9000,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "Bookable",
+                        "431": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "432": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": "avvc"
+                        },
+                        "433": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "434": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": "Spouse"
+                        },
+                        "435": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": "Culinary"
+                        },
+                        "436": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": ""
+                        },
+                        "437": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "438": {
+                            "globalId": "",
+                            "label": "testing",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "bookable"
+                    },
+                    {
+                        "activityId": 588,
+                        "activityName": "Workshop6 Hidden",
+                        "description": "",
+                        "activityStartDateTime": "08.05.2024 00:00",
+                        "activityEndDateTime": "08.05.2024 23:59",
+                        "capacity": 0,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "Hidden",
+                        "361": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "362": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": ""
+                        },
+                        "363": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "364": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": ""
+                        },
+                        "365": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": ""
+                        },
+                        "366": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": ""
+                        },
+                        "367": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "hidden"
+                    }
+                ]
+            }
+        ]
+    }
+}
