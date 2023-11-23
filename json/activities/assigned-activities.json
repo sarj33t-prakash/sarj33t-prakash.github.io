@@ -18,8 +18,8 @@
                         "activityId": 615,
                         "activityName": "Activty",
                         "description": "",
-                        "activityStartDateTime": "30.04.2024 00:00",
-                        "activityEndDateTime": "01.05.2024 00:00",
+                        "activityStartDateTime": "26.04.2024 00:00",
+                        "activityEndDateTime": "26.04.2024 02:30",
                         "capacity": 0,
                         "group": "",
                         "subGroup": "",
@@ -65,8 +65,8 @@
                         "activityId": 622,
                         "activityName": "Test61",
                         "description": "",
-                        "activityStartDateTime": "30.04.2024 00:00",
-                        "activityEndDateTime": "01.05.2024 00:00",
+                        "activityStartDateTime": "27.04.2024 00:00",
+                        "activityEndDateTime": "27.04.2024 10:00",
                         "capacity": 850,
                         "group": "",
                         "subGroup": "",
@@ -117,8 +117,8 @@
                         "activityId": 621,
                         "activityName": "Test62",
                         "description": "",
-                        "activityStartDateTime": "30.04.2024 00:00",
-                        "activityEndDateTime": "01.05.2024 00:00",
+                        "activityStartDateTime": "28.04.2024 00:00",
+                        "activityEndDateTime": "28.04.2024 05:00",
                         "capacity": 400,
                         "group": "",
                         "subGroup": "",
@@ -223,6 +223,53 @@
                         "description": "",
                         "activityStartDateTime": "08.05.2024 00:00",
                         "activityEndDateTime": "08.05.2024 23:59",
+                        "capacity": 0,
+                        "group": "",
+                        "subGroup": "",
+                        "activityStatus": "Hidden",
+                        "361": {
+                            "globalId": "wc24_act_dresscode",
+                            "label": "Activity Dressecode",
+                            "value": ""
+                        },
+                        "362": {
+                            "globalId": "wc24_act_location_text",
+                            "label": "Activity Location Text",
+                            "value": ""
+                        },
+                        "363": {
+                            "globalId": "wc24_act_location_code",
+                            "label": "Activity Location Code",
+                            "value": ""
+                        },
+                        "364": {
+                            "globalId": "wc24_act_category",
+                            "label": "Activity Category",
+                            "value": ""
+                        },
+                        "365": {
+                            "globalId": "wc24_act_category_sub",
+                            "label": "Activity Sub Category",
+                            "value": ""
+                        },
+                        "366": {
+                            "globalId": "wc24_act_act_url",
+                            "label": "Activity URL",
+                            "value": ""
+                        },
+                        "367": {
+                            "globalId": "wc24_act_timeslotid",
+                            "label": "Activity Timeslot ID",
+                            "value": ""
+                        },
+                        "participantActivityStatus": "hidden"
+                    },
+                    {
+                        "activityId": 588,
+                        "activityName": "Workshop6 Hidden",
+                        "description": "",
+                        "activityStartDateTime": "09.05.2024 00:00",
+                        "activityEndDateTime": "09.05.2024 23:59",
                         "capacity": 0,
                         "group": "",
                         "subGroup": "",
