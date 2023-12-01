@@ -128,37 +128,37 @@
                     .then(function(users) {
                     	console.log(users);
 
-                        //Get the headers from JSON data
-                        var headers = Object.keys(users[0]);
+                        // //Get the headers from JSON data
+                        // var headers = Object.keys(users[0]);
                         
-                        //Prepare html header
-                        var headerRowHTML='<tr>';
-                        for(var i=0; i<headers.length; i++){
-                            headerRowHTML+='<th>'+headers[i]+'</th>';
-                        }
-                        headerRowHTML+='</tr>';
+                        // //Prepare html header
+                        // var headerRowHTML='<tr>';
+                        // for(var i=0; i<headers.length; i++){
+                        //     headerRowHTML+='<th>'+headers[i]+'</th>';
+                        // }
+                        // headerRowHTML+='</tr>';
             
-                        //Prepare all the users records as HTML
-                        var allRecordsHTML='';
-                        for(var i=0; i<users.length; i++){
-                            //Prepare html row
-                            allRecordsHTML+='<tr>';
+                        // //Prepare all the users records as HTML
+                        // var allRecordsHTML='';
+                        // for(var i=0; i<users.length; i++){
+                        //     //Prepare html row
+                        //     allRecordsHTML+='<tr>';
             
-                            for(var j=0; j<headers.length; j++){
-                                var header=headers[j];
-                                if(users[i][header].toString().startsWith("https://")){
-                                    allRecordsHTML+='<td>'+'<img src= ' + users[i][header] + ' height="42" width="42" />';
-                                }else{
-                                    allRecordsHTML+='<td>'+users[i][header];
-                                }
-                            }
-                            allRecordsHTML+='</td>';
-                            allRecordsHTML+='</tr>';
-                        }
+                        //     for(var j=0; j<headers.length; j++){
+                        //         var header=headers[j];
+                        //         if(users[i][header].toString().startsWith("https://")){
+                        //             allRecordsHTML+='<td>'+'<img src= ' + users[i][header] + ' height="42" width="42" />';
+                        //         }else{
+                        //             allRecordsHTML+='<td>'+users[i][header];
+                        //         }
+                        //     }
+                        //     allRecordsHTML+='</td>';
+                        //     allRecordsHTML+='</tr>';
+                        // }
             
-                        //Append the table header and all records
-                        var table=document.getElementById("display_json_data");
-                        table.innerHTML=headerRowHTML + allRecordsHTML;
+                        // //Append the table header and all records
+                        // var table=document.getElementById("display_json_data");
+                        // table.innerHTML=headerRowHTML + allRecordsHTML;
                     });
             });
         </script>
