@@ -1,1 +1,9 @@
-{}
+{
+  "welcome": "Welcome - GB",
+  "recentEvents": "Recent Events - GB",
+  "login": "Login - GB",
+  "continue": "Continue - GB",
+  "typeEventCode": "Kindly type your event code here to continue - GB",
+  "pasteEventShortLink": "Kindly paste your event short link here to continue - GB",
+  "tapContinueBtn": "Tap on continue button to move ahead with this event - GB"
+}
