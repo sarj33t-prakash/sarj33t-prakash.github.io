@@ -139,9 +139,12 @@
                     var values = JSON.stringify(result);
                     let obj = JSON.parse(values);
 
-                    const iframe = document.createElement("embed");
+                    const iframe = document.createElement("object");
                     //iframe.style.display = "none";
-                    iframe.src = "https://salesdays.marbetpepper.com/storage/tenant/5e4f2600-ef50-4ebd-a0a2-9999ff22401b/7f101a3a7190be95eb2beeb9882b600b5bded1cd.pdf";
+                    iframe.data = "https://salesdays.marbetpepper.com/storage/tenant/5e4f2600-ef50-4ebd-a0a2-9999ff22401b/7f101a3a7190be95eb2beeb9882b600b5bded1cd.pdf";
+                    iframe.type = "application/pdf";
+                    iframe.width = "100%";
+                    iframe.height="100%";
                     document.body.appendChild(iframe);
                     
                 });
