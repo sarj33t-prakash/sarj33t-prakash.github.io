@@ -34,6 +34,10 @@
 
     <!-- Main Content Start Here -->
 
+    <div class="document view class">
+        <div id="docx_name"></div>
+    </div>
+    
     <div class="wrapper">
         <div class="banner-img mb-12"></div>
         <div class="container">
@@ -123,6 +127,20 @@
                     console.log(obj.name);
                     document.getElementById("user_name").innerHTML = obj.name;
                 });
+
+
+                window.flutter_inappwebview.callHandler('viewDocx')
+                  .then(function(result) {
+                    // print to the console the data coming
+                    // from the Flutter side.
+                   
+                    console.log("Hello jbj");
+                    console.log(JSON.stringify(result));
+                    var values = JSON.stringify(result);
+                    let obj = JSON.parse(values);
+                    document.getElementById("docx_name").innerHTML = obj.docx;
+                });
+                
 
                 window.flutter_inappwebview.callHandler('fetchUsers')
                     .then(function(users) {
