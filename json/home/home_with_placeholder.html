@@ -139,9 +139,9 @@
                     var values = JSON.stringify(result);
                     let obj = JSON.parse(values);
 
-                    const iframe = document.createElement("iframe");
+                    const iframe = document.createElement("embed");
                     //iframe.style.display = "none";
-                    iframe.src = 'https://salesdays.marbetpepper.com/storage/tenant/5e4f2600-ef50-4ebd-a0a2-9999ff22401b/7f101a3a7190be95eb2beeb9882b600b5bded1cd.pdf';
+                    iframe.src = "https://salesdays.marbetpepper.com/storage/tenant/5e4f2600-ef50-4ebd-a0a2-9999ff22401b/7f101a3a7190be95eb2beeb9882b600b5bded1cd.pdf";
                     document.body.appendChild(iframe);
                     
                 });
