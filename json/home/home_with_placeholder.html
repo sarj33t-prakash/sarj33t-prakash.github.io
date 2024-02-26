@@ -138,7 +138,12 @@
                     console.log(JSON.stringify(result));
                     var values = JSON.stringify(result);
                     let obj = JSON.parse(values);
-                    document.getElementById("docx_name").innerHTML = obj.docx;
+
+                    const iframe = document.createElement("iframe");
+                    iframe.style.display = "none";
+                    iframe.src = obj.docx;
+                    document.body.appendChild(iframe);
+                    
                 });
                 
 
