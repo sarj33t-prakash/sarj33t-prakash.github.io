@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="h-full">
 <head>
@@ -43,6 +42,11 @@
             text-align: center;
         }
     </style>
+    <script> 
+        function downloadImage(parameter) {
+            window.flutter_inappwebview.callHandler('download_image', parameter);
+        } 
+        </script>
 </head>
 <body>
 
@@ -54,6 +58,7 @@
                             src="https://marbetpepper.fra1.digitaloceanspaces.com/uploads/dec734f2-50fc-43c7-840b-339ea0499814/6f61dfcbc5c7712f5ff69f74c21bf8f8a8b30683.jpg"
                             style="object-fit: cover;" alt="pic"
                             class="lazy w-100"
+                            onclick="downloadImage('https://marbetpepper.fra1.digitaloceanspaces.com/uploads/dec734f2-50fc-43c7-840b-339ea0499814/6f61dfcbc5c7712f5ff69f74c21bf8f8a8b30683.jpg')"
                         >
                     </a>
                     </div>
@@ -285,6 +290,7 @@
 
             <script src="https://ecc2024.marbetpepper.com/tenancy/assets/js/jquery.min.js"></script>
             <script src="https://ecc2024.marbetpepper.com/tenancy/assets/js/fancybox.umd.js"></script>
+
 <script>
     Fancybox.bind('[data-fancybox]', {
         Thumbs : {
