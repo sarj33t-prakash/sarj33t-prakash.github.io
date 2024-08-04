@@ -16,7 +16,7 @@
 	</COL>
 
 	<POS bottom="10" right="10">
-		<BTN onclick="clicknumber.set({clicknumber} + 1);" radius="50" color="blue" type="elevated">
+		<BTN onclick="clicknumber.set({clicknumber} + 1);" radius="50" color="green" type="elevated">
 			<SBOX center="true" height="72">
 				<ICON icon="add" color="white" />
 			</SBOX>
