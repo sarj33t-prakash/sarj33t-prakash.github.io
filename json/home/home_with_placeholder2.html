@@ -27,7 +27,9 @@
 }
 
     function updateBasePage(parameter) {
-  window.flutter_inappwebview.callHandler('update_base_page', parameter);
+  window.flutter_inappwebview.callHandler('update_base_page', parameter).then(function(result) {                   
+	    console.log(JSON.stringify(result));                    
+    });;
 }
         </script>
 
