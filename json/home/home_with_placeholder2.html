@@ -31,6 +31,10 @@
 	    console.log(JSON.stringify(result));                    
     });;
 }
+
+	function email(parameter) {
+  		window.flutter_inappwebview.callHandler('email', parameter);
+	}
         </script>
 
     <!-- Main Content Start Here -->
@@ -102,12 +106,8 @@
         </div>
     </div>
 
-    <div class="btn">
-        <a class="icon" onclick="updateBasePage('update_base_page')" id="base_page">
-        <i class="fa fa-refresh" aria-hidden="true"></i>
-        <span class="label">Update Base Page</span>
-    </a>
-    </div>
+
+   <button id="myButton" onclick="updateBasePage('update_base_page')">Update Base Page</button>
 
     <!-- Main Content End Here -->
     
