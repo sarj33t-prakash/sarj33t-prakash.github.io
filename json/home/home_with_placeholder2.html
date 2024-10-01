@@ -27,22 +27,18 @@
     function updateBasePage(parameter) {
   window.flutter_inappwebview.callHandler('update_base_page', parameter).then(function(result) {                   
 	    console.log(JSON.stringify(result));                    
-    });;
+    });
 }
 
 	function email(parameter) {
   		window.flutter_inappwebview.callHandler('email', parameter);
 	}
 
-function navigateSocialFeeds(parameter) {
-  window.flutter_inappwebview.callHandler('navigate_social_feeds', parameter);
-}
-
-function navigateNotifications(parameter) {
-  window.flutter_inappwebview.callHandler('navigate_notifications', parameter);
-}
-
-        </script>
+	function navigateToPath(parameter) {
+	  window.flutter_inappwebview.callHandler('navigateToPath', parameter);
+	}
+	
+</script>
 
     <!-- Main Content Start Here -->
 
@@ -112,9 +108,9 @@ function navigateNotifications(parameter) {
 
    <button id="updateBtn" onclick="updateBasePage('update_base_page')">Update Base Page</button>
 
-	<button id="socialFeedsBtn" onclick="navigateSocialFeeds('navigate_social_feeds')">Open Social Feeds</button>
+	<button id="socialFeedsBtn" onclick="navigateToPath('navigate_social_feeds')">Open Social Feeds</button>
 	<br />
-	<button id="notificationsBtn" onclick="navigateNotifications('navigate_notifications')">Open Notifications</button>
+	<button id="notificationsBtn" onclick="navigateToPath('navigate_notifications')">Open Notifications</button>
 	
    <br /><br />
     <!-- Main Content End Here -->
