@@ -1,0 +1,82 @@
+{
+    "body": {
+        "type": "ListView.builder",
+        "itemChild": {
+            "type": "Padding",
+            "child": {
+                "type": "Row",
+                "children": [
+                    {
+                        "type": "SizedBox",
+                        "child": {
+                            "type": "ClipRRect",
+                            "child": {
+                                "src": "{{image}}",
+                                "type": "ImageNetwork"
+                            },
+                            "radius": "80.0:80.0, 80.0:80.0, 80.0:80.0, 80.0:80.0"
+                        },
+                        "width": 46,
+                        "height": 46
+                    },
+                    {
+                        "type": "Padding",
+                        "child": {
+                            "type": "Column",
+                            "children": [
+                                {
+                                    "data": "{{name}}",
+                                    "type": "Text",
+                                    "style": {
+                                        "fontSize": 18
+                                    }
+                                }
+                            ],
+                            "mainAxisAlignment": "center",
+                            "crossAxisAlignment": "start"
+                        },
+                        "padding": "10,0,0,0"
+                    }
+                ],
+                "mainAxisAlignment": "start",
+                "crossAxisAlignment": "center"
+            },
+            "padding": "12,12,12,12"
+        },
+        "itemExtent": 1,
+        "dataBinding": "data",
+        "no_data_widget": {
+            "type": "Padding",
+            "child": {
+                "type": "Center",
+                "child": {
+                    "data": "No Data Found!",
+                    "type": "Text",
+                    "style": {
+                        "color": "#FF0000",
+                        "fontSize": 18,
+                        "fontWeight": "bold"
+                    }
+                }
+            },
+            "padding": "12,12,12,12"
+        },
+        "scroll_direction": "vertical"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Participants",
+            "type": "Text",
+            "style": {
+                "color": "#2d4275",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#00ff00",
+        "centerTitle": false,
+        "scrolledUnderElevation": 0
+    },
+    "show_appbar": true
+}

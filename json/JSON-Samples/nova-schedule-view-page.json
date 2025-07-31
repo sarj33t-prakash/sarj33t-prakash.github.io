@@ -1,0 +1,63 @@
+{
+    "type": "NovaScheduleViewParser",
+    "config": {
+        "appBar": {
+            "appbar_title": "Nova Schedules",
+            "appbar_elevation": 3,
+            "appbar_center_title": false,
+            "appbar_title_font_size": 24,
+            "appbar_background_color": "#ececec",
+            "appbar_title_font_color": "#000000",
+            "appbar_leading_icon_color": "#000000",
+            "appbar_has_leading_back_button": false
+        },
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "active": true,
+            "margin": "0,10,0,10"
+        },
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "color": "#FFDD00",
+            "active": true,
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "book_button": {
+            "book_label": "Book",
+            "label_color": "#008000",
+            "cancel_label": "Cancel",
+            "border_radius": 0,
+            "disabled_label": "Full",
+            "background_color": "#000000",
+            "disabled_label_color": "#FFFFFF",
+            "disabled_background_color": "#964B00"
+        },
+        "show_appbar": true,
+        "accent_colors": {
+            "card": "#ececec",
+            "activity_time": "#262626",
+            "selected_date": "#ffffff",
+            "selected_item": "#ff4619",
+            "activity_title": "#195fff",
+            "unselected_date": "#ff4619",
+            "unselected_item": "#ececec",
+            "activity_location": "#262626",
+            "activity_subtitle": "#964B00",
+            "selected_day_name": "#ffffff",
+            "unselected_day_name": "#ff4619"
+        },
+        "card_elevation": 2,
+        "title_font_size": 16,
+        "title_font_weight": 900,
+        "card_border_radius": 0,
+        "subtitle_font_size": 14,
+        "show_partner_agenda": true,
+        "day_background_color": "#000000",
+        "subtitle_font_weight": 400,
+        "scaffold_background_color": "#cccccc",
+        "header_date_contains_month": false
+    }
+}

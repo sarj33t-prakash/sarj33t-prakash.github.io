@@ -1,0 +1,25 @@
+{
+    "body": {
+        "type": "MarkDownParser",
+        "markdown": "# Markdown syntax guide\n\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*  \n_This will also be italic_\n\n**This text will be bold**  \n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n\n### Ordered\n\n1. Item 1\n2. Item 2\n3. Item 3\n    1. Item 3a\n    2. Item 3b\n\n## Images\n\n![This is an alt text.](https:\/\/marbetpepper.fra1.digitaloceanspaces.com\/uploads\/8aa5d3f6-3336-4d9d-9154-aeb19d694b8e\/a4ff3732664f7d377a82d01bc24fd0f8f8f581c4.jpg \"This is a sample image.\")\n\n## Links\n\nYou may be using [Markdown Live Preview](https:\/\/markdownlivepreview.com\/).\n\n## Blockquotes\n\n> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.\n>\n>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\n\n## Tables\n\n| Left columns  | Right columns |\n| ------------- |:-------------:|\n| left foo      | right foo     |\n| left bar      | right bar     |\n| left baz      | right baz     |\n\n## Blocks of code\n\n```\nlet message = 'Hello world';\nalert(message);\n```\n\n## Inline code\n\nThis web site is using `markedjs\/marked`.\n"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Markdown Sample",
+            "type": "Text",
+            "style": {
+                "color": "#ffffff",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#ff4619",
+        "elevation": 5,
+        "centerTitle": false,
+        "scrolledUnderElevation": 5,
+        "appbar_leading_icon_color": "#ffffff",
+        "appbar_has_leading_back_button": false
+    },
+    "show_appbar": true
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ChatThreadPageParser",
+    "config": {
+        "appBar": {
+            "appbar_title": "Chats",
+            "appbar_elevation": 10,
+            "appbar_background_color": "#FFFFFF",
+            "appbar_title_font_color": "#000000",
+            "appbar_leading_icon_color": "#000000",
+            "appbar_has_leading_back_button": false
+        },
+        "show_appbar": true,
+        "colorChatTitle": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "addButtonBgColor": "#fa0707",
+        "addButtonSvgAsset": "assets\/svg_icons\/add.svg",
+        "colorChatDateTime": "#000000",
+        "colorChatSubTitle": "#000000",
+        "fontSizeChatTitle": 16,
+        "profilePicBgColor": "#FFF1EB",
+        "fontWeightChatTitle": "w400",
+        "fontSizeChatDateTime": 14,
+        "fontSizeChatSubTitle": 14,
+        "colorChatProfilePicTxt": "#000000",
+        "fontWeightChatDateTime": "w400",
+        "fontWeightChatSubTitle": "w400",
+        "fontSizeChatProfilePicTxt": 14
+    }
+}

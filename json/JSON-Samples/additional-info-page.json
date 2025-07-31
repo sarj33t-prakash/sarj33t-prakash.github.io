@@ -1,0 +1,25 @@
+{
+    "body": {
+        "type": "WebView",
+        "initialUrl": "https:\/\/marbetkickoff2024.marbetpepper.com\/webviews\/a58a257c-cff5-4eed-994a-cd703e189816\/admin\/preview"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "PHP Demo Page",
+            "type": "Text",
+            "style": {
+                "color": "#ffffff",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#ff4619",
+        "elevation": 5,
+        "centerTitle": false,
+        "scrolledUnderElevation": 5,
+        "appbar_leading_icon_color": "#ffffff",
+        "appbar_has_leading_back_button": false
+    },
+    "show_appbar": true
+}

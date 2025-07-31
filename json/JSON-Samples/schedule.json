@@ -1,0 +1,102 @@
+{
+    "body": {
+        "type": "CalendarView",
+        "items": [
+            {
+                "id": "cal_1",
+                "type": "ScheduleDayView",
+                "active": false,
+                "event_config": {
+                    "event_bgcolor": "#FB8C00",
+                    "time_alignment": "centerRight",
+                    "event_alignment": "centerLeft",
+                    "event_font_size": 16,
+                    "main_background": "#FFFFFF",
+                    "event_font_color": "#FFFFFF",
+                    "event_time_font_size": 14,
+                    "time_range_font_size": 12,
+                    "event_separator_color": "#09CB5D",
+                    "time_range_font_color": "#000000",
+                    "event_item_border_color": "#B0BEC5",
+                    "event_item_border_radius": 8,
+                    "event_item_time_font_size": 14
+                }
+            },
+            {
+                "id": "cal_2",
+                "type": "ScheduleMonthlyView",
+                "active": false,
+                "event_config": {
+                    "event_bgcolor": "#FB8C00",
+                    "time_alignment": "centerRight",
+                    "event_alignment": "centerLeft",
+                    "event_font_size": 16,
+                    "main_background": "#FFFFFF",
+                    "event_font_color": "#FFFFFF",
+                    "event_time_font_size": 14,
+                    "time_range_font_size": 12,
+                    "event_separator_color": "#09CB5D",
+                    "time_range_font_color": "#FFFFFF",
+                    "event_item_border_color": "#B0BEC5",
+                    "event_item_border_radius": 8,
+                    "event_item_time_font_size": 14
+                }
+            },
+            {
+                "id": "cal_3",
+                "type": "ScheduleWeekView",
+                "active": false,
+                "event_config": {
+                    "event_bgcolor": "#FB8C00",
+                    "time_alignment": "centerRight",
+                    "event_alignment": "centerLeft",
+                    "event_font_size": 16,
+                    "main_background": "#FFFFFF",
+                    "event_font_color": "#FFFFFF",
+                    "event_time_font_size": 14,
+                    "time_range_font_size": 12,
+                    "event_separator_color": "#09CB5D",
+                    "time_range_font_color": "#FFFFFF",
+                    "event_item_border_color": "#B0BEC5",
+                    "event_item_border_radius": 8,
+                    "event_item_time_font_size": 14
+                }
+            },
+            {
+                "id": "cal_4",
+                "type": "ScheduleViewAllEvents",
+                "active": true,
+                "event_config": {
+                    "event_bgcolor": "#FB8C00",
+                    "time_alignment": "centerRight",
+                    "event_alignment": "centerLeft",
+                    "event_font_size": 16,
+                    "main_background": "#FFFFFF",
+                    "event_font_color": "#FFFFFF",
+                    "event_time_font_size": 14,
+                    "time_range_font_size": 12,
+                    "event_separator_color": "#09CB5D",
+                    "time_range_font_color": "#FFFFFF",
+                    "event_item_border_color": "#B0BEC5",
+                    "event_item_border_radius": 8,
+                    "event_item_time_font_size": 14
+                }
+            }
+        ]
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Schedules",
+            "type": "Text",
+            "style": {
+                "color": "#262626",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#FFFFFF",
+        "centerTitle": true,
+        "scrolledUnderElevation": 0
+    }
+}

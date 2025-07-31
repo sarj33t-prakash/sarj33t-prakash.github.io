@@ -1,0 +1,32 @@
+{
+    "type": "NotificationPageParser",
+    "config": {
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "active": true,
+            "margin": "0,10,0,10"
+        },
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "color": "#FFDD00",
+            "active": true,
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "show_appbar": false,
+        "is_24_hr_format": false,
+        "title_font_size": 20,
+        "appbar_elevation": 5,
+        "title_font_color": "#FFFFFF",
+        "leading_icon_size": 24,
+        "leading_icon_color": "#FFFFFF",
+        "mark_all_font_size": 15,
+        "appbar_center_title": false,
+        "mark_all_font_color": "#FFFFFF",
+        "appbar_background_color": "#004d40",
+        "scaffold_background_color": "#FFFFFA",
+        "appbar_has_leading_back_button": true
+    }
+}

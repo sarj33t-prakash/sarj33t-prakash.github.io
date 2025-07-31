@@ -1,0 +1,77 @@
+{
+    "body": {
+        "type": "WebView",
+        "offline": true,
+        "initialUrl": "https:\/\/customerevent2024.marbetpepper.com\/webviews\/989f1a42-5d19-48b1-808c-d7521be14648\/admin\/preview",
+        "hasAuthHeaders": false,
+        "backButtonPosition": "bottomLeft",
+        "backButtonArrowColor": "#ffffff",
+        "hasCircularBackButton": true,
+        "backButtonBackgroundColor": "#000000"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "url": "https:\/\/marbetpepper.com\/storage\/logos\/voith\/voith.svg",
+            "type": "SvgImgParser",
+            "asset": "assets\/images\/logo.svg",
+            "isNetwork": true,
+            "semanticsLabel": "Marbet Logo",
+            "isForBottomSheet": true
+        },
+        "actions": [
+            {
+                "type": "InkWell",
+                "child": {
+                    "type": "Padding",
+                    "child": {
+                        "data": "solid barcode-read",
+                        "size": 24,
+                        "type": "FAIconParser",
+                        "color": "#ffa500",
+                        "visible": true
+                    },
+                    "padding": "5,5,10,5"
+                },
+                "action": {
+                    "args": "user_profile_screen",
+                    "type": "route"
+                }
+            },
+            {
+                "type": "SizedBox",
+                "width": 5
+            },
+            {
+                "type": "NotificationWidgetParser",
+                "show_badge": true,
+                "badge_color": "#00ff00a1",
+                "badge_position": "end",
+                "badge_text_color": "#000000",
+                "notification_icon_color": "#ff4619"
+            },
+            {
+                "type": "SizedBox",
+                "width": 5
+            },
+            {
+                "type": "InkWell",
+                "child": {
+                    "type": "Padding",
+                    "child": {
+                        "type": "UserProfileAvatarParser"
+                    },
+                    "padding": "5,5,10,5"
+                },
+                "action": {
+                    "args": "user_profile_screen",
+                    "type": "route"
+                }
+            }
+        ],
+        "bgColor": "#ffffff",
+        "centerTitle": false,
+        "scrolledUnderElevation": 0
+    },
+    "show_appbar": true
+}

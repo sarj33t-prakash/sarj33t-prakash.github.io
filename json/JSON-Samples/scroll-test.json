@@ -1,0 +1,27 @@
+{
+    "body": {
+        "type": "WebView",
+        "initialUrl": "https:\/\/sarj33t-prakash.github.io\/json\/home\/users.html",
+        "enable_cookies": false,
+        "hasAuthHeaders": true
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Feedback",
+            "type": "Text",
+            "style": {
+                "color": "#ffffff",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#1d252d",
+        "elevation": 5,
+        "centerTitle": false,
+        "scrolledUnderElevation": 5,
+        "appbar_leading_icon_color": "#ffffff",
+        "appbar_has_leading_back_button": false
+    },
+    "show_appbar": true
+}

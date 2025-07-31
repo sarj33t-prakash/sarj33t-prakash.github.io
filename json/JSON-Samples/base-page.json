@@ -1,0 +1,436 @@
+{
+    "body": {
+        "nav_pages": [
+            {
+                "icon": {
+                    "data": "home",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "type": "FutureBuilder",
+                "label": "Home",
+                "fa-icon": "solid house",
+                "is_nova": false,
+                "svgAsset": "assets\/svg_icons\/v_home.svg",
+                "ignoreInWeb": true,
+                "backgroundColor": "FFFFFFFF",
+                "data_source_url": "",
+                "widget_url_path": "api\/pages\/homepage"
+            },
+            {
+                "icon": {
+                    "data": "activity",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "type": "FutureBuilder",
+                "label": "Activity",
+                "fa-icon": "solid calendar-day",
+                "is_nova": false,
+                "offline": true,
+                "ignoreInWeb": true,
+                "backgroundColor": "FFFFFFFF",
+                "data_source_url": "",
+                "widget_url_path": "api\/pages\/activity-view-page"
+            },
+            {
+                "icon": {
+                    "data": "activity",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "type": "FutureBuilder",
+                "label": "Nova",
+                "fa-icon": "solid location-arrow",
+                "is_nova": true,
+                "offline": true,
+                "backgroundColor": "FFFFFFFF",
+                "data_source_url": "",
+                "widget_url_path": "api\/pages\/program-page"
+            },
+            {
+                "icon": {
+                    "data": "activity",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "type": "FutureBuilder",
+                "label": "Nova",
+                "fa-icon": "solid calendar-day",
+                "is_nova": false,
+                "offline": true,
+                "ignoreInWeb": true,
+                "backgroundColor": "FFFFFFFF",
+                "data_source_url": "",
+                "widget_url_path": "api\/pages\/nova-schedule-view-page"
+            },
+            {
+                "icon": {
+                    "data": "menu",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "type": "FutureBuilder",
+                "label": "Menu",
+                "fa-icon": "solid bars",
+                "is_menu": true,
+                "is_nova": true,
+                "svgAsset": "assets\/svg_icons\/v_menu_burger.svg",
+                "backgroundColor": "FFFFFFFF",
+                "data_source_url": "",
+                "widget_url_path": ""
+            }
+        ]
+    },
+    "type": "Scaffold",
+    "fonts": [
+        {
+            "url": "https:\/\/marbetkickoff2024.marbetpepper.com\/storage\/tenant\/5915d41c-be65-475d-b54a-39e3fd9e305f\/fonts\/wuerth\/wuerth-bold.ttf",
+            "name": "wuerth-bold.ttf",
+            "active": false,
+            "version": "1"
+        },
+        {
+            "url": "https:\/\/marbetkickoff2024.marbetpepper.com\/storage\/tenant\/5915d41c-be65-475d-b54a-39e3fd9e305f\/fonts\/eisos\/TitilliumWeb-Regular.ttf",
+            "name": "titilliumWeb-Regular.ttf",
+            "active": true,
+            "version": "1"
+        },
+        {
+            "url": "https:\/\/marbetkickoff2024.marbetpepper.com\/storage\/tenant\/5915d41c-be65-475d-b54a-39e3fd9e305f\/fonts\/product-sans\/product-sans-italic.ttf",
+            "name": "product-sans-italic.ttf",
+            "active": false,
+            "version": "1"
+        }
+    ],
+    "appbar": {
+        "title": {
+            "data": "Home",
+            "type": "Text"
+        },
+        "actions": [
+            {
+                "type": "InkWell",
+                "child": {
+                    "type": "Padding",
+                    "child": {
+                        "data": "logout",
+                        "size": 24,
+                        "type": "Icon",
+                        "color": "000000"
+                    },
+                    "padding": "8,0,8,0"
+                },
+                "action": {
+                    "args": "logout",
+                    "type": "event"
+                }
+            }
+        ],
+        "leading": {
+            "data": "home",
+            "size": 24,
+            "type": "Icon",
+            "color": "000000"
+        },
+        "backgroundColor": "#FF00FF"
+    },
+    "footer": {
+        "fit": "cover",
+        "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+        "margin": "0,10,0,10"
+    },
+    "offline": true,
+    "languages": [
+        {
+            "url": "https:\/\/marbetkickoff2024.marbetpepper.com\/storage\/tenant\/8aa5d3f6-3336-4d9d-9154-aeb19d694b8e\/translations\/en-US.json",
+            "name": "en-US.json",
+            "active": true,
+            "gtc_url": "https:\/\/www.google.com",
+            "version": "11",
+            "language_code": "en"
+        },
+        {
+            "url": "https:\/\/marbetkickoff2024.marbetpepper.com\/storage\/tenant\/8aa5d3f6-3336-4d9d-9154-aeb19d694b8e\/translations\/de-DE.json",
+            "name": "de-DE.json",
+            "active": true,
+            "gtc_url": "https:\/\/www.yahoo.com",
+            "version": "10",
+            "language_code": "de"
+        }
+    ],
+    "background": {
+        "fit": "cover",
+        "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+        "color": "#FFDD00",
+        "active": true,
+        "margin": "0,10,0,10",
+        "position": "center"
+    },
+    "bottomNavBar": {
+        "type": "fixed",
+        "index": 0,
+        "items": [
+            {
+                "icon": {
+                    "data": "home",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "label": "Home",
+                "fa-icon": "solid house",
+                "svgAsset": "assets\/svg_icons\/v_home.svg",
+                "ignoreInWeb": true,
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "data": "activity",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "label": "Activity",
+                "fa-icon": "solid calendar-day",
+                "ignoreInWeb": true,
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "data": "destiny",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "label": "Program",
+                "fa-icon": "solid location-arrow",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "data": "destiny",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "label": "Nova",
+                "fa-icon": "solid location-arrow",
+                "backgroundColor": "FFFFFFFF"
+            },
+            {
+                "icon": {
+                    "data": "menu",
+                    "size": 24,
+                    "type": "Icon"
+                },
+                "label": "Menu",
+                "fa-icon": "solid bars",
+                "is_menu": true,
+                "svgAsset": "assets\/svg_icons\/v_menu_burger.svg",
+                "backgroundColor": "FFFFFFFF"
+            }
+        ],
+        "force_reload": false,
+        "backgroundColor": "#d2d2d2",
+        "selectedIconColor": "#ff4619",
+        "selectedIconStyle": {
+            "iconSize": 24,
+            "iconColor": "#ff4619"
+        },
+        "selectedItemColor": "#ff4619",
+        "selectedLabelStyle": {
+            "fontSize": 18,
+            "fontColor": "#FFFF00",
+            "fontWeight": "bold"
+        },
+        "showSelectedLabels": true,
+        "unselectedIconColor": "#ffffff",
+        "unselectedIconStyle": {
+            "iconSize": 18,
+            "iconColor": "#000000"
+        },
+        "unselectedItemColor": "#000000",
+        "showUnselectedLabels": true,
+        "unselectedLabelStyle": {
+            "fontSize": 16,
+            "fontColor": "#008080",
+            "fontWeight": "normal"
+        }
+    },
+    "accent_colors": {
+        "icon": "#ff4619",
+        "label": "#262626",
+        "appbar_title": "#ff4619",
+        "appbar_background": "#ececec"
+    },
+    "bottomSheetItems": [
+        {
+            "url": "\/api\/pages\/flight-page",
+            "label": "Flights",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid calendar-day",
+            "iconData": "information",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/downloads",
+            "label": "Downloads",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "regular download",
+            "iconData": "downloads",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": true,
+            "data_source_url": "api\/downloads?sort=priority",
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/additional-info-page",
+            "label": "Conference-information",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid circle-info",
+            "iconData": "information",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/survey",
+            "label": "Christmas-party",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid tree",
+            "iconData": "information",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/destination-page",
+            "label": "Agenda-title",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid square-poll-vertical",
+            "iconData": "information",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/social-wall-page",
+            "label": "Feeds",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "thin place-of-worship",
+            "iconData": "social",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/chat-threads",
+            "label": "Sendbird Chat",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid face-smiling-hands",
+            "iconData": "social",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/participants-blade",
+            "label": "Participants",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid user-group",
+            "iconData": "users",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/hotel-page",
+            "label": "Hotel",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid face-smiling-hands",
+            "iconData": "social",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/speaker-page-webview",
+            "label": "Speakers Webview",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid face-smiling-hands",
+            "iconData": "social",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        },
+        {
+            "url": "\/api\/pages\/location-page",
+            "label": "Location POC",
+            "action": {
+                "args": "",
+                "type": "route"
+            },
+            "fa-icon": "solid face-smiling-hands",
+            "iconData": "social",
+            "iconColor": "#000000",
+            "widgetType": 2,
+            "hasScaffold": false,
+            "selectedItemColor": "#e3000b"
+        }
+    ],
+    "bottomSheetHeader": {
+        "url": "https:\/\/marbetpepper.com\/storage\/logos\/wuerth\/wuerth-logo.svg",
+        "type": "SvgImgParser",
+        "asset": "assets\/images\/logo.svg",
+        "isNetwork": true,
+        "semanticsLabel": "Marbet Logo",
+        "isForBottomSheet": true
+    },
+    "is_menu_list_dense": false,
+    "menu_list_font_size": 16,
+    "menu_list_icon_size": 18,
+    "menu_list_content_padding": "8,0,8,0",
+    "show_qrcode_in_user_profile": true,
+    "show_gtc_label_in_user_profile": true,
+    "show_participant_data_edit_btn": true,
+    "show_like_comment_in_user_profile": true
+}

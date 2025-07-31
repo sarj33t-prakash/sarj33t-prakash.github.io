@@ -1,0 +1,97 @@
+{
+    "type": "ActivityDetails",
+    "config": {
+        "appBar": {
+            "title": {
+                "url": "https:\/\/marbetpepper.com\/storage\/logos\/sybit\/sybit_logo_white.svg",
+                "type": "SvgImgParser",
+                "asset": "assets\/images\/logo.svg",
+                "isNetwork": true,
+                "semanticsLabel": "Sybit CX Logo",
+                "isForBottomSheet": true
+            },
+            "actions": [
+                {
+                    "type": "NotificationWidgetParser",
+                    "show_badge": true,
+                    "badge_color": "#FFFFFF",
+                    "badge_position": "end",
+                    "badge_text_color": "#FFFFFF",
+                    "notification_icon_color": "#FFFFFF"
+                },
+                {
+                    "type": "SizedBox",
+                    "width": 5
+                },
+                {
+                    "type": "InkWell",
+                    "child": {
+                        "type": "Padding",
+                        "child": {
+                            "type": "UserProfileAvatarParser"
+                        },
+                        "padding": "5,5,10,5"
+                    },
+                    "action": {
+                        "args": "user_profile_screen",
+                        "type": "route"
+                    }
+                }
+            ],
+            "bgColor": "#000055",
+            "default": false,
+            "centerTitle": false,
+            "scrolledUnderElevation": 0
+        },
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "active": true,
+            "margin": "0,10,0,10"
+        },
+        "svgAsset": {
+            "date": "assets\/svg_icons\/v_calendar_date.svg",
+            "time": "assets\/svg_icons\/v_timepicker.svg",
+            "feedback": "assets\/svg_icons\/v_feedback.svg",
+            "location": "assets\/svg_icons\/v_location_pin.svg",
+            "description": "assets\/svg_icons\/v_info.svg"
+        },
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "active": false,
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "show_appbar": true,
+        "accent_colors": {
+            "card": "#ececec",
+            "icon": "#ff4619",
+            "label": "#ff4619"
+        },
+        "card_elevation": 2,
+        "is_24_hr_format": false,
+        "title_font_size": 16,
+        "date_include_day": false,
+        "title_font_color": "#964B00",
+        "title_font_style": "normal",
+        "leading_icon_size": 24,
+        "card_border_radius": 12,
+        "show_location_card": true,
+        "subtitle_font_size": 16,
+        "trailing_icon_size": 28,
+        "feedback_stars_size": 10,
+        "subtitle_font_color": "#00FF00",
+        "subtitle_font_style": "normal",
+        "fit_markdown_content": true,
+        "description_text_color": "#000000",
+        "feedback_label_font_size": 16,
+        "feedback_label_font_color": "#7c3f00",
+        "scaffold_background_color": "#D6C9C9",
+        "feedback_leading_icon_size": 24,
+        "feedback_leading_icon_color": "#D6C9C9",
+        "feedback_stars_selected_color": "#00FF00",
+        "description_card_initial_expand": true,
+        "feedback_stars_unselected_color": "#FFFFFF"
+    }
+}

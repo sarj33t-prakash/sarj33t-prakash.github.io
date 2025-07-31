@@ -1,0 +1,29 @@
+{
+    "type": "ChatUserListingPageParser",
+    "config": {
+        "appBar": {
+            "appbar_title": "Users",
+            "appbar_elevation": 10,
+            "appbar_background_color": "#FFFFFF",
+            "appbar_title_font_color": "#000000",
+            "appbar_leading_icon_color": "#000000",
+            "appbar_has_leading_back_button": true
+        },
+        "cellBgColor": "#F7F7F7",
+        "show_appbar": true,
+        "colorChatTitle": "#000000",
+        "fontSizeChatTitle": 16,
+        "profilePicBgColor": "#FFF1EB",
+        "sectionTitleColor": "#262626",
+        "fontWeightChatTitle": "w500",
+        "searchFieldHintColor": "#4D4D4D",
+        "sectionTitleFontSize": 16,
+        "colorChatProfilePicTxt": "#000000",
+        "searchTextFieldBgColor": "#EDEDED",
+        "sectionTitleFontWeight": "w500",
+        "searchFieldHintFontSize": 14,
+        "searchTextFieldHintText": "Search",
+        "fontSizeChatProfilePicTxt": 14,
+        "searchFieldHintFontWeight": "w400"
+    }
+}

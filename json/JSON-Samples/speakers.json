@@ -1,0 +1,106 @@
+{
+    "body": {
+        "type": "GridViewWidget",
+        "child": {
+            "type": "Padding",
+            "child": {
+                "type": "Container",
+                "child": {
+                    "type": "Column",
+                    "children": [
+                        {
+                            "type": "ClipRRect",
+                            "child": {
+                                "type": "AspectRatio",
+                                "child": {
+                                    "type": "Padding",
+                                    "child": {
+                                        "fit": "fill",
+                                        "src": "{{image}}",
+                                        "type": "ImageNetwork"
+                                    },
+                                    "padding": "0,0,0,0"
+                                },
+                                "aspectRatio": 1
+                            },
+                            "radius": "5.0:5.0, 5.0:5.0, 0.0:0.0, 0.0:0.0"
+                        },
+                        {
+                            "type": "Expanded",
+                            "child": {
+                                "type": "Column",
+                                "children": [
+                                    {
+                                        "type": "Padding",
+                                        "child": {
+                                            "type": "Row",
+                                            "children": [
+                                                {
+                                                    "data": "{{name}}",
+                                                    "type": "Text",
+                                                    "style": {
+                                                        "color": "#000000",
+                                                        "fontSize": 16,
+                                                        "fontWeight": "bold"
+                                                    }
+                                                }
+                                            ],
+                                            "mainAxisAlignment": "center"
+                                        },
+                                        "padding": "4,0,4,0"
+                                    },
+                                    {
+                                        "type": "Padding",
+                                        "child": {
+                                            "type": "Row",
+                                            "children": [
+                                                {
+                                                    "data": "{{company}}",
+                                                    "type": "Text",
+                                                    "style": {
+                                                        "color": "#000000",
+                                                        "fontSize": 14
+                                                    }
+                                                }
+                                            ],
+                                            "mainAxisAlignment": "center"
+                                        },
+                                        "padding": "4,0,4,0"
+                                    }
+                                ],
+                                "mainAxisAlignment": "center"
+                            }
+                        }
+                    ],
+                    "mainAxisAlignment": "start",
+                    "crossAxisAlignment": "center"
+                },
+                "decoration": {
+                    "color": "#F8F8F8",
+                    "border": {
+                        "color": "#808080",
+                        "width": 0.5
+                    },
+                    "radius": "5.0:5.0, 5.0:5.0, 5.0:5.0, 5.0:5.0"
+                }
+            },
+            "padding": "8,8,8,8"
+        },
+        "dataBinding": "data"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Speakers",
+            "type": "Text",
+            "style": {
+                "color": "#262626",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#FFFFFF",
+        "centerTitle": true,
+        "scrolledUnderElevation": 0
+    }
+}

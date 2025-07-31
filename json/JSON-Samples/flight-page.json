@@ -1,0 +1,73 @@
+{
+    "type": "FlightPageParser",
+    "config": {
+        "appBar": {
+            "title": {
+                "url": "https:\/\/marbetpepper.com\/storage\/logos\/voith\/voith.svg",
+                "type": "SvgImgParser",
+                "asset": "assets\/images\/logo.svg",
+                "isNetwork": true,
+                "semanticsLabel": "Voith Logo",
+                "isForBottomSheet": true
+            },
+            "actions": [
+                {
+                    "type": "NotificationWidgetParser",
+                    "show_badge": true,
+                    "badge_color": "#FFFFFF",
+                    "badge_position": "end",
+                    "badge_text_color": "#FFFFFF",
+                    "notification_icon_color": "#FFFFFF"
+                },
+                {
+                    "type": "SizedBox",
+                    "width": 5
+                },
+                {
+                    "type": "InkWell",
+                    "child": {
+                        "type": "Padding",
+                        "child": {
+                            "type": "UserProfileAvatarParser"
+                        },
+                        "padding": "5,5,10,5"
+                    },
+                    "action": {
+                        "args": "user_profile_screen",
+                        "type": "route"
+                    }
+                }
+            ],
+            "bgColor": "#ececec",
+            "default": false,
+            "centerTitle": false,
+            "scrolledUnderElevation": 3
+        },
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "active": true,
+            "margin": "0,10,0,10"
+        },
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "color": "#FFDD00",
+            "active": true,
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "card_color": "#FFFFFF",
+        "show_appbar": true,
+        "card_icon_size": 16,
+        "card_icon_color": "#42a5f5",
+        "hotel_item_type": "card",
+        "support_landscape": true,
+        "card_corner_radius": 8,
+        "hyperlink_font_size": 16,
+        "hyperlink_font_color": "#000000",
+        "room_type_font_color": "#000000",
+        "scaffold_background_color": "#FFFFFF",
+        "room_type_btn_background_color": "#42a5f5"
+    }
+}

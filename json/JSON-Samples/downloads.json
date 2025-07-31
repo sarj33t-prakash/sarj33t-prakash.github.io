@@ -1,0 +1,146 @@
+{
+    "body": {
+        "type": "ListView.builder",
+        "itemChild": {
+            "type": "Column",
+            "children": [
+                {
+                    "type": "Padding",
+                    "child": {
+                        "type": "Material",
+                        "child": {
+                            "type": "Padding",
+                            "child": {
+                                "type": "Column",
+                                "children": [
+                                    {
+                                        "type": "Row",
+                                        "children": [
+                                            {
+                                                "type": "Expanded",
+                                                "child": {
+                                                    "data": "{{description}}",
+                                                    "type": "Text",
+                                                    "style": {
+                                                        "color": "#00ff00",
+                                                        "fontSize": 18,
+                                                        "fontWeight": "bold"
+                                                    },
+                                                    "maxLines": 2
+                                                }
+                                            },
+                                            {
+                                                "icon": "download",
+                                                "size": 26,
+                                                "type": "IconButton",
+                                                "color": "#F43E20",
+                                                "action": {
+                                                    "args": "call_func_download",
+                                                    "type": "event"
+                                                },
+                                                "download_index_data": "{{download_indexed_val}}"
+                                            }
+                                        ],
+                                        "mainAxisAlignment": "spaceBetween",
+                                        "crossAxisAlignment": "center"
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 12
+                                    },
+                                    {
+                                        "type": "ClipRRect",
+                                        "child": {
+                                            "type": "AspectRatio",
+                                            "child": {
+                                                "src": "{{image}}",
+                                                "type": "ImageNetwork",
+                                                "file_type": "{{file_type}}"
+                                            },
+                                            "aspectRatio": 1.6
+                                        },
+                                        "radius": "5.0:5.0, 5.0:5.0, 0.0:0.0, 0.0:0.0"
+                                    },
+                                    {
+                                        "type": "SizedBox",
+                                        "height": 16
+                                    },
+                                    {
+                                        "type": "Row",
+                                        "children": [
+                                            {
+                                                "type": "Expanded",
+                                                "child": {
+                                                    "data": "{{sub_description}}",
+                                                    "type": "Text",
+                                                    "style": {
+                                                        "color": "#000000",
+                                                        "fontSize": 12,
+                                                        "fontWeight": "normal"
+                                                    },
+                                                    "maxLines": 5
+                                                }
+                                            },
+                                            {
+                                                "icon": "bell_on",
+                                                "size": 26,
+                                                "type": "IconButton",
+                                                "color": "#F43E20",
+                                                "action": {
+                                                    "args": "call_func_share",
+                                                    "type": "event"
+                                                },
+                                                "share_index_data": "{{share_indexed_val}}"
+                                            }
+                                        ],
+                                        "mainAxisAlignment": "spaceBetween",
+                                        "crossAxisAlignment": "center"
+                                    }
+                                ]
+                            },
+                            "padding": "12,12,12,12"
+                        },
+                        "color": "#00FF00",
+                        "elevation": 2
+                    },
+                    "padding": "12,12,12,12"
+                }
+            ]
+        },
+        "itemExtent": 1,
+        "dataBinding": "data",
+        "no_data_widget": {
+            "type": "Padding",
+            "child": {
+                "type": "Center",
+                "child": {
+                    "data": "No Data Found!",
+                    "type": "Text",
+                    "style": {
+                        "color": "#FF0000",
+                        "fontSize": 18,
+                        "fontWeight": "bold"
+                    }
+                }
+            },
+            "padding": "12,12,12,12"
+        },
+        "scroll_direction": "vertical"
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Media",
+            "type": "Text",
+            "style": {
+                "fontSize": 20,
+                "fontColor": "#00FF00",
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#e5e5e5",
+        "centerTitle": true,
+        "scrolledUnderElevation": 0
+    },
+    "show_appbar": true
+}

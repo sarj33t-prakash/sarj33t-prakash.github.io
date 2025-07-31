@@ -1,0 +1,58 @@
+{
+    "type": "ChatScreenParser",
+    "config": {
+        "appBar": {
+            "titleStyle": {
+                "color": "#000000",
+                "fontSize": 16,
+                "fontWeight": "w400"
+            },
+            "subTitleStyle": {
+                "color": "#777777",
+                "fontSize": 14,
+                "fontWeight": "w400"
+            },
+            "colorChatTitle": "#000000",
+            "appbar_elevation": 10,
+            "profilePicBgColor": "#FFF1EB",
+            "colorChatProfilePicTxt": "#000000",
+            "appbar_background_color": "#FFFFFF",
+            "appbar_leading_icon_color": "#000000",
+            "fontSizeChatProfilePicTxt": 14,
+            "appbar_has_leading_back_button": true
+        },
+        "show_appbar": true,
+        "backgroundColor": "#FFFFFF",
+        "dateHeaderColor": "#4D4D4D",
+        "chatComposerConfig": {
+            "hintText": "Start typing here",
+            "fieldHintColor": "#A7A7A7",
+            "fieldTextColor": "#000000",
+            "composerBgColor": "#F4F4F4",
+            "sendMsgSvgAsset": "assets\/svg_icons\/send_msg_btn.svg",
+            "fieldHintFontSize": 14,
+            "fieldHintFontWeight": "w400"
+        },
+        "leftSizeMessageConfig": {
+            "bgColor": "#F5F5F5",
+            "msgReceiveTextColor": "#3C3C3C",
+            "msgReceiveTextFontSize": 14,
+            "msgReceiveTimeTextColor": "#4D4D4D",
+            "msgReceiveTextFontWeight": "w400",
+            "msgReceiveTimeTextFontSize": 14
+        },
+        "dateHeaderTextFontSize": 14,
+        "rightSizeMessageConfig": {
+            "bgColor": "#EDFFED",
+            "msgTextColor": "#3C3C3C",
+            "msgTextFontSize": 14,
+            "readMsgSvgAsset": "assets\/svg_icons\/read_msg_tick.svg",
+            "sentMsgSvgAsset": "assets\/svg_icons\/send_msg_tick.svg.svg",
+            "msgTextFontWeight": "w400",
+            "deliveredMsgSvgAsset": "assets\/svg_icons\/delivered_msg_tick.svg",
+            "msgSendTimeTextColor": "#4D4D4D",
+            "msgSendTimeTextFontSize": 14
+        },
+        "dateHeaderTextFontWeight": "w400"
+    }
+}

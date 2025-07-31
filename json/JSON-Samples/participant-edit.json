@@ -1,0 +1,26 @@
+{
+    "body": {
+        "type": "WebView",
+        "initialUrl": "https:\/\/marbetkickoff2024.marbetpepper.com\/participant-edit",
+        "hasAuthHeaders": true
+    },
+    "type": "Scaffold",
+    "appBar": {
+        "title": {
+            "data": "Mitreisende Edit",
+            "type": "Text",
+            "style": {
+                "color": "#000000",
+                "fontSize": 20,
+                "fontWeight": "bold"
+            }
+        },
+        "bgColor": "#ececec",
+        "elevation": 5,
+        "centerTitle": false,
+        "scrolledUnderElevation": 5,
+        "appbar_leading_icon_color": "#000000",
+        "appbar_has_leading_back_button": false
+    },
+    "show_appbar": true
+}

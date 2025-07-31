@@ -1,0 +1,25 @@
+{
+    "type": "SpeakerPageParser",
+    "config": {
+        "appBar": {
+            "appbar_title": "Our Speakers",
+            "appbar_elevation": 3,
+            "appbar_center_title": false,
+            "appbar_title_font_size": 24,
+            "appbar_background_color": "#ececec",
+            "appbar_title_font_color": "#000000",
+            "appbar_leading_icon_color": "#000000",
+            "appbar_has_leading_back_button": false
+        },
+        "api_path": "api\/speakers?sort=priority",
+        "show_appbar": true,
+        "accent_colors": {
+            "icon": "#ececec",
+            "title": "#262626",
+            "subtitle": "#ffffff"
+        },
+        "card_elevation": 2,
+        "card_border_radius": 0,
+        "scaffold_background_color": "#fffdaf"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "type": "ProgramViewPageParser",
+    "config": {
+        "appBar": {
+            "appbar_title": "Program List",
+            "appbar_center_title": false,
+            "appbar_title_font_size": 24,
+            "appbar_background_color": "#ececec",
+            "appbar_title_font_color": "#000000",
+            "appbar_leading_icon_color": "#000000",
+            "appbar_has_leading_back_button": false
+        },
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "active": true,
+            "margin": "0,10,0,10"
+        },
+        "api_path": "\/api\/users\/activity\/list?filter=Fixed&orderBy={\"activityStartDateTime\":\"asc\",\"activityEndDateTime\": \"desc\"}",
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "color": "#FFDD00",
+            "active": true,
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "card_color": "#ffffff",
+        "show_appbar": true,
+        "accent_colors": {
+            "card": "#ececec",
+            "activity_time": "#262626",
+            "selected_date": "#ffffff",
+            "selected_item": "#ff4619",
+            "activity_title": "#ff4619",
+            "unselected_date": "#ff4619",
+            "unselected_item": "#ececec",
+            "activity_location": "#262626",
+            "activity_subtitle": "#008000",
+            "selected_day_name": "#ffffff",
+            "unselected_day_name": "#ff4619"
+        },
+        "card_elevation": 2,
+        "title_max_line": 2,
+        "title_font_size": 18,
+        "title_font_weight": 900,
+        "card_border_radius": 0,
+        "subtitle_font_size": 20,
+        "show_partner_agenda": true,
+        "subtitle_font_weight": 400,
+        "scaffold_background_color": "#FFFFFF",
+        "header_date_contains_month": true
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "type": "DownloadPageParser",
+    "config": {
+        "appBar": {
+            "title": {
+                "url": "https:\/\/marbetpepper.com\/storage\/logos\/voith\/voith.svg",
+                "type": "SvgImgParser",
+                "asset": "assets\/images\/logo.svg",
+                "isNetwork": true,
+                "semanticsLabel": "Voith Logo",
+                "isForBottomSheet": true
+            },
+            "actions": [
+                {
+                    "type": "NotificationWidgetParser",
+                    "show_badge": true,
+                    "badge_color": "#FFFFFF",
+                    "badge_position": "end",
+                    "badge_text_color": "#FFFFFF",
+                    "notification_icon_color": "#FFFFFF"
+                },
+                {
+                    "type": "SizedBox",
+                    "width": 5
+                },
+                {
+                    "type": "InkWell",
+                    "child": {
+                        "type": "Padding",
+                        "child": {
+                            "type": "UserProfileAvatarParser"
+                        },
+                        "padding": "5,5,10,5"
+                    },
+                    "action": {
+                        "args": "user_profile_screen",
+                        "type": "route"
+                    }
+                }
+            ],
+            "bgColor": "#ececec",
+            "default": false,
+            "centerTitle": false,
+            "scrolledUnderElevation": 3
+        },
+        "footer": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/Bild.png",
+            "margin": "0,10,0,10"
+        },
+        "api_path": "api\/downloads?sort=priority",
+        "background": {
+            "fit": "cover",
+            "url": "https:\/\/sarj33t-prakash.github.io\/images\/bgimage.png",
+            "color": "#FFDD00",
+            "margin": "0,10,0,10",
+            "position": "center"
+        },
+        "show_appbar": true,
+        "accent_colors": {
+            "icon": "#ececec",
+            "title": "#262626",
+            "subtitle": "#ffffff"
+        },
+        "card_elevation": 2,
+        "card_border_radius": 0,
+        "scaffold_background_color": "#fffdaf"
+    }
+}
